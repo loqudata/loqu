@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "qb": "http://purl.org/linked-data/cube#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dv": "https://ontology.loqudata.org/",
+    "@vocab": "https://ontology.loqudata.org/",
+    "name": "rdfs:label",
+    "dimensions_codes_order": {
+      "@id": "qb:component"
+    },
+    "codeListInstanceClass": { "@reverse": "rdfs:seeAlso" },
+    "entries": { "@id": "skos:hasTopConcept" },
+    "qb:codeList": {
+      "@type": "@id"
+    },
+    "qb:dimension": {
+      "@type": "@id"
+    },
+    "rdfs:subClassOf": {
+      "@type": "@id"
+    },
+    "rdfs:domain": {
+      "@type": "@id"
+    },
+    "rdfs:range": {
+      "@type": "@id"
+    }
+  }
+}

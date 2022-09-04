@@ -1,0 +1,2 @@
+
+export const COMPASSQL_VEGA_ROW_LIMIT = 5000

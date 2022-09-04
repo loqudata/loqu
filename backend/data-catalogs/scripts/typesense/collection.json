@@ -1,0 +1,15 @@
+{
+    "name": "datasets_2",
+    "fields": [
+        { "name": "id", "type": "string", "optional": false, "facet": false },
+        { "name": "name", "type": "string", "optional": false, "facet": false },
+        { "name": "description", "type": "string", "optional": true, "facet": false },
+        { "name": "created_at", "type": "int64", "optional": false, "facet": false },
+        { "name": "updated_at", "type": "int64", "optional": false, "facet": false },
+        { "name": "update_frequency", "type": "string", "optional": true, "facet": true },
+        { "name": "portal_source", "type": "string", "optional": false, "facet": true },
+        { "name": "portal_type", "type": "string", "optional": false, "facet": true },
+        { "name": "formats", "type": "string[]", "optional": true, "facet": true }
+    ],
+    "default_sorting_field": "updated_at"
+}

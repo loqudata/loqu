@@ -1,0 +1,16 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:undefined="http://www.inkscape.org/namespaces/inkscape"> 
+    <defs>  
+        <radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(43.135765075683594,0,0,43.13589859008789,-11284.0048828125,-38176.5859375)" r="1.5171" cy="892.1639" cx="264.198" id="svg_195">   
+            <stop stop-color="#FFFFFF" offset="0"/>   
+            <stop stop-color="#EBF8FD" offset="0.0598"/>   
+            <stop stop-color="#B6E7F7" offset="0.1829"/>   
+            <stop stop-color="#60CCEE" offset="0.3589"/>   
+            <stop stop-color="#00ADE4" offset="0.544"/>   
+            <stop stop-color="#002345" offset="1"/>  
+        </radialGradient> 
+    </defs> 
+    <g>  
+        <title>Layer 1</title>  
+        <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP0AAABhCAIAAACS8zCTAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAC9LSURBVHjaYvz//z/DKBgFIwwABBDTaBCMghEIAAKIhc72AWuXv3//MTIyMjEBidHwHwUDAwACiPrp/s+ff7///GNjZWZmRknXQMHfv/+9//TjweNP3JxsKgr83Fyso"></image>
+    </g>
+</svg>

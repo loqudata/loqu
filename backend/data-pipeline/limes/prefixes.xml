@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LIMES SYSTEM "limes.dtd">
+<LIMES>
+    <PREFIX>
+        <NAMESPACE>http://www.w3.org/1999/02/22-rdf-syntax-ns#</NAMESPACE>
+        <LABEL>rdf</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://www.w3.org/2000/01/rdf-schema#</NAMESPACE>
+        <LABEL>rdfs</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://xmlns.com/foaf/0.1/</NAMESPACE>
+        <LABEL>foaf</LABEL>
+    </PREFIX>    
+    <PREFIX>
+        <NAMESPACE>http://www.w3.org/2002/07/owl#</NAMESPACE>
+        <LABEL>owl</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://dbpedia.270a.info/dataset/world-bank-finances/</NAMESPACE>
+        <LABEL>wbfd</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://dbpedia.270a.info/property/</NAMESPACE>
+        <LABEL>property</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://dbpedia.270a.info/classification/</NAMESPACE>
+        <LABEL>classification</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://dbpedia.org/ontology/</NAMESPACE>
+        <LABEL>dbpedia</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://purl.org/dc/terms/</NAMESPACE>
+        <LABEL>dc</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://purl.org/linked-data/cube#</NAMESPACE>
+        <LABEL>qb</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://dbpedia.org/ontology/</NAMESPACE>
+        <LABEL>dbo</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://www.w3.org/2004/02/skos/core#</NAMESPACE>
+        <LABEL>skos</LABEL>
+    </PREFIX>
+</LIMES>

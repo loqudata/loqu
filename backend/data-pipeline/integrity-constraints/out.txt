@@ -1,0 +1,25 @@
+Starting RDF Data Cube Constraint Checker
+Input file: ../converter/example-orig.nt
+
+
+./IC-1.rq: Errored
+./IC-2.rq: Errored
+./IC-3.rq: Failed
+./IC-4.rq: Passed
+./IC-5.rq: Passed
+./IC-6.rq: Passed
+./IC-7.rq: Passed
+./IC-8.rq: Passed
+./IC-9.rq: Errored
+./IC-10.rq: Passed
+./IC-11.rq: Passed
+./IC-12.rq: Errored
+./IC-13.rq: Passed
+./IC-14.rq: Errored
+./IC-15.rq: Errored
+./IC-16.rq: Errored
+./IC-17.rq: Errored
+./IC-18.rq: Passed
+./IC-19.rq: Errored
+./IC-20.rq: Errored
+./IC-21.rq: Errored

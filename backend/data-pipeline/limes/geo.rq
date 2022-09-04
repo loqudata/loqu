@@ -1,0 +1,31 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX lq: <https://loqudata.org/>
+#(count(?cl) as ?tot)
+SELECT
+
+*
+#(count(?cl) as ?tot)
+
+WHERE {
+  
+  ?d a qb:DimensionProperty .
+  ?d rdfs:label ?l .
+  ?d qb:codeList ?cl
+  FILTER(regex(str(?cl), 'geo'))
+#   FILTER(!regex(?cl, "/code/geo", "i"))
+#  FILTER(regex(str(?cl), "geo", "i"))
+#  ?cl skos
+#  FILTER(?l = "Unit")
+  
+  FILTER(!regex(?l, "Geopolitical", "i"))
+#  FILTER(?l = "Geopolitical entity (reporting)")
+#  FILTER(!regex(?d, "Euro", "i"))
+#  FILTER(!regex(?d, "ILO", "i"))
+#   FILTER(!regex(?d, "AMECO", "i"))
+#  Frequency
+} LIMIT 100

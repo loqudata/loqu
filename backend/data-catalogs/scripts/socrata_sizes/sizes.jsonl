@@ -1,0 +1,2432 @@
+{
+  "numDatasets": null,
+  "domain": "2014bonds.cityofws.org"
+}
+{
+  "numDatasets": 1,
+  "domain": "aces.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "agtransport.usda.gov"
+}
+{
+  "numDatasets": 2,
+  "domain": "albanycountyny.data.socrata.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "albany.data.socrata.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "alexandercountync.data.socrata.com"
+}
+{
+  "numDatasets": 62,
+  "domain": "alpharetta.data.socrata.com"
+}
+{
+  "numDatasets": 99,
+  "domain": "amopen.amo.on.ca"
+}
+{
+  "numDatasets": 1,
+  "domain": "andoverma.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "annapolismd.data.socrata.com"
+}
+{
+  "numDatasets": 15,
+  "domain": "ascensionparishla.data.socrata.com"
+}
+{
+  "numDatasets": 9,
+  "domain": "atlanta.data.socrata.com"
+}
+{
+  "numDatasets": 33,
+  "domain": "auditor-ca.demo.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "austin-aph.data.socrata.com"
+}
+{
+  "numDatasets": 8,
+  "domain": "austin-energy.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "austin-internal.data.socrata.com"
+}
+{
+  "numDatasets": 64,
+  "domain": "austin-metro.demo.socrata.com"
+}
+{
+  "numDatasets": 6,
+  "domain": "austin-tara.data.socrata.com"
+}
+{
+  "numDatasets": 13,
+  "domain": "austintexas-op-beta.demo.socrata.com"
+}
+{
+  "numDatasets": 10,
+  "domain": "baycountymi.data.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "bchi.bigcitieshealth.org"
+}
+{
+  "numDatasets": 14,
+  "domain": "bcnv.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "bcnv-internal.data.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "bea.data.commerce.gov"
+}
+{
+  "numDatasets": 3,
+  "domain": "beaufortcountysc.data.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "beaufortcountyschools.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "bentoncounty.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "berkeleycountywv.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "berkeleyperformance.demo.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "bis.data.commerce.gov"
+}
+{
+  "numDatasets": 2,
+  "domain": "bloomfieldct.data.socrata.com"
+}
+{
+  "numDatasets": 165,
+  "domain": "bloomington.data.socrata.com"
+}
+{
+  "numDatasets": 11,
+  "domain": "boulderco.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "brec.data.socrata.com"
+}
+{
+  "numDatasets": 6,
+  "domain": "bridgeportct.data.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "brigades.opendatanetwork.com"
+}
+{
+  "numDatasets": 762,
+  "domain": "bronx.lehman.cuny.edu"
+}
+{
+  "numDatasets": 1,
+  "domain": "bronx-lehman-cuny-staging.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "brookhavenga.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "buffalogroveil.data.socrata.com"
+}
+{
+  "numDatasets": 92,
+  "domain": "bythenumbers.sco.ca.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "ca-boe"
+}
+{
+  "numDatasets": 0,
+  "domain": "calgary.data.socrata.com"
+}
+{
+  "numDatasets": 20,
+  "domain": "camden.demo.socrata.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "capecoral.data.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "capitalprojects.jacksonms.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "capitalprojects.seattle.gov"
+}
+{
+  "numDatasets": 5,
+  "domain": "caravanstudios.data.socrata.com"
+}
+{
+  "numDatasets": 22,
+  "domain": "carsoncity.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "casagrandeaz.data.socrata.com"
+}
+{
+  "numDatasets": 36,
+  "domain": "ca-sco.demo.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "castlerockco-pd.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "ccsd.data.socrata.com"
+}
+{
+  "numDatasets": 92,
+  "domain": "celebratingcities.data.socrata.com"
+}
+{
+  "numDatasets": 212,
+  "domain": "census.data.commerce.gov"
+}
+{
+  "numDatasets": 9,
+  "domain": "centennialco.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "cfschools.data.socrata.com"
+}
+{
+  "numDatasets": 9,
+  "domain": "champaignil.data.socrata.com"
+}
+{
+  "numDatasets": 37,
+  "domain": "checkbooknyc.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "chhs.data.ca.gov"
+}
+{
+  "numDatasets": 438,
+  "domain": "chronicdata.cdc.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "cip.cityofnovi.org"
+}
+{
+  "numDatasets": 911,
+  "domain": "citydata.mesaaz.gov"
+}
+{
+  "numDatasets": 5,
+  "domain": "cityofalbany.data.socrata.com"
+}
+{
+  "numDatasets": 30,
+  "domain": "cityofcamas.demo.socrata.com"
+}
+{
+  "numDatasets": 15,
+  "domain": "cityofchesapeake.data.socrata.com"
+}
+{
+  "numDatasets": 8,
+  "domain": "cityofchicago-v2.demo.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "cityoffairbanks.data.socrata.com"
+}
+{
+  "numDatasets": 7,
+  "domain": "cityoffairfaxpd.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "cityofhawthorne.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "cityofindianwells.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "cityofinverness.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "cityoflaramie.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "cityofmelrose.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "cityofmonroeoh.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "cityofnampa.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "cityofsitka.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "cityofsunprairie.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "cityoftracyca.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "cityofyorbalinda.data.socrata.com"
+}
+{
+  "numDatasets": 6,
+  "domain": "citystaug.data.socrata.com"
+}
+{
+  "numDatasets": 7,
+  "domain": "clatsop.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "claytonmo.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "clemsonsc.data.socrata.com"
+}
+{
+  "numDatasets": 18,
+  "domain": "coa-internal.demo.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "co-clinton-oh.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "coconinocountyaz.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "college-station-tx.demo.socrata.com"
+}
+{
+  "numDatasets": 16,
+  "domain": "columbiasc.data.socrata.com"
+}
+{
+  "numDatasets": 6,
+  "domain": "como.data.socrata.com"
+}
+{
+  "numDatasets": 590,
+  "domain": "controllerdata.lacity.org"
+}
+{
+  "numDatasets": 5,
+  "domain": "conyersga.data.socrata.com"
+}
+{
+  "numDatasets": 193,
+  "domain": "cookcounty.data.socrata.com"
+}
+{
+  "numDatasets": 254,
+  "domain": "corstat.coronaca.gov"
+}
+{
+  "numDatasets": 1,
+  "domain": "corvallisoregon-internal.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "cos-data.seattle.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "costamesaca.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "courtdata.idaho.gov"
+}
+{
+  "numDatasets": 1,
+  "domain": "covid19.buffalony.gov"
+}
+{
+  "numDatasets": 100,
+  "domain": "covid19response.buffalony.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "cravenso.data.socrata.com"
+}
+{
+  "numDatasets": 734,
+  "domain": "cthru.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "culvercityca.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "cutlerbay-fl.data.socrata.com"
+}
+{
+  "numDatasets": 28,
+  "domain": "dashboarddata.caloes.ca.gov"
+}
+{
+  "numDatasets": 315,
+  "domain": "dashboard.edmonton.ca"
+}
+{
+  "numDatasets": 1090,
+  "domain": "dashboard.hawaii.gov"
+}
+{
+  "numDatasets": 138,
+  "domain": "dashboard.plano.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "dashboard.slco.org"
+}
+{
+  "numDatasets": 323,
+  "domain": "data.acgov.org"
+}
+{
+  "numDatasets": 35,
+  "domain": "data.alaska.gov"
+}
+{
+  "numDatasets": 53,
+  "domain": "data.albanyny.gov"
+}
+{
+  "numDatasets": 1000,
+  "domain": "data.americorps.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.atf.gov"
+}
+{
+  "numDatasets": 81,
+  "domain": "data.auburnwa.gov"
+}
+{
+  "numDatasets": 3205,
+  "domain": "data.austintexas.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.awcnet.org"
+}
+{
+  "numDatasets": null,
+  "domain": "data.baltimorecity.gov"
+}
+{
+  "numDatasets": 1148,
+  "domain": "data.bayareametro.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "databox.worldbank.org"
+}
+{
+  "numDatasets": 133,
+  "domain": "data.brla.gov"
+}
+{
+  "numDatasets": 282,
+  "domain": "data.bts.gov"
+}
+{
+  "numDatasets": 296,
+  "domain": "data.buffalony.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.burlingtonvt.gov"
+}
+{
+  "numDatasets": 837,
+  "domain": "data.calgary.ca"
+}
+{
+  "numDatasets": 324,
+  "domain": "data.cambridgema.gov"
+}
+{
+  "numDatasets": 649,
+  "domain": "datacatalog.cookcountyil.gov"
+}
+{
+  "numDatasets": 665,
+  "domain": "data.cdc.gov"
+}
+{
+  "numDatasets": 214,
+  "domain": "data.chattlibrary.org"
+}
+{
+  "numDatasets": null,
+  "domain": "data.cic.mx"
+}
+{
+  "numDatasets": 155,
+  "domain": "data.cincinnati-oh.gov"
+}
+{
+  "numDatasets": 79,
+  "domain": "data.cityofberkeley.info"
+}
+{
+  "numDatasets": null,
+  "domain": "data.cityofboston.gov"
+}
+{
+  "numDatasets": 1569,
+  "domain": "data.cityofchicago.org"
+}
+{
+  "numDatasets": 419,
+  "domain": "data.cityofevanston.org"
+}
+{
+  "numDatasets": 265,
+  "domain": "data.cityofgainesville.org"
+}
+{
+  "numDatasets": 104,
+  "domain": "data.cityofgp.com"
+}
+{
+  "numDatasets": null,
+  "domain": "data.cityofmadison.com"
+}
+{
+  "numDatasets": 3412,
+  "domain": "data.cityofnewyork.us"
+}
+{
+  "numDatasets": 92,
+  "domain": "data.cityoforlando.net"
+}
+{
+  "numDatasets": 568,
+  "domain": "data.cityoftacoma.org"
+}
+{
+  "numDatasets": null,
+  "domain": "data.cityofwestsacramento.org"
+}
+{
+  "numDatasets": null,
+  "domain": "data.cms.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.code4sa.org"
+}
+{
+  "numDatasets": 1866,
+  "domain": "data.colorado.gov"
+}
+{
+  "numDatasets": 45,
+  "domain": "data.commerce.gov"
+}
+{
+  "numDatasets": 136,
+  "domain": "data.communityvitalsigns.org"
+}
+{
+  "numDatasets": null,
+  "domain": "data.consumerfinance.gov"
+}
+{
+  "numDatasets": 50,
+  "domain": "data.countyofriverside.us"
+}
+{
+  "numDatasets": 70,
+  "domain": "data.cstx.gov"
+}
+{
+  "numDatasets": 1161,
+  "domain": "data.ct.gov"
+}
+{
+  "numDatasets": 50,
+  "domain": "data.culvercity.org"
+}
+{
+  "numDatasets": null,
+  "domain": "data.danvilleva.gov"
+}
+{
+  "numDatasets": 46,
+  "domain": "data.datacenterresearch.org"
+}
+{
+  "numDatasets": null,
+  "domain": "data.datamontana.us"
+}
+{
+  "numDatasets": null,
+  "domain": "data.dcpcsb.org"
+}
+{
+  "numDatasets": 144,
+  "domain": "data.debtwatch.treasurer.ca.gov"
+}
+{
+  "numDatasets": 324,
+  "domain": "data.delaware.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.detroitmi.gov"
+}
+{
+  "numDatasets": 138,
+  "domain": "datadiscovery.nlm.nih.gov"
+}
+{
+  "numDatasets": 13,
+  "domain": "data.douglas.co.us"
+}
+{
+  "numDatasets": 2,
+  "domain": "data.drpt.virginia.gov"
+}
+{
+  "numDatasets": 69,
+  "domain": "data.dumfriesva.gov"
+}
+{
+  "numDatasets": 493,
+  "domain": "data.edd.ca.gov"
+}
+{
+  "numDatasets": 2481,
+  "domain": "data.edmonton.ca"
+}
+{
+  "numDatasets": 113,
+  "domain": "data.energystar.gov"
+}
+{
+  "numDatasets": 270,
+  "domain": "data.everettwa.gov"
+}
+{
+  "numDatasets": 4,
+  "domain": "data.exim.gov"
+}
+{
+  "numDatasets": 12,
+  "domain": "data.fortworthtexas.gov"
+}
+{
+  "numDatasets": 46,
+  "domain": "data.framinghamma.gov"
+}
+{
+  "numDatasets": 100,
+  "domain": "data.ftb.ca.gov"
+}
+{
+  "numDatasets": 101,
+  "domain": "data.fultoncountyga.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.gates.org"
+}
+{
+  "numDatasets": null,
+  "domain": "data.govloop.com"
+}
+{
+  "numDatasets": 1082,
+  "domain": "data.grandrapidsmi.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.greensboro-nc.gov"
+}
+{
+  "numDatasets": 42,
+  "domain": "data.hampton.gov"
+}
+{
+  "numDatasets": 202,
+  "domain": "data.hartford.gov"
+}
+{
+  "numDatasets": 1314,
+  "domain": "data.hawaii.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.healthcare.gov"
+}
+{
+  "numDatasets": 297,
+  "domain": "data.honolulu.gov"
+}
+{
+  "numDatasets": 1458,
+  "domain": "datahub.smcgov.org"
+}
+{
+  "numDatasets": 3940,
+  "domain": "datahub.transportation.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.illinois.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.imls.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.indy.gov"
+}
+{
+  "numDatasets": 349,
+  "domain": "data.internal.drpt.virginia.gov"
+}
+{
+  "numDatasets": 18,
+  "domain": "data.iowa.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.jacksonms.gov"
+}
+{
+  "numDatasets": 1593,
+  "domain": "data.kcmo.org"
+}
+{
+  "numDatasets": 582,
+  "domain": "data.kingcounty.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.kray.com"
+}
+{
+  "numDatasets": 2806,
+  "domain": "data.lacity.org"
+}
+{
+  "numDatasets": 669,
+  "domain": "data.lacounty.gov"
+}
+{
+  "numDatasets": 168,
+  "domain": "data.littlerock.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.littlerock.org"
+}
+{
+  "numDatasets": 240,
+  "domain": "data.livewellsd.org"
+}
+{
+  "numDatasets": 48,
+  "domain": "data.macoupincountyil.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.maine.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.map.uncdf.org"
+}
+{
+  "numDatasets": 407,
+  "domain": "data.marincounty.org"
+}
+{
+  "numDatasets": 5,
+  "domain": "data.maryland.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.mass.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.medicaid.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.medicare.gov"
+}
+{
+  "numDatasets": 221,
+  "domain": "data.melbourne.vic.gov.au"
+}
+{
+  "numDatasets": 246,
+  "domain": "data.memphistn.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.menlopark.org"
+}
+{
+  "numDatasets": 16,
+  "domain": "data.mesaaz.gov"
+}
+{
+  "numDatasets": 13,
+  "domain": "data.miamigov.com"
+}
+{
+  "numDatasets": 601,
+  "domain": "data.michigan.gov"
+}
+{
+  "numDatasets": 314,
+  "domain": "data.mo.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.montgomeryal.gov"
+}
+{
+  "numDatasets": 906,
+  "domain": "data.montgomerycountymd.gov"
+}
+{
+  "numDatasets": 281,
+  "domain": "data.montgomeryschoolsmd.org"
+}
+{
+  "numDatasets": 87,
+  "domain": "data.muni.org"
+}
+{
+  "numDatasets": 314,
+  "domain": "data.naperville.il.us"
+}
+{
+  "numDatasets": 10000,
+  "domain": "data.nasa.gov"
+}
+{
+  "numDatasets": 147,
+  "domain": "data.nashville.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.nccde.org"
+}
+{
+  "numDatasets": null,
+  "domain": "data.nfpa.org"
+}
+{
+  "numDatasets": 4,
+  "domain": "data.nhitc.org"
+}
+{
+  "numDatasets": 524,
+  "domain": "data.nj.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.nlc.org"
+}
+{
+  "numDatasets": 244,
+  "domain": "data.nola.gov"
+}
+{
+  "numDatasets": 112,
+  "domain": "data.norfolk.gov"
+}
+{
+  "numDatasets": 1102,
+  "domain": "data.novascotia.ca"
+}
+{
+  "numDatasets": 1211,
+  "domain": "data.ny.gov"
+}
+{
+  "numDatasets": 727,
+  "domain": "data.oaklandca.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.oaklandnet.com"
+}
+{
+  "numDatasets": 73,
+  "domain": "data.oce.pr.gov"
+}
+{
+  "numDatasets": 29,
+  "domain": "data.ohiocourtofclaims.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.ojp.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.ojp.usdoj.gov"
+}
+{
+  "numDatasets": 310,
+  "domain": "data.opendatanetwork.com"
+}
+{
+  "numDatasets": 79,
+  "domain": "data.orcities.org"
+}
+{
+  "numDatasets": 2205,
+  "domain": "data.oregon.gov"
+}
+{
+  "numDatasets": 23,
+  "domain": "data.oxnard.org"
+}
+{
+  "numDatasets": 595,
+  "domain": "data.pa.gov"
+}
+{
+  "numDatasets": 90,
+  "domain": "data.permits.performance.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.phila.gov"
+}
+{
+  "numDatasets": 1088,
+  "domain": "data.pinellas.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "datapoints.dallascityhall.com"
+}
+{
+  "numDatasets": null,
+  "domain": "data.policefoundation.org"
+}
+{
+  "numDatasets": 179,
+  "domain": "data.pr.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.princeedwardisland.ca"
+}
+{
+  "numDatasets": 80,
+  "domain": "data.princegeorgescountymd.gov"
+}
+{
+  "numDatasets": 302,
+  "domain": "data.providenceri.gov"
+}
+{
+  "numDatasets": 63,
+  "domain": "data.qac.org"
+}
+{
+  "numDatasets": null,
+  "domain": "data.raleighnc.gov"
+}
+{
+  "numDatasets": 1446,
+  "domain": "data.ramseycounty.us"
+}
+{
+  "numDatasets": 55,
+  "domain": "data.readingpa.gov"
+}
+{
+  "numDatasets": 48,
+  "domain": "data.redmond.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.rentonwa.gov"
+}
+{
+  "numDatasets": 89,
+  "domain": "data.richmondgov.com"
+}
+{
+  "numDatasets": 35,
+  "domain": "data.roseville.ca.us"
+}
+{
+  "numDatasets": null,
+  "domain": "data.rutlandcitypolice.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "data.sandiegocounty.gov"
+}
+{
+  "numDatasets": 232,
+  "domain": "data.sccgov.org"
+}
+{
+  "numDatasets": 837,
+  "domain": "data.seattle.gov"
+}
+{
+  "numDatasets": 1083,
+  "domain": "data.sfgov.org"
+}
+{
+  "numDatasets": 50,
+  "domain": "data.smcgov.org"
+}
+{
+  "numDatasets": 89,
+  "domain": "data.smgov.net"
+}
+{
+  "numDatasets": 54,
+  "domain": "data.somervillema.gov"
+}
+{
+  "numDatasets": 211,
+  "domain": "data.sonomacounty.ca.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.southbendin.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.srcity.org"
+}
+{
+  "numDatasets": 0,
+  "domain": "data.stocktonca.gov"
+}
+{
+  "numDatasets": 367,
+  "domain": "data.strathcona.ca"
+}
+{
+  "numDatasets": null,
+  "domain": "data.sunlightlabs.com"
+}
+{
+  "numDatasets": 200,
+  "domain": "data.sunshinecoast.qld.gov.au"
+}
+{
+  "numDatasets": 163,
+  "domain": "data.sustainablesm.org"
+}
+{
+  "numDatasets": 1203,
+  "domain": "data.texas.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.timapforjustice.org"
+}
+{
+  "numDatasets": null,
+  "domain": "data.tol.ca"
+}
+{
+  "numDatasets": 34,
+  "domain": "data.tompsc.com"
+}
+{
+  "numDatasets": null,
+  "domain": "data.topeka.org"
+}
+{
+  "numDatasets": 6,
+  "domain": "data.transportation.gov"
+}
+{
+  "numDatasets": 14,
+  "domain": "data.tuscaloosa.com"
+}
+{
+  "numDatasets": 49,
+  "domain": "data.urbanaillinois.us"
+}
+{
+  "numDatasets": 1491,
+  "domain": "data.usaid.gov"
+}
+{
+  "numDatasets": 284,
+  "domain": "data.vermont.gov"
+}
+{
+  "numDatasets": 349,
+  "domain": "data.virginia.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "data.vta.org"
+}
+{
+  "numDatasets": 2481,
+  "domain": "data.wa.gov"
+}
+{
+  "numDatasets": 42,
+  "domain": "data.waterpointdata.org"
+}
+{
+  "numDatasets": 88,
+  "domain": "data.wcad.org"
+}
+{
+  "numDatasets": 87,
+  "domain": "data.weho.org"
+}
+{
+  "numDatasets": 1012,
+  "domain": "data.winnipeg.ca"
+}
+{
+  "numDatasets": 0,
+  "domain": "dccourts.data.socrata.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "dcsheriff.data.socrata.com"
+}
+{
+  "numDatasets": 40,
+  "domain": "dcwater-opendata.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "dedhamma.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "delawarecountyoh-sheriff.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "delawarestate.data.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "domain"
+}
+{
+  "numDatasets": 5,
+  "domain": "doralfl.data.socrata.com"
+}
+{
+  "numDatasets": 11,
+  "domain": "douglasco.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "dovernh.data.socrata.com"
+}
+{
+  "numDatasets": 6,
+  "domain": "dubuque.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "eda.data.commerce.gov"
+}
+{
+  "numDatasets": 10,
+  "domain": "edmondok.data.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "effinghamil.data.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "electionsdata.kingcounty.gov"
+}
+{
+  "numDatasets": 8,
+  "domain": "encinitasca-internal.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "enterpriseal.data.socrata.com"
+}
+{
+  "numDatasets": 6,
+  "domain": "erieco.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "esa.data.commerce.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "ethica-pr.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "farmersbranchtx.data.socrata.com"
+}
+{
+  "numDatasets": 1448,
+  "domain": "finances.worldbank.org"
+}
+{
+  "numDatasets": 38,
+  "domain": "fiscalfocus.pittsburghpa.gov"
+}
+{
+  "numDatasets": 5,
+  "domain": "flaglercofl.data.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "fontana.data.socrata.com"
+}
+{
+  "numDatasets": 276,
+  "domain": "fortlauderdale.data.socrata.com"
+}
+{
+  "numDatasets": 9,
+  "domain": "franklincountyohio.data.socrata.com"
+}
+{
+  "numDatasets": 39,
+  "domain": "fusioncenter.nhit.org"
+}
+{
+  "numDatasets": 2,
+  "domain": "fwisd.data.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "gallatincomt.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "gallatintn.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "garfieldcountyco.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "generalitatdecatalunya-scgc.demo.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "georgetowndividepud.data.socrata.com"
+}
+{
+  "numDatasets": 367,
+  "domain": "gnb.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "goochlandva.data.socrata.com"
+}
+{
+  "numDatasets": 7,
+  "domain": "grandjunctionco.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "greenfield-ma.data.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "greengov.data.ca.gov"
+}
+{
+  "numDatasets": 2,
+  "domain": "grovecityoh.data.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "grovecityohpd.data.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "hagerstownmd.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "hallandalebeachfl.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "hartstat.hartford.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "haywardca-pd.data.socrata.com"
+}
+{
+  "numDatasets": 4134,
+  "domain": "healthdata.gov"
+}
+{
+  "numDatasets": 277,
+  "domain": "healthdata.nj.gov"
+}
+{
+  "numDatasets": 581,
+  "domain": "health.data.ny.gov"
+}
+{
+  "numDatasets": 227,
+  "domain": "healthstat.dph.sbcounty.gov"
+}
+{
+  "numDatasets": 14,
+  "domain": "henrycoga.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "hhsgov-internal.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "hickorync.data.socrata.com"
+}
+{
+  "numDatasets": 70,
+  "domain": "hicscdata.hawaii.gov"
+}
+{
+  "numDatasets": 11,
+  "domain": "hidot-contracts.data.socrata.com"
+}
+{
+  "numDatasets": 22,
+  "domain": "highlandsranch.data.socrata.com"
+}
+{
+  "numDatasets": 197,
+  "domain": "highriskregions.auditor.ca.gov"
+}
+{
+  "numDatasets": 544,
+  "domain": "highways.hidot.hawaii.gov"
+}
+{
+  "numDatasets": 1,
+  "domain": "hindscountysd.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "hobbsnm.data.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "hsmp-data.aspe.hhs.gov"
+}
+{
+  "numDatasets": 18,
+  "domain": "humboldtgov.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "huronca.data.socrata.com"
+}
+{
+  "numDatasets": 99,
+  "domain": "idahosupremecourt-internal.data.socrata.com"
+}
+{
+  "numDatasets": 99,
+  "domain": "idp.nz"
+}
+{
+  "numDatasets": null,
+  "domain": "impact.glispa.org"
+}
+{
+  "numDatasets": 140,
+  "domain": "impact.stlouisco.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "independencemo.data.socrata.com"
+}
+{
+  "numDatasets": 11,
+  "domain": "indio.data.socrata.com"
+}
+{
+  "numDatasets": 173,
+  "domain": "information.stpaul.gov"
+}
+{
+  "numDatasets": 64,
+  "domain": "insights.cincinnati-oh.gov"
+}
+{
+  "numDatasets": 397,
+  "domain": "internal.agtransport.usda.gov"
+}
+{
+  "numDatasets": 608,
+  "domain": "internal.chattadata.org"
+}
+{
+  "numDatasets": 0,
+  "domain": "internal-columbusschools.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "internal-ct.data.socrata.com"
+}
+{
+  "numDatasets": 74,
+  "domain": "internal.opendata.clermontauditor.org"
+}
+{
+  "numDatasets": 2217,
+  "domain": "internal.open.piercecountywa.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "internal-portlandme.data.socrata.com"
+}
+{
+  "numDatasets": 529,
+  "domain": "internal-sandiegocounty.data.socrata.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "iop.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "iredellnc.data.socrata.com"
+}
+{
+  "numDatasets": 59,
+  "domain": "isc-v2.data.socrata.com"
+}
+{
+  "numDatasets": 31,
+  "domain": "ita.data.commerce.gov"
+}
+{
+  "numDatasets": 96,
+  "domain": "janesville.data.socrata.com"
+}
+{
+  "numDatasets": 9,
+  "domain": "jcps.data.socrata.com"
+}
+{
+  "numDatasets": 10,
+  "domain": "jerseyvillagetx.data.socrata.com"
+}
+{
+  "numDatasets": 6,
+  "domain": "johnstonia.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "k3sheriff.data.socrata.com"
+}
+{
+  "numDatasets": 16,
+  "domain": "kc-performance.demo.socrata.com"
+}
+{
+  "numDatasets": 293,
+  "domain": "kcstat.kcmo.org"
+}
+{
+  "numDatasets": 0,
+  "domain": "kingcounty-op-beta.demo.socrata.com"
+}
+{
+  "numDatasets": 6,
+  "domain": "kirklandwa.data.socrata.com"
+}
+{
+  "numDatasets": 6,
+  "domain": "kirklandwa-scgc.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "kyletx.data.socrata.com"
+}
+{
+  "numDatasets": 8,
+  "domain": "lacoso.data.socrata.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "lafourchegov.data.socrata.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "laramiecounty.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "lawrencevillega.data.socrata.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "lawtonok.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "leaguecity.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "lives.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "longviewtexas.data.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "lynnfieldma.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "lynnwoodwa.data.socrata.com"
+}
+{
+  "numDatasets": 7,
+  "domain": "mahoningcounty.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "mansfieldma.data.socrata.com"
+}
+{
+  "numDatasets": 10,
+  "domain": "marysvillewa.data.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "mayorbudget.miamidade.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "mbda.data.commerce.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "mcala.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "mercedpd.data.socrata.com"
+}
+{
+  "numDatasets": 49,
+  "domain": "mesa-az.demo.socrata.com"
+}
+{
+  "numDatasets": 38,
+  "domain": "metroairports.data.socrata.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "miami.demo.socrata.com"
+}
+{
+  "numDatasets": 36,
+  "domain": "michigan-data.demo.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "michigan.data.socrata.com"
+}
+{
+  "numDatasets": 485,
+  "domain": "midashboard.michigan.gov"
+}
+{
+  "numDatasets": 8,
+  "domain": "midashboard-staging.demo.socrata.com"
+}
+{
+  "numDatasets": 23,
+  "domain": "midashboard-staging-sandbox.demo.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "miramarfl.data.socrata.com"
+}
+{
+  "numDatasets": 49,
+  "domain": "mischooldata.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "missouricitytx.data.socrata.com"
+}
+{
+  "numDatasets": 85,
+  "domain": "mi-treasury.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "mobileal.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "montereyparkca.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "montrosecounty.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "moreheadcitync.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "moreno-valley.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "morrisvillenc.data.socrata.com"
+}
+{
+  "numDatasets": 8,
+  "domain": "mtdesert.data.socrata.com"
+}
+{
+  "numDatasets": 6,
+  "domain": "murfreesboro.data.socrata.com"
+}
+{
+  "numDatasets": 104,
+  "domain": "mydata.iadb.org"
+}
+{
+  "numDatasets": 1607,
+  "domain": "mydata.iowa.gov"
+}
+{
+  "numDatasets": 10000,
+  "domain": "nasa-test-0.demo.socrata.com"
+}
+{
+  "numDatasets": 10,
+  "domain": "nassaucountycircuitcourt.data.socrata.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "newcastle.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "newcastle-internal.data.socrata.com"
+}
+{
+  "numDatasets": 55,
+  "domain": "newportbeachca.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "newportbeachca-odp.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "newportbeachca-portal.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "newtoncountyga.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "newtonma.data.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "nist.data.commerce.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "njdoh"
+}
+{
+  "numDatasets": 18,
+  "domain": "noaa.data.commerce.gov"
+}
+{
+  "numDatasets": 294,
+  "domain": "noaa-fisheries-afsc.data.socrata.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "noaa-fisheries.data.socrata.com"
+}
+{
+  "numDatasets": 7,
+  "domain": "noaa-fisheries-garfo.data.socrata.com"
+}
+{
+  "numDatasets": 35,
+  "domain": "noaa-fisheries-hq.data.socrata.com"
+}
+{
+  "numDatasets": 138,
+  "domain": "noaa-fisheries-nwfsc.data.socrata.com"
+}
+{
+  "numDatasets": 135,
+  "domain": "noaa-fisheries-swfsc.data.socrata.com"
+}
+{
+  "numDatasets": 9,
+  "domain": "norfolk-performance.demo.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "normanok-pd.data.socrata.com"
+}
+{
+  "numDatasets": 20,
+  "domain": "northbayvillagefl.data.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "northmiamifl.data.socrata.com"
+}
+{
+  "numDatasets": 31,
+  "domain": "ntia.data.commerce.gov"
+}
+{
+  "numDatasets": 1,
+  "domain": "ntis.data.commerce.gov"
+}
+{
+  "numDatasets": 10,
+  "domain": "nyc-scgc.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "oaisd.data.socrata.com"
+}
+{
+  "numDatasets": 6,
+  "domain": "ogdencity.data.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "ogunquit.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "olathe.data.socrata.com"
+}
+{
+  "numDatasets": 15,
+  "domain": "ontario.demo.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "opelika-al.data.socrata.com"
+}
+{
+  "numDatasets": 24,
+  "domain": "opendata-augusta.data.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "opendata.ci.richmond.ca.us"
+}
+{
+  "numDatasets": 0,
+  "domain": "opendata.cityofhenderson.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "opendata.cityofmesquite.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "opendata.clermontauditor.org"
+}
+{
+  "numDatasets": 0,
+  "domain": "open-data-demo.mtc.ca.gov"
+}
+{
+  "numDatasets": 107,
+  "domain": "opendata.fcc.gov"
+}
+{
+  "numDatasets": 215,
+  "domain": "opendata.fcgov.com"
+}
+{
+  "numDatasets": 176,
+  "domain": "opendata.howardcountymd.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "opendata.lasvegasnevada.gov"
+}
+{
+  "numDatasets": 1826,
+  "domain": "opendata.maryland.gov"
+}
+{
+  "numDatasets": 51,
+  "domain": "opendata.mass-cannabis-control.com"
+}
+{
+  "numDatasets": null,
+  "domain": "opendata.miamidade.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "opendata.ramseycounty.us"
+}
+{
+  "numDatasets": 0,
+  "domain": "opendata.usac.org"
+}
+{
+  "numDatasets": 7943,
+  "domain": "opendata.utah.gov"
+}
+{
+  "numDatasets": 345,
+  "domain": "opengov.cityofdubuque.org"
+}
+{
+  "numDatasets": 0,
+  "domain": "openhcs-internal.hcde.org"
+}
+{
+  "numDatasets": 2735,
+  "domain": "openinformation.novascotia.ca"
+}
+{
+  "numDatasets": 125,
+  "domain": "opennassau.nassaucountyny.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "openpaymentsdata.cms.gov"
+}
+{
+  "numDatasets": 252,
+  "domain": "open.piercecountywa.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "open.whitehouse.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "orangecountync.data.socrata.com"
+}
+{
+  "numDatasets": 13,
+  "domain": "orlandofl.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "ormondbeach.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "palmcoastfl.data.socrata.com"
+}
+{
+  "numDatasets": 48,
+  "domain": "parkeronline.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "pecostx.data.socrata.com"
+}
+{
+  "numDatasets": 14,
+  "domain": "pennsylvania.demo.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "performance.action.act.gov.au"
+}
+{
+  "numDatasets": null,
+  "domain": "performance.adcogov.org"
+}
+{
+  "numDatasets": 279,
+  "domain": "performance-archive.cookcountyil.gov"
+}
+{
+  "numDatasets": 49,
+  "domain": "performance.austintexas.gov"
+}
+{
+  "numDatasets": 22,
+  "domain": "performance.carson.org"
+}
+{
+  "numDatasets": 0,
+  "domain": "performance.chattanooga.gov"
+}
+{
+  "numDatasets": 214,
+  "domain": "performance.ci.janesville.wi.us"
+}
+{
+  "numDatasets": 439,
+  "domain": "performance.cityofcamas.us"
+}
+{
+  "numDatasets": 82,
+  "domain": "performance.cityofdavenportiowa.com"
+}
+{
+  "numDatasets": 150,
+  "domain": "performance.cityofhenderson.com"
+}
+{
+  "numDatasets": 108,
+  "domain": "performance.cityofrc.us"
+}
+{
+  "numDatasets": 652,
+  "domain": "performance.commerce.gov"
+}
+{
+  "numDatasets": 42,
+  "domain": "performance.cookcountyil.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "performance.danvilleva.gov"
+}
+{
+  "numDatasets": 201,
+  "domain": "performance.franklintn.gov"
+}
+{
+  "numDatasets": 680,
+  "domain": "performance.fultoncountyga.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "performance.glendaleca.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "performance.kingcounty.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "performance.lacity.org"
+}
+{
+  "numDatasets": null,
+  "domain": "performance.louisvilleky.gov"
+}
+{
+  "numDatasets": 823,
+  "domain": "performance.princegeorgescountymd.gov"
+}
+{
+  "numDatasets": 39,
+  "domain": "performance.providenceri.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "performance.reno.gov"
+}
+{
+  "numDatasets": 1129,
+  "domain": "performance.seattle.gov"
+}
+{
+  "numDatasets": 2698,
+  "domain": "performance.smcgov.org"
+}
+{
+  "numDatasets": null,
+  "domain": "performance.vbgov.com"
+}
+{
+  "numDatasets": null,
+  "domain": "performance.williamsburgva.gov"
+}
+{
+  "numDatasets": 26,
+  "domain": "permits.partner.socrata.com"
+}
+{
+  "numDatasets": 20,
+  "domain": "perspectives.dnrec.delaware.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "pinellasparkfl-pd.data.socrata.com"
+}
+{
+  "numDatasets": 7,
+  "domain": "pinellasparkpd.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "pip.nashville.gov"
+}
+{
+  "numDatasets": 5,
+  "domain": "pleasantonpd.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "pleasantville-ny.data.socrata.com"
+}
+{
+  "numDatasets": 6,
+  "domain": "plymouth-ma.data.socrata.com"
+}
+{
+  "numDatasets": 47,
+  "domain": "policedata.coloradosprings.gov"
+}
+{
+  "numDatasets": 76,
+  "domain": "policeview.johnscreekga.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "porthuenemeca.data.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "pqrs.cms.gov"
+}
+{
+  "numDatasets": 290,
+  "domain": "priv-data.ojp.usdoj.gov"
+}
+{
+  "numDatasets": null,
+  "domain": "projects.topeka.org"
+}
+{
+  "numDatasets": 78,
+  "domain": "ptsd-va.data.socrata.com"
+}
+{
+  "numDatasets": 8,
+  "domain": "purcellville.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "radnortownship.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "redmond-demo.demo.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "reports.awcnet.org"
+}
+{
+  "numDatasets": null,
+  "domain": "reports.data.imls.gov"
+}
+{
+  "numDatasets": 5400,
+  "domain": "reports.data.montgomerycountymd.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "results.iowa.gov"
+}
+{
+  "numDatasets": 171,
+  "domain": "results.livewellsd.org"
+}
+{
+  "numDatasets": null,
+  "domain": "results.nola.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "rivierabch.data.socrata.com"
+}
+{
+  "numDatasets": 8,
+  "domain": "rosevillepd.data.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "rrps.data.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "sanbernardino-covid-19-response.data.socrata.com"
+}
+{
+  "numDatasets": 8,
+  "domain": "sbcounty-health-op-beta.demo.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "scarboroughmaine.data.socrata.com"
+}
+{
+  "numDatasets": 15,
+  "domain": "sdc-stories.demo.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "seattleperformance.demo.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "sfgov-scgc.demo.socrata.com"
+}
+{
+  "numDatasets": 955,
+  "domain": "sharefulton.fultoncountyga.gov"
+}
+{
+  "numDatasets": 18,
+  "domain": "shawneesheriff.data.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "ship.dfs.ny.gov"
+}
+{
+  "numDatasets": 2,
+  "domain": "sidneyoh.data.socrata.com"
+}
+{
+  "numDatasets": 17,
+  "domain": "siouxfalls.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "slo-co.data.socrata.com"
+}
+{
+  "numDatasets": 14,
+  "domain": "soquelcreekwdca.data.socrata.com"
+}
+{
+  "numDatasets": 799,
+  "domain": "stat.cityofgainesville.org"
+}
+{
+  "numDatasets": 440,
+  "domain": "statmo.data.socrata.com"
+}
+{
+  "numDatasets": 5400,
+  "domain": "stat.montgomerycountymd.gov"
+}
+{
+  "numDatasets": 555,
+  "domain": "stat.stpete.org"
+}
+{
+  "numDatasets": 4,
+  "domain": "stlouiscounty-performance.demo.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "stpetersburg-op-beta.demo.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "strategicplanning1.aspe.hhs.gov"
+}
+{
+  "numDatasets": 16,
+  "domain": "stutsman.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "sugarlandtx.data.socrata.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "sussexco.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "texas-itcollab.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "texas-scgc2.demo.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "texas-scgc3.demo.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "tni.princegeorgescountymd.gov"
+}
+{
+  "numDatasets": 4,
+  "domain": "townofaddisontx.data.socrata.com"
+}
+{
+  "numDatasets": 5,
+  "domain": "townofblufftonsc.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "townofdennis.data.socrata.com"
+}
+{
+  "numDatasets": 13,
+  "domain": "townofmiamilakes.data.socrata.com"
+}
+{
+  "numDatasets": 279,
+  "domain": "transparencyarchive.michigan.gov"
+}
+{
+  "numDatasets": 279,
+  "domain": "transparency.michigan.gov"
+}
+{
+  "numDatasets": 2,
+  "domain": "unioncountyoh.data.socrata.com"
+}
+{
+  "numDatasets": 478,
+  "domain": "usc.data.socrata.com"
+}
+{
+  "numDatasets": 67,
+  "domain": "uspto.data.commerce.gov"
+}
+{
+  "numDatasets": 3,
+  "domain": "usvi.data.socrata.com"
+}
+{
+  "numDatasets": 16,
+  "domain": "vdh-richmondcity.demo.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "vusd.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "wacotexas.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "washingtoncountyok.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "wcad-internal.data.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "wccusd.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "weslacotx.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "westdesmoines.data.socrata.com"
+}
+{
+  "numDatasets": 4,
+  "domain": "westgoshenpa.data.socrata.com"
+}
+{
+  "numDatasets": 1,
+  "domain": "whitebeartownshipmn.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "wicomicocountymd.data.socrata.com"
+}
+{
+  "numDatasets": 9,
+  "domain": "williamsoncountyschools.data.socrata.com"
+}
+{
+  "numDatasets": 3,
+  "domain": "woburnma.data.socrata.com"
+}
+{
+  "numDatasets": 2,
+  "domain": "woodburycountyia.data.socrata.com"
+}
+{
+  "numDatasets": 9,
+  "domain": "wsac.demo.socrata.com"
+}
+{
+  "numDatasets": null,
+  "domain": "www.aercdevdata.org"
+}
+{
+  "numDatasets": 214,
+  "domain": "www.chattadata.org"
+}
+{
+  "numDatasets": null,
+  "domain": "www.criminalytics.org"
+}
+{
+  "numDatasets": 1078,
+  "domain": "www.dallasopendata.com"
+}
+{
+  "numDatasets": 1111,
+  "domain": "www.data.act.gov.au"
+}
+{
+  "numDatasets": 1958,
+  "domain": "www.datahub.va.gov"
+}
+{
+  "numDatasets": 0,
+  "domain": "www.data.va.gov"
+}
+{
+  "numDatasets": 10000,
+  "domain": "www.datos.gov.co"
+}
+{
+  "numDatasets": null,
+  "domain": "www.forsythfutures.org"
+}
+{
+  "numDatasets": null,
+  "domain": "www.metrochicagodata.org"
+}
+{
+  "numDatasets": 6,
+  "domain": "www.opendatanyc.com"
+}
+{
+  "numDatasets": null,
+  "domain": "www.pipadados.com"
+}
+{
+  "numDatasets": 70,
+  "domain": "www.pivcide.pr"
+}
+{
+  "numDatasets": null,
+  "domain": "www.sudandata.org"
+}
+{
+  "numDatasets": 54,
+  "domain": "www.thedatazone.ca"
+}
+{
+  "numDatasets": 500,
+  "domain": "www.transparentrichmond.org"
+}
+{
+  "numDatasets": 3,
+  "domain": "yorkcountyva.data.socrata.com"
+}
+{
+  "numDatasets": 8,
+  "domain": "youth-development-index-cs.demo.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "yumaaz-cqssl.data.socrata.com"
+}
+{
+  "numDatasets": 0,
+  "domain": "yumaaz-ysco.data.socrata.com"
+}

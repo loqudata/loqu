@@ -1,0 +1,634 @@
+{
+  "@context": {
+    "qb": "http://purl.org/linked-data/cube#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dv": "https://ontology.loqudata.org/",
+    "@base": "dv",
+    "name": "rdfs:label",
+    "dimensions_codes_order": {
+      "@id": "qb:component"
+    },
+    "codeListInstanceClass": {
+      "@reverse": "rdfs:seeAlso"
+    },
+    "entries": {
+      "@id": "skos:hasTopConcept"
+    },
+    "qb:codeList": {
+      "@type": "@id"
+    },
+    "qb:dimension": {
+      "@type": "@id"
+    },
+    "rdfs:subClassOf": {
+      "@type": "@id"
+    },
+    "rdfs:domain": {
+      "@type": "@id"
+    },
+    "rdfs:range": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "code": "7284",
+      "converted_at": "2020-10-08T07:30:39Z",
+      "dimensions_codes_order": [
+        {
+          "@id": "https://loqudata.org/BOE/7284/component/dimension/INSTRUMENTS",
+          "@type": "qb:ComponentSpecification",
+          "qb:order": 0,
+          "qb:dimension": "https://loqudata.org/BOE/7284/dimension/INSTRUMENTS"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/component/dimension/INSTRUMENT_CURRENCY",
+          "@type": "qb:ComponentSpecification",
+          "qb:order": 1,
+          "qb:dimension": "https://loqudata.org/BOE/7284/dimension/INSTRUMENT_CURRENCY"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/component/dimension/OF_SECTOR",
+          "@type": "qb:ComponentSpecification",
+          "qb:order": 2,
+          "qb:dimension": "https://loqudata.org/BOE/7284/dimension/OF_SECTOR"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/component/dimension/OUTPUT_IN",
+          "@type": "qb:ComponentSpecification",
+          "qb:order": 3,
+          "qb:dimension": "https://loqudata.org/BOE/7284/dimension/OUTPUT_IN"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/component/dimension/SEASONAL_ADJUSTMENT",
+          "@type": "qb:ComponentSpecification",
+          "qb:order": 4,
+          "qb:dimension": "https://loqudata.org/BOE/7284/dimension/SEASONAL_ADJUSTMENT"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/component/dimension/SECTOR",
+          "@type": "qb:ComponentSpecification",
+          "qb:order": 5,
+          "qb:dimension": "https://loqudata.org/BOE/7284/dimension/SECTOR"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/component/dimension/TYPE",
+          "@type": "qb:ComponentSpecification",
+          "qb:order": 6,
+          "qb:dimension": "https://loqudata.org/BOE/7284/dimension/TYPE"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/component/dimension/freq",
+          "@type": "qb:ComponentSpecification",
+          "qb:order": 7,
+          "qb:dimension": "https://loqudata.org/BOE/7284/dimension/freq"
+        }
+      ],
+      "indexed_at": "2020-10-08T07:31:14.988Z",
+      "json_data_commit_ref": "d6dbc4f046608caf85b2a50c67b0d85746f0c583",
+      "name": "Net public sector debt (until March 2005)",
+      "nb_series": 92,
+      "@id": "https://loqudata.org/BOE/7284/structure",
+      "@type": "qb:DataStructureDefinition",
+      "dv:provider": {
+        "@id": "https://loqudata.org/BOE",
+        "skos:notation": "BOE",
+        "rdfs:label": "Bank of England"
+      }
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/dimension/INSTRUMENTS",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BOE/7284/code/INSTRUMENTS",
+      "rdfs:range": "https://loqudata.org/BOE/7284/class/INSTRUMENTS",
+      "rdfs:label": "Instruments"
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/dimension/INSTRUMENT_CURRENCY",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BOE/7284/code/INSTRUMENT_CURRENCY",
+      "rdfs:range": "https://loqudata.org/BOE/7284/class/INSTRUMENT_CURRENCY",
+      "rdfs:label": "Instrument Currency"
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/dimension/OF_SECTOR",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BOE/7284/code/OF_SECTOR",
+      "rdfs:range": "https://loqudata.org/BOE/7284/class/OF_SECTOR",
+      "rdfs:label": "Of Sector"
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/dimension/OUTPUT_IN",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BOE/7284/code/OUTPUT_IN",
+      "rdfs:range": "https://loqudata.org/BOE/7284/class/OUTPUT_IN",
+      "rdfs:label": "Output In"
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/dimension/SEASONAL_ADJUSTMENT",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BOE/7284/code/SEASONAL_ADJUSTMENT",
+      "rdfs:range": "https://loqudata.org/BOE/7284/class/SEASONAL_ADJUSTMENT",
+      "rdfs:label": "Seasonal Adjustment"
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/dimension/SECTOR",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BOE/7284/code/SECTOR",
+      "rdfs:range": "https://loqudata.org/BOE/7284/class/SECTOR",
+      "rdfs:label": "Sector"
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/dimension/TYPE",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BOE/7284/code/TYPE",
+      "rdfs:range": "https://loqudata.org/BOE/7284/class/TYPE",
+      "rdfs:label": "Type"
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/dimension/freq",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BOE/7284/code/freq",
+      "rdfs:range": "https://loqudata.org/BOE/7284/class/freq",
+      "rdfs:label": "Freq"
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS",
+      "@type": "skos:ConceptScheme",
+      "skos:notation": "INSTRUMENTS",
+      "entries": [
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ABGS",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Gilts - total",
+          "skos:notation": "ABGS"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ABGS<1",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Gilts - residual maturity under 1 year",
+          "skos:notation": "ABGS<1"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ABGSC",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Gilts - conventional",
+          "skos:notation": "ABGSC"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ABGSI",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Gilts - index-linked",
+          "skos:notation": "ABGSI"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ABOND",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Bonds",
+          "skos:notation": "ABOND"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ACOIN",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Coin",
+          "skos:notation": "ACOIN"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ACOURT",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Court funds",
+          "skos:notation": "ACOURT"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ACTD",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Certificates of tax deposit",
+          "skos:notation": "ACTD"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ADEBT",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Debt - total",
+          "skos:notation": "ADEBT"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ADEPOS",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Deposits - total",
+          "skos:notation": "ADEPOS"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/AGD1_3",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Debt - with residual maturity of 1-3 months",
+          "skos:notation": "AGD1_3"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/AGD3_1",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Debt - with residual maturity of 3 months to 1 year",
+          "skos:notation": "AGD3_1"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/AGD<1",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Debt - with residual maturity of under 1 year",
+          "skos:notation": "AGD<1"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/AGD<1M",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Debt - with residual maturity of under 1 month",
+          "skos:notation": "AGD<1M"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/AGDEBT",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Debt",
+          "skos:notation": "AGDEBT"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ALIQA",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Liquid assets - total",
+          "skos:notation": "ALIQA"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ANSDBT",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "National Savings - total",
+          "skos:notation": "ANSDBT"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ANSDII",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "National Savings - accrued interest and indexing",
+          "skos:notation": "ANSDII"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ANSXOR",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "National Savings - excl. Ordinary A/C & accrued interest etc",
+          "skos:notation": "ANSXOR"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/AORDAC",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "National Savings - ordinary account",
+          "skos:notation": "AORDAC"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/AOSTAS",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Assets - other short term",
+          "skos:notation": "AOSTAS"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ARESV",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Official reserves",
+          "skos:notation": "ARESV"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ASASST",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Assets - short term",
+          "skos:notation": "ASASST"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ATBILL",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Treasury bills",
+          "skos:notation": "ATBILL"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/ATNOTE",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Treasury notes - total",
+          "skos:notation": "ATNOTE"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/LGCDBT",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Debt",
+          "skos:notation": "LGCDBT"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/LGDEBT",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Debt",
+          "skos:notation": "LGDEBT"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/NDEBT",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Net debt",
+          "skos:notation": "NDEBT"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/TCGD%G",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Consolidated gross debt as % of GDP",
+          "skos:notation": "TCGD%G"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENTS/TNB%G",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Net debt as % of GDP",
+          "skos:notation": "TNB%G"
+        }
+      ],
+      "codeListInstanceClass": {
+        "@id": "https://loqudata.org/BOE/7284/class/INSTRUMENTS",
+        "@type": [
+          "rdfs:Class",
+          "owl:Class"
+        ],
+        "rdfs:subClassOf": "skos:Concept",
+        "rdfs:label": "Code list class for INSTRUMENTS"
+      }
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENT_CURRENCY",
+      "@type": "skos:ConceptScheme",
+      "skos:notation": "INSTRUMENT_CURRENCY",
+      "entries": [
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENT_CURRENCY/$",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "US dollar",
+          "skos:notation": "$"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENT_CURRENCY/E",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Euro",
+          "skos:notation": "E"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENT_CURRENCY/F",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Foreign currencies - all",
+          "skos:notation": "F"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENT_CURRENCY/T",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Sterling and all foreign currencies",
+          "skos:notation": "T"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/INSTRUMENT_CURRENCY/£",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Sterling",
+          "skos:notation": "£"
+        }
+      ],
+      "codeListInstanceClass": {
+        "@id": "https://loqudata.org/BOE/7284/class/INSTRUMENT_CURRENCY",
+        "@type": [
+          "rdfs:Class",
+          "owl:Class"
+        ],
+        "rdfs:subClassOf": "skos:Concept",
+        "rdfs:label": "Code list class for INSTRUMENT_CURRENCY"
+      }
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/code/OF_SECTOR",
+      "@type": "skos:ConceptScheme",
+      "skos:notation": "OF_SECTOR",
+      "entries": [
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/OF_SECTOR/BC",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "UK resident banks (inc. Central Bank)",
+          "skos:notation": "BC"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/OF_SECTOR/CG",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Central Government",
+          "skos:notation": "CG"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/OF_SECTOR/GG",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "General Government (central and local)",
+          "skos:notation": "GG"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/OF_SECTOR/LG",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Local Government",
+          "skos:notation": "LG"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/OF_SECTOR/NV",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "National Savings",
+          "skos:notation": "NV"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/OF_SECTOR/PC",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Public corporations",
+          "skos:notation": "PC"
+        }
+      ],
+      "codeListInstanceClass": {
+        "@id": "https://loqudata.org/BOE/7284/class/OF_SECTOR",
+        "@type": [
+          "rdfs:Class",
+          "owl:Class"
+        ],
+        "rdfs:subClassOf": "skos:Concept",
+        "rdfs:label": "Code list class for OF_SECTOR"
+      }
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/code/OUTPUT_IN",
+      "@type": "skos:ConceptScheme",
+      "skos:notation": "OUTPUT_IN",
+      "entries": [
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/OUTPUT_IN/%",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Percent",
+          "skos:notation": "%"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/OUTPUT_IN/£",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Sterling",
+          "skos:notation": "£"
+        }
+      ],
+      "codeListInstanceClass": {
+        "@id": "https://loqudata.org/BOE/7284/class/OUTPUT_IN",
+        "@type": [
+          "rdfs:Class",
+          "owl:Class"
+        ],
+        "rdfs:subClassOf": "skos:Concept",
+        "rdfs:label": "Code list class for OUTPUT_IN"
+      }
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/code/SEASONAL_ADJUSTMENT",
+      "@type": "skos:ConceptScheme",
+      "skos:notation": "SEASONAL_ADJUSTMENT",
+      "entries": [
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/SEASONAL_ADJUSTMENT/U",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Not seasonally adjusted",
+          "skos:notation": "U"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/SEASONAL_ADJUSTMENT/X",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Not seasonally adjusted",
+          "skos:notation": "X"
+        }
+      ],
+      "codeListInstanceClass": {
+        "@id": "https://loqudata.org/BOE/7284/class/SEASONAL_ADJUSTMENT",
+        "@type": [
+          "rdfs:Class",
+          "owl:Class"
+        ],
+        "rdfs:subClassOf": "skos:Concept",
+        "rdfs:label": "Code list class for SEASONAL_ADJUSTMENT"
+      }
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/code/SECTOR",
+      "@type": "skos:ConceptScheme",
+      "skos:notation": "SECTOR",
+      "entries": [
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/SECTOR/CGOV",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Central Government",
+          "skos:notation": "CGOV"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/SECTOR/GGOV",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "General Government (central and local)",
+          "skos:notation": "GGOV"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/SECTOR/LGOV",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Local Government",
+          "skos:notation": "LGOV"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/SECTOR/OPUB",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Non-public sector",
+          "skos:notation": "OPUB"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/SECTOR/PUBC",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Public corporations",
+          "skos:notation": "PUBC"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/SECTOR/PUBL",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Public sector",
+          "skos:notation": "PUBL"
+        }
+      ],
+      "codeListInstanceClass": {
+        "@id": "https://loqudata.org/BOE/7284/class/SECTOR",
+        "@type": [
+          "rdfs:Class",
+          "owl:Class"
+        ],
+        "rdfs:subClassOf": "skos:Concept",
+        "rdfs:label": "Code list class for SECTOR"
+      }
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/code/TYPE",
+      "@type": "skos:ConceptScheme",
+      "skos:notation": "TYPE",
+      "entries": [
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/TYPE/L",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Amounts outstanding",
+          "skos:notation": "L"
+        }
+      ],
+      "codeListInstanceClass": {
+        "@id": "https://loqudata.org/BOE/7284/class/TYPE",
+        "@type": [
+          "rdfs:Class",
+          "owl:Class"
+        ],
+        "rdfs:subClassOf": "skos:Concept",
+        "rdfs:label": "Code list class for TYPE"
+      }
+    },
+    {
+      "@id": "https://loqudata.org/BOE/7284/code/freq",
+      "@type": "skos:ConceptScheme",
+      "skos:notation": "freq",
+      "entries": [
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/freq/M",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Monthly",
+          "skos:notation": "M"
+        },
+        {
+          "@id": "https://loqudata.org/BOE/7284/code/freq/Q",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Quarterly",
+          "skos:notation": "Q"
+        }
+      ],
+      "codeListInstanceClass": {
+        "@id": "https://loqudata.org/BOE/7284/class/freq",
+        "@type": [
+          "rdfs:Class",
+          "owl:Class"
+        ],
+        "rdfs:subClassOf": "skos:Concept",
+        "rdfs:label": "Code list class for freq"
+      }
+    }
+  ]
+}

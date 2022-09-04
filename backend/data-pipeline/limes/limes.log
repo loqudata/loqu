@@ -1,0 +1,1200 @@
+docker-compose up                                                                                                                                                                        (base) 
+Starting virtuoso_db_1    ... done
+Creating virtuoso_limes_1 ... done
+Attaching to virtuoso_limes_1, virtuoso_db_1
+db_1     | chmod: cannot access '/clean-logs.sh': No such file or directory
+db_1     | 
+db_1     | 		Thu Apr 15 2021
+db_1     | 04:07:27 OpenLink Virtuoso Universal Server
+db_1     | 04:07:27 Version 07.20.3229-pthreads for Linux as of Aug 21 2019
+db_1     | 04:07:27 uses parts of OpenSSL, PCRE, Html Tidy
+db_1     | 04:07:27 Database version 3126
+db_1     | 04:07:27 Unlinked the temp db file /usr/local/virtuoso-opensource/var/lib/virtuoso/db/virtuoso-temp.db as its size (644MB) was greater than TempDBSize INI (10MB)
+db_1     | 04:07:27 SQL Optimizer enabled (max 1000 layouts)
+limes_1  | 2021-04-15 04:07:27,946 main INFO Log4j appears to be running in a Servlet environment, but there's no log4j-web module available. If you want better web container support, please add the log4j-web JAR to your web archive or server lib directory.
+limes_1  | 04:07:28.060 [main] [] INFO  spark.staticfiles.StaticFilesConfiguration:150 - StaticResourceHandler configured with folder = /web-ui
+limes_1  | 04:07:28.091 [Thread-0] [] INFO  org.eclipse.jetty.util.log:193 - Logging initialized @574ms to org.eclipse.jetty.util.log.Slf4jLog
+limes_1  | 04:07:28.129 [Thread-0] [] WARN  org.eclipse.jetty.server.AbstractConnector:450 - Ignoring deprecated socket close linger time
+limes_1  | 04:07:28.131 [Thread-0] [] INFO  spark.embeddedserver.jetty.EmbeddedJettyServer:142 - == Spark has ignited ...
+limes_1  | 04:07:28.131 [Thread-0] [] INFO  spark.embeddedserver.jetty.EmbeddedJettyServer:146 - >> Listening on 0.0.0.0:8080
+limes_1  | 04:07:28.133 [Thread-0] [] INFO  org.eclipse.jetty.server.Server:371 - jetty-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 12.0.2+10
+limes_1  | 04:07:28.149 [Thread-0] [] INFO  org.eclipse.jetty.server.session:365 - DefaultSessionIdManager workerName=node0
+limes_1  | 04:07:28.149 [Thread-0] [] INFO  org.eclipse.jetty.server.session:370 - No SessionScavenger set, using defaults
+limes_1  | 04:07:28.151 [Thread-0] [] INFO  org.eclipse.jetty.server.session:149 - node0 Scavenging every 660000ms
+limes_1  | 04:07:28.167 [Thread-0] [] INFO  org.eclipse.jetty.server.AbstractConnector:292 - Started ServerConnector@1454a1a0{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+limes_1  | 04:07:28.167 [Thread-0] [] INFO  org.eclipse.jetty.server.Server:408 - Started @651ms
+db_1     | 04:07:29 Compiler unit is timed at 0.000108 msec
+db_1     | 04:07:32 Roll forward started
+db_1     | 04:07:32     27 transactions, 2323 bytes replayed (100 %)
+db_1     | 04:07:32 Roll forward complete
+db_1     | 04:07:33 Checkpoint started
+db_1     | 04:07:33 Checkpoint finished, log reused
+db_1     | 04:07:35 HTTP/WebDAV server online at 8890
+db_1     | 04:07:35 Server online at 1111 (pid 1)
+limes_1  | 04:12:09.355 [qtp358533990-30] [] ERROR org.aksw.limes.core.controller.Server:118 - Error in processing request/submit
+limes_1  | javax.servlet.ServletException: Content-Type != multipart/form-data
+limes_1  | 	at org.eclipse.jetty.server.Request.getParts(Request.java:2322) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.Request.getPart(Request.java:2311) ~[limes.jar:?]
+limes_1  | 	at javax.servlet.http.HttpServletRequestWrapper.getPart(HttpServletRequestWrapper.java:386) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.controller.Server.handleSubmit(Server.java:270) ~[limes.jar:?]
+limes_1  | 	at spark.RouteImpl$1.handle(RouteImpl.java:72) ~[limes.jar:?]
+limes_1  | 	at spark.http.matching.Routes.execute(Routes.java:61) ~[limes.jar:?]
+limes_1  | 	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134) ~[limes.jar:?]
+limes_1  | 	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1568) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.Server.handle(Server.java:503) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:132) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683) [limes.jar:?]
+limes_1  | 	at java.base/java.lang.Thread.run(Thread.java:835) [?:?]
+limes_1  | 04:12:47.219 [qtp358533990-23] [] INFO  org.aksw.limes.core.controller.Server:280 - Uploaded file 'config.ttl' saved as '/limes/.server-storage/limes_cfg_14990886649913351717.ttl'
+limes_1  | 04:12:47.451 [qtp358533990-23] [] INFO  org.aksw.limes.core.io.config.reader.rdf.RDFConfigurationReader:58 - Opening Turtle file
+limes_1  | 04:12:47.471 [qtp358533990-23] [] ERROR org.apache.jena.riot:101 - [line: 1, col: 7 ] Bad character in IRI (space): <?xml[space]...>
+limes_1  | 04:12:47.471 [qtp358533990-23] [] ERROR org.aksw.limes.core.controller.Server:118 - Error in processing request/submit
+limes_1  | org.apache.jena.riot.RiotException: [line: 1, col: 7 ] Bad character in IRI (space): <?xml[space]...>
+limes_1  | 	at org.apache.jena.riot.system.ErrorHandlerFactory$ErrorHandlerStd.fatal(ErrorHandlerFactory.java:147) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangEngine.raiseException(LangEngine.java:148) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangEngine.<init>(LangEngine.java:49) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangBase.<init>(LangBase.java:32) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangTurtleBase.<init>(LangTurtleBase.java:71) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangTurtle.<init>(LangTurtle.java:35) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.RiotParsers.createParserTurtle(RiotParsers.java:102) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.RiotParsers.createParser(RiotParsers.java:59) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParserRegistry$ReaderRIOTLang.read(RDFParserRegistry.java:190) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParser.read(RDFParser.java:352) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParser.parseNotUri(RDFParser.java:342) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParser.parse(RDFParser.java:291) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParserBuilder.parse(RDFParserBuilder.java:500) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFDataMgr.parseFromInputStream(RDFDataMgr.java:870) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:268) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:254) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.adapters.RDFReaderRIOT.read(RDFReaderRIOT.java:69) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.rdf.model.impl.ModelCom.read(ModelCom.java:305) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.io.config.reader.rdf.RDFConfigurationReader.readModel(RDFConfigurationReader.java:59) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.io.config.reader.rdf.RDFConfigurationReader.read(RDFConfigurationReader.java:82) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.controller.Server.handleSubmit(Server.java:292) ~[limes.jar:?]
+limes_1  | 	at spark.RouteImpl$1.handle(RouteImpl.java:72) ~[limes.jar:?]
+limes_1  | 	at spark.http.matching.Routes.execute(Routes.java:61) ~[limes.jar:?]
+limes_1  | 	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134) ~[limes.jar:?]
+limes_1  | 	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1568) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.Server.handle(Server.java:503) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:132) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683) [limes.jar:?]
+limes_1  | 	at java.base/java.lang.Thread.run(Thread.java:835) [?:?]
+limes_1  | 04:13:00.335 [qtp358533990-46] [] INFO  org.aksw.limes.core.controller.Server:280 - Uploaded file 'config.ttl' saved as '/limes/.server-storage/limes_cfg_16516650545868098337.ttl'
+limes_1  | 04:13:00.335 [qtp358533990-46] [] INFO  org.aksw.limes.core.io.config.reader.rdf.RDFConfigurationReader:58 - Opening Turtle file
+limes_1  | 04:13:00.336 [qtp358533990-46] [] ERROR org.apache.jena.riot:101 - [line: 1, col: 7 ] Bad character in IRI (space): <?xml[space]...>
+limes_1  | 04:13:00.336 [qtp358533990-46] [] ERROR org.aksw.limes.core.controller.Server:118 - Error in processing request/submit
+limes_1  | org.apache.jena.riot.RiotException: [line: 1, col: 7 ] Bad character in IRI (space): <?xml[space]...>
+limes_1  | 	at org.apache.jena.riot.system.ErrorHandlerFactory$ErrorHandlerStd.fatal(ErrorHandlerFactory.java:147) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangEngine.raiseException(LangEngine.java:148) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangEngine.<init>(LangEngine.java:49) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangBase.<init>(LangBase.java:32) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangTurtleBase.<init>(LangTurtleBase.java:71) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangTurtle.<init>(LangTurtle.java:35) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.RiotParsers.createParserTurtle(RiotParsers.java:102) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.RiotParsers.createParser(RiotParsers.java:59) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParserRegistry$ReaderRIOTLang.read(RDFParserRegistry.java:190) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParser.read(RDFParser.java:352) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParser.parseNotUri(RDFParser.java:342) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParser.parse(RDFParser.java:291) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParserBuilder.parse(RDFParserBuilder.java:500) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFDataMgr.parseFromInputStream(RDFDataMgr.java:870) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:268) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:254) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.adapters.RDFReaderRIOT.read(RDFReaderRIOT.java:69) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.rdf.model.impl.ModelCom.read(ModelCom.java:305) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.io.config.reader.rdf.RDFConfigurationReader.readModel(RDFConfigurationReader.java:59) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.io.config.reader.rdf.RDFConfigurationReader.read(RDFConfigurationReader.java:82) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.controller.Server.handleSubmit(Server.java:292) ~[limes.jar:?]
+limes_1  | 	at spark.RouteImpl$1.handle(RouteImpl.java:72) ~[limes.jar:?]
+limes_1  | 	at spark.http.matching.Routes.execute(Routes.java:61) ~[limes.jar:?]
+limes_1  | 	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134) [limes.jar:?]
+limes_1  | 	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1568) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.Server.handle(Server.java:503) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683) [limes.jar:?]
+limes_1  | 	at java.base/java.lang.Thread.run(Thread.java:835) [?:?]
+limes_1  | 04:13:09.369 [qtp358533990-42] [] INFO  org.aksw.limes.core.controller.Server:280 - Uploaded file 'config.ttl' saved as '/limes/.server-storage/limes_cfg_5825431136816535436.ttl'
+limes_1  | 04:13:09.370 [qtp358533990-42] [] INFO  org.aksw.limes.core.io.config.reader.rdf.RDFConfigurationReader:58 - Opening Turtle file
+limes_1  | 04:13:09.371 [qtp358533990-42] [] ERROR org.apache.jena.riot:101 - [line: 2, col: 11] Bad character in IRI (space): <!DOCTYPE[space]...>
+limes_1  | 04:13:09.371 [qtp358533990-42] [] ERROR org.aksw.limes.core.controller.Server:118 - Error in processing request/submit
+limes_1  | org.apache.jena.riot.RiotException: [line: 2, col: 11] Bad character in IRI (space): <!DOCTYPE[space]...>
+limes_1  | 	at org.apache.jena.riot.system.ErrorHandlerFactory$ErrorHandlerStd.fatal(ErrorHandlerFactory.java:147) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangEngine.raiseException(LangEngine.java:148) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangEngine.<init>(LangEngine.java:49) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangBase.<init>(LangBase.java:32) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangTurtleBase.<init>(LangTurtleBase.java:71) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangTurtle.<init>(LangTurtle.java:35) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.RiotParsers.createParserTurtle(RiotParsers.java:102) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.RiotParsers.createParser(RiotParsers.java:59) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParserRegistry$ReaderRIOTLang.read(RDFParserRegistry.java:190) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParser.read(RDFParser.java:352) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParser.parseNotUri(RDFParser.java:342) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParser.parse(RDFParser.java:291) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParserBuilder.parse(RDFParserBuilder.java:500) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFDataMgr.parseFromInputStream(RDFDataMgr.java:870) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:268) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:254) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.adapters.RDFReaderRIOT.read(RDFReaderRIOT.java:69) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.rdf.model.impl.ModelCom.read(ModelCom.java:305) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.io.config.reader.rdf.RDFConfigurationReader.readModel(RDFConfigurationReader.java:59) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.io.config.reader.rdf.RDFConfigurationReader.read(RDFConfigurationReader.java:82) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.controller.Server.handleSubmit(Server.java:292) ~[limes.jar:?]
+limes_1  | 	at spark.RouteImpl$1.handle(RouteImpl.java:72) ~[limes.jar:?]
+limes_1  | 	at spark.http.matching.Routes.execute(Routes.java:61) ~[limes.jar:?]
+limes_1  | 	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134) [limes.jar:?]
+limes_1  | 	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1568) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.Server.handle(Server.java:503) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683) [limes.jar:?]
+limes_1  | 	at java.base/java.lang.Thread.run(Thread.java:835) [?:?]
+limes_1  | 04:14:30.909 [qtp358533990-43] [] ERROR org.aksw.limes.core.controller.Server:118 - Error in processing request/submit
+limes_1  | javax.servlet.ServletException: Content-Type != multipart/form-data
+limes_1  | 	at org.eclipse.jetty.server.Request.getParts(Request.java:2322) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.Request.getPart(Request.java:2311) ~[limes.jar:?]
+limes_1  | 	at javax.servlet.http.HttpServletRequestWrapper.getPart(HttpServletRequestWrapper.java:386) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.controller.Server.handleSubmit(Server.java:270) ~[limes.jar:?]
+limes_1  | 	at spark.RouteImpl$1.handle(RouteImpl.java:72) ~[limes.jar:?]
+limes_1  | 	at spark.http.matching.Routes.execute(Routes.java:61) ~[limes.jar:?]
+limes_1  | 	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134) [limes.jar:?]
+limes_1  | 	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1568) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.Server.handle(Server.java:503) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683) [limes.jar:?]
+limes_1  | 	at java.base/java.lang.Thread.run(Thread.java:835) [?:?]
+limes_1  | 04:14:44.987 [qtp358533990-27] [] INFO  org.aksw.limes.core.controller.Server:280 - Uploaded file 'config.ttl' saved as '/limes/.server-storage/limes_cfg_2761004614542630533.ttl'
+limes_1  | 04:14:44.988 [qtp358533990-27] [] INFO  org.aksw.limes.core.io.config.reader.rdf.RDFConfigurationReader:58 - Opening Turtle file
+limes_1  | 04:14:44.988 [qtp358533990-27] [] ERROR org.apache.jena.riot:101 - [line: 1, col: 7 ] Bad character in IRI (space): <?xml[space]...>
+limes_1  | 04:14:44.989 [qtp358533990-27] [] ERROR org.aksw.limes.core.controller.Server:118 - Error in processing request/submit
+limes_1  | org.apache.jena.riot.RiotException: [line: 1, col: 7 ] Bad character in IRI (space): <?xml[space]...>
+limes_1  | 	at org.apache.jena.riot.system.ErrorHandlerFactory$ErrorHandlerStd.fatal(ErrorHandlerFactory.java:147) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangEngine.raiseException(LangEngine.java:148) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangEngine.<init>(LangEngine.java:49) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangBase.<init>(LangBase.java:32) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangTurtleBase.<init>(LangTurtleBase.java:71) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.LangTurtle.<init>(LangTurtle.java:35) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.RiotParsers.createParserTurtle(RiotParsers.java:102) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.lang.RiotParsers.createParser(RiotParsers.java:59) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParserRegistry$ReaderRIOTLang.read(RDFParserRegistry.java:190) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParser.read(RDFParser.java:352) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParser.parseNotUri(RDFParser.java:342) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParser.parse(RDFParser.java:291) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFParserBuilder.parse(RDFParserBuilder.java:500) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFDataMgr.parseFromInputStream(RDFDataMgr.java:870) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:268) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:254) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.riot.adapters.RDFReaderRIOT.read(RDFReaderRIOT.java:69) ~[limes.jar:?]
+limes_1  | 	at org.apache.jena.rdf.model.impl.ModelCom.read(ModelCom.java:305) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.io.config.reader.rdf.RDFConfigurationReader.readModel(RDFConfigurationReader.java:59) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.io.config.reader.rdf.RDFConfigurationReader.read(RDFConfigurationReader.java:82) ~[limes.jar:?]
+limes_1  | 	at org.aksw.limes.core.controller.Server.handleSubmit(Server.java:292) ~[limes.jar:?]
+limes_1  | 	at spark.RouteImpl$1.handle(RouteImpl.java:72) ~[limes.jar:?]
+limes_1  | 	at spark.http.matching.Routes.execute(Routes.java:61) ~[limes.jar:?]
+limes_1  | 	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134) ~[limes.jar:?]
+limes_1  | 	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1568) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.Server.handle(Server.java:503) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:132) ~[limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765) [limes.jar:?]
+limes_1  | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683) [limes.jar:?]
+limes_1  | 	at java.base/java.lang.Thread.run(Thread.java:835) [?:?]
+limes_1  | 04:15:20.199 [qtp358533990-41] [] INFO  org.aksw.limes.core.controller.Server:280 - Uploaded file 'ecb-dbpedia.xml' saved as '/limes/.server-storage/limes_cfg_987269579651734209.xml'
+limes_1  | 04:15:20.218 [ForkJoinPool.commonPool-worker-19] [987269579651734209] INFO  org.aksw.limes.core.io.cache.HybridCache:115 - Checking for file /limes/cache/1496782006.ser
+limes_1  | 04:15:20.219 [ForkJoinPool.commonPool-worker-19] [987269579651734209] INFO  org.aksw.limes.core.io.cache.HybridCache:132 - No cached data found for ecb-ref-area
+limes_1  | 04:15:20.220 [ForkJoinPool.commonPool-worker-19] [987269579651734209] INFO  org.aksw.limes.core.io.query.QueryModuleFactory:18 - Generating <sparql> reader
+limes_1  | 04:15:20.221 [ForkJoinPool.commonPool-worker-19] [987269579651734209] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:181 - Query Graph: http://datavio.org/ECB
+limes_1  | 04:15:20.221 [ForkJoinPool.commonPool-worker-19] [987269579651734209] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:251 - Query issued is 
+limes_1  | PREFIX dbo: <http://dbpedia.org/ontology/>
+limes_1  | PREFIX qb: <http://purl.org/linked-data/cube#>
+limes_1  | PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+limes_1  | PREFIX owl: <http://www.w3.org/2002/07/owl#>
+limes_1  | PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+limes_1  | PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+limes_1  | PREFIX dbpedia: <http://dbpedia.org/ontology/>
+limes_1  | PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+limes_1  | PREFIX dc: <http://purl.org/dc/terms/>
+limes_1  | SELECT DISTINCT ?x ?v1
+limes_1  | FROM <http://datavio.org/ECB>
+limes_1  | WHERE {
+limes_1  | ?x a skos:Concept .
+limes_1  | ?x skos:hasTopConcept ?codeList .
+limes_1  | FILTER(regex(str(?codeList), 'REF_AREA')) .
+limes_1  | ?x skos:prefLabel ?v1 .
+limes_1  | }
+limes_1  | 04:15:20.221 [ForkJoinPool.commonPool-worker-19] [987269579651734209] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:57 - Querying the endpoint.
+limes_1  | 04:15:20.221 [ForkJoinPool.commonPool-worker-19] [987269579651734209] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 0 to -1
+limes_1  | 04:17:04.398 [qtp358533990-25] [] INFO  org.aksw.limes.core.controller.Server:280 - Uploaded file 'virtuoso-ecb-dbpedia.xml' saved as '/limes/.server-storage/limes_cfg_15208031849618586880.xml'
+limes_1  | 04:17:04.404 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.cache.HybridCache:115 - Checking for file /limes/cache/-615646304.ser
+limes_1  | 04:17:04.405 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.cache.HybridCache:132 - No cached data found for ecb-ref-area
+limes_1  | 04:17:04.405 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.QueryModuleFactory:18 - Generating <sparql> reader
+limes_1  | 04:17:04.406 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:251 - Query issued is 
+limes_1  | PREFIX dbo: <http://dbpedia.org/ontology/>
+limes_1  | PREFIX qb: <http://purl.org/linked-data/cube#>
+limes_1  | PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+limes_1  | PREFIX owl: <http://www.w3.org/2002/07/owl#>
+limes_1  | PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+limes_1  | PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+limes_1  | PREFIX dbpedia: <http://dbpedia.org/ontology/>
+limes_1  | PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+limes_1  | PREFIX dc: <http://purl.org/dc/terms/>
+limes_1  | SELECT DISTINCT ?x ?v1
+limes_1  | WHERE {
+limes_1  | ?x skos:hasTopConcept ?codeList .
+limes_1  | FILTER(regex(str(?codeList), 'REF_AREA')) .
+limes_1  | ?x skos:prefLabel ?v1 .
+limes_1  | }
+limes_1  | 04:17:04.406 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:57 - Querying the endpoint.
+limes_1  | 04:17:04.406 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 0 to 1000
+limes_1  | 04:17:19.813 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:158 - Retrieved 0 triples and 0 entities.
+limes_1  | 04:17:19.814 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:159 - Retrieving statements took 15.408 seconds.
+limes_1  | 04:17:19.814 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.cache.HybridCache:316 - Serializing 0 objects to /limes/cache/-615646304.ser
+limes_1  | 04:17:19.818 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.cache.HybridCache:115 - Checking for file /limes/cache/-502201716.ser
+limes_1  | 04:17:19.818 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.cache.HybridCache:132 - No cached data found for dbpedia-country
+limes_1  | 04:17:19.818 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.QueryModuleFactory:18 - Generating <sparql> reader
+limes_1  | 04:17:19.819 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:251 - Query issued is 
+limes_1  | PREFIX dbo: <http://dbpedia.org/ontology/>
+limes_1  | PREFIX qb: <http://purl.org/linked-data/cube#>
+limes_1  | PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+limes_1  | PREFIX owl: <http://www.w3.org/2002/07/owl#>
+limes_1  | PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+limes_1  | PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+limes_1  | PREFIX dbpedia: <http://dbpedia.org/ontology/>
+limes_1  | PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+limes_1  | PREFIX dc: <http://purl.org/dc/terms/>
+limes_1  | SELECT DISTINCT ?y ?v1
+limes_1  | WHERE {
+limes_1  | ?y a dbo:Country .
+limes_1  | ?y rdfs:label ?v1 .
+limes_1  | }
+limes_1  | 04:17:19.819 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:57 - Querying the endpoint.
+limes_1  | 04:17:19.819 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 0 to 1000
+limes_1  | 04:17:21.073 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 1000 to 2000
+limes_1  | 04:17:21.755 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 2000 to 3000
+limes_1  | 04:17:22.259 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 3000 to 4000
+limes_1  | 04:17:22.674 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 4000 to 5000
+limes_1  | 04:17:23.103 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 5000 to 6000
+limes_1  | 04:17:23.429 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 6000 to 7000
+limes_1  | 04:17:23.752 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 7000 to 8000
+limes_1  | 04:17:24.082 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 8000 to 9000
+limes_1  | 04:17:24.406 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 9000 to 10000
+limes_1  | 04:17:24.741 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 10000 to 11000
+limes_1  | 04:17:25.178 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 11000 to 12000
+limes_1  | 04:17:25.734 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 12000 to 13000
+limes_1  | 04:17:26.484 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 13000 to 14000
+limes_1  | 04:17:26.991 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 14000 to 15000
+limes_1  | 04:17:27.501 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 15000 to 16000
+limes_1  | 04:17:27.923 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 16000 to 17000
+limes_1  | 04:17:28.345 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 17000 to 18000
+limes_1  | 04:17:28.684 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 18000 to 19000
+limes_1  | 04:17:29.026 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 19000 to 20000
+limes_1  | 04:17:29.377 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 20000 to 21000
+limes_1  | 04:17:29.711 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 21000 to 22000
+limes_1  | java.util.concurrent.CompletionException: HttpException: -1 Unexpected error making the query: org.apache.http.conn.HttpHostConnectException: Connect to oxigraph:7878 [oxigraph/92.242.140.21] failed: Connection timed out (Connection timed out)
+limes_1  | 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+limes_1  | 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+limes_1  | 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+limes_1  | 	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+limes_1  | 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+limes_1  | 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+limes_1  | 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+limes_1  | 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+limes_1  | 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+limes_1  | Caused by: HttpException: -1 Unexpected error making the query: org.apache.http.conn.HttpHostConnectException: Connect to oxigraph:7878 [oxigraph/92.242.140.21] failed: Connection timed out (Connection timed out)
+limes_1  | 	at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:373)
+limes_1  | 	at org.apache.jena.sparql.engine.http.HttpQuery.execGet(HttpQuery.java:336)
+limes_1  | 	at org.apache.jena.sparql.engine.http.HttpQuery.exec(HttpQuery.java:288)
+limes_1  | 	at org.apache.jena.sparql.engine.http.QueryEngineHTTP.execResultSetInner(QueryEngineHTTP.java:352)
+limes_1  | 	at org.apache.jena.sparql.engine.http.QueryEngineHTTP.execSelect(QueryEngineHTTP.java:344)
+limes_1  | 	at org.aksw.limes.core.io.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:107)
+limes_1  | 	at org.aksw.limes.core.io.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:39)
+limes_1  | 	at org.aksw.limes.core.io.cache.HybridCache.getData(HybridCache.java:134)
+limes_1  | 	at org.aksw.limes.core.io.cache.HybridCache.getData(HybridCache.java:96)
+limes_1  | 	at org.aksw.limes.core.controller.Controller.getMapping(Controller.java:186)
+limes_1  | 	at org.aksw.limes.core.controller.Server.lambda$handleSubmit$4(Server.java:309)
+limes_1  | 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+limes_1  | 	... 6 more
+limes_1  | Caused by: org.apache.http.conn.HttpHostConnectException: Connect to oxigraph:7878 [oxigraph/92.242.140.21] failed: Connection timed out (Connection timed out)
+limes_1  | 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+limes_1  | 	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+limes_1  | 	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+limes_1  | 	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+limes_1  | 	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+limes_1  | 	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+limes_1  | 	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+limes_1  | 	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+limes_1  | 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+limes_1  | 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+limes_1  | 	at org.apache.jena.riot.web.HttpOp.exec(HttpOp.java:1095)
+limes_1  | 	at org.apache.jena.riot.web.HttpOp.execHttpGet(HttpOp.java:322)
+limes_1  | 	at org.apache.jena.riot.web.HttpOp.execHttpGet(HttpOp.java:381)
+limes_1  | 	at org.apache.jena.sparql.engine.http.HttpQuery.execGet(HttpQuery.java:325)
+limes_1  | 	... 16 more
+limes_1  | Caused by: java.net.ConnectException: Connection timed out (Connection timed out)
+limes_1  | 	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+limes_1  | 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+limes_1  | 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+limes_1  | 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+limes_1  | 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+limes_1  | 	at java.base/java.net.Socket.connect(Socket.java:591)
+limes_1  | 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+limes_1  | 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+limes_1  | 	... 29 more
+limes_1  | 04:17:30.044 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 22000 to 23000
+limes_1  | 04:17:30.381 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 23000 to 24000
+limes_1  | 04:17:30.707 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 24000 to 25000
+limes_1  | 04:17:31.138 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 25000 to 26000
+limes_1  | 04:17:31.567 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 26000 to 27000
+limes_1  | 04:17:31.983 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 27000 to 28000
+limes_1  | 04:17:32.321 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 28000 to 29000
+limes_1  | 04:17:32.679 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 29000 to 30000
+limes_1  | 04:17:33.164 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 30000 to 31000
+limes_1  | 04:17:33.595 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 31000 to 32000
+limes_1  | 04:17:33.936 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 32000 to 33000
+limes_1  | 04:17:34.282 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 33000 to 34000
+limes_1  | 04:17:34.627 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 34000 to 35000
+limes_1  | 04:17:34.973 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 35000 to 36000
+limes_1  | 04:17:35.437 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 36000 to 37000
+limes_1  | 04:17:35.868 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 37000 to 38000
+limes_1  | 04:17:36.213 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 38000 to 39000
+limes_1  | 04:17:36.553 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 39000 to 40000
+limes_1  | 04:17:36.901 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 40000 to 41000
+limes_1  | 04:17:37.254 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 41000 to 42000
+limes_1  | 04:17:37.608 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 42000 to 43000
+limes_1  | 04:17:37.959 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 43000 to 44000
+limes_1  | 04:17:38.473 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 44000 to 45000
+limes_1  | 04:17:38.999 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 45000 to 46000
+limes_1  | 04:17:39.439 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 46000 to 47000
+limes_1  | 04:17:39.876 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 47000 to 48000
+limes_1  | 04:17:40.300 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 48000 to 49000
+limes_1  | 04:17:40.661 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 49000 to 50000
+limes_1  | 04:17:41.027 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 50000 to 51000
+limes_1  | 04:17:41.394 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 51000 to 52000
+limes_1  | 04:17:41.844 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 52000 to 53000
+limes_1  | 04:17:42.279 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 53000 to 54000
+limes_1  | 04:17:42.813 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 54000 to 55000
+limes_1  | 04:17:43.435 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 55000 to 56000
+limes_1  | 04:17:43.951 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 56000 to 57000
+limes_1  | 04:17:44.395 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 57000 to 58000
+limes_1  | 04:17:44.834 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 58000 to 59000
+limes_1  | 04:17:45.266 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 59000 to 60000
+limes_1  | 04:17:45.800 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 60000 to 61000
+limes_1  | 04:17:46.438 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 61000 to 62000
+limes_1  | 04:17:47.071 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 62000 to 63000
+limes_1  | 04:17:47.516 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 63000 to 64000
+limes_1  | 04:17:47.956 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 64000 to 65000
+limes_1  | 04:17:48.405 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 65000 to 66000
+limes_1  | 04:17:48.861 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 66000 to 67000
+limes_1  | 04:17:49.309 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 67000 to 68000
+limes_1  | 04:17:49.755 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 68000 to 69000
+limes_1  | 04:17:50.198 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 69000 to 70000
+limes_1  | 04:17:50.636 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 70000 to 71000
+limes_1  | 04:17:51.171 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 71000 to 72000
+limes_1  | 04:17:51.788 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 72000 to 73000
+limes_1  | 04:17:52.421 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 73000 to 74000
+limes_1  | 04:17:53.123 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 74000 to 75000
+limes_1  | 04:17:53.836 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 75000 to 76000
+limes_1  | 04:17:54.463 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 76000 to 77000
+limes_1  | 04:17:55.104 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 77000 to 78000
+limes_1  | 04:17:55.741 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 78000 to 79000
+limes_1  | 04:17:55.970 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:158 - Retrieved 77990 triples and 9965 entities.
+limes_1  | 04:17:55.970 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:159 - Retrieving statements took 36.152 seconds.
+limes_1  | 04:17:55.970 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.cache.HybridCache:316 - Serializing 9965 objects to /limes/cache/-502201716.ser
+limes_1  | 04:17:57.214 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.controller.Controller:222 - Mapping task finished in 775 ms
+limes_1  | 04:17:57.215 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.controller.Controller:226 - Mapping size: 0 (accepted) + 0 (need verification) = 0 (total)
+limes_1  | 04:17:57.216 [ForkJoinPool.commonPool-worker-5] [15208031849618586880] INFO  org.aksw.limes.core.io.serializer.SerializerFactory:15 - Getting serializer with name NT
+limes_1  | 04:19:15.559 [qtp358533990-40] [] WARN  eu.medsea.mimeutil.MimeDetectorRegistry:962 - MimeDetector [eu.medsea.mimeutil.detector.MagicMimeMimeDetector] will not be registered as a MimeDetector with this name is already registered.
+db_1     | 04:20:43 missed delete of name id cache INSEE/EMPLOI-SALARIE-TRIM-NATIONAL/code/INDICATEUR/ECB_PXTER_ANC 0 (0x29550 )
+db_1     | 04:20:44 missed delete of name id cache ISTAT/161_81/code/ITTER107/079140 0 (0xf9c58a )
+db_1     | 04:20:45 missed delete of name id cache ISTAT/27_731/code/ITTER107/071038 0 (0x6275cf )
+db_1     | 04:20:47 missed delete of name id cache Eurostat/lfso_14lempr/code/geo/LU 0 (0x3eaf95 )
+db_1     | 04:20:47 missed delete of name id cache ISTAT/160_753/code/ENTI_PREV/EC_071020 0 (0xdae8cc )
+limes_1  | 04:26:02.068 [qtp358533990-52] [] INFO  org.aksw.limes.core.controller.Server:280 - Uploaded file 'virtuoso-ecb-dbpedia.xml' saved as '/limes/.server-storage/limes_cfg_8704142639058093607.xml'
+limes_1  | 04:26:02.077 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.cache.HybridCache:115 - Checking for file /limes/cache/244320884.ser
+limes_1  | 04:26:02.079 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.cache.HybridCache:132 - No cached data found for ecb-ref-area
+limes_1  | 04:26:02.079 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.QueryModuleFactory:18 - Generating <sparql> reader
+limes_1  | 04:26:02.079 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:251 - Query issued is 
+limes_1  | PREFIX dbo: <http://dbpedia.org/ontology/>
+limes_1  | PREFIX qb: <http://purl.org/linked-data/cube#>
+limes_1  | PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+limes_1  | PREFIX owl: <http://www.w3.org/2002/07/owl#>
+limes_1  | PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+limes_1  | PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+limes_1  | PREFIX dbpedia: <http://dbpedia.org/ontology/>
+limes_1  | PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+limes_1  | PREFIX dc: <http://purl.org/dc/terms/>
+limes_1  | SELECT DISTINCT ?x ?v1
+limes_1  | WHERE {
+limes_1  | ?codeList skos:hasTopConcept ?x .
+limes_1  | FILTER(regex(str(?codeList), 'REF_AREA')) .
+limes_1  | ?x skos:prefLabel ?v1 .
+limes_1  | }
+limes_1  | 04:26:02.079 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:57 - Querying the endpoint.
+limes_1  | 04:26:02.079 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 0 to 1000
+limes_1  | 04:26:02.148 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 1000 to 2000
+limes_1  | 04:26:02.236 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 2000 to 3000
+limes_1  | 04:26:02.316 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 3000 to 4000
+limes_1  | 04:26:02.387 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 4000 to 5000
+limes_1  | 04:26:02.676 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 5000 to 6000
+limes_1  | 04:26:02.885 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 6000 to 7000
+limes_1  | 04:26:03.112 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 7000 to 8000
+limes_1  | 04:26:03.345 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 8000 to 9000
+limes_1  | 04:26:03.782 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 9000 to 10000
+limes_1  | 04:26:04.129 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 10000 to 11000
+limes_1  | 04:26:04.456 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 11000 to 12000
+limes_1  | 04:26:04.779 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 12000 to 13000
+limes_1  | 04:26:05.114 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 13000 to 14000
+limes_1  | 04:26:05.444 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 14000 to 15000
+limes_1  | 04:26:05.776 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 15000 to 16000
+limes_1  | 04:26:06.102 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 16000 to 17000
+limes_1  | 04:26:06.430 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 17000 to 18000
+limes_1  | 04:26:07.054 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 18000 to 19000
+limes_1  | 04:26:07.687 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 19000 to 20000
+limes_1  | 04:26:08.326 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 20000 to 21000
+limes_1  | 04:26:08.960 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 21000 to 22000
+limes_1  | 04:26:09.592 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 22000 to 23000
+limes_1  | 04:26:10.213 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 23000 to 24000
+limes_1  | 04:26:10.838 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 24000 to 25000
+limes_1  | 04:26:11.471 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 25000 to 26000
+limes_1  | 04:26:12.093 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 26000 to 27000
+limes_1  | 04:26:12.718 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 27000 to 28000
+limes_1  | 04:26:13.458 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 28000 to 29000
+limes_1  | 04:26:14.256 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 29000 to 30000
+limes_1  | 04:26:15.075 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 30000 to 31000
+limes_1  | 04:26:15.887 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 31000 to 32000
+limes_1  | 04:26:16.691 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 32000 to 33000
+limes_1  | 04:26:17.710 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 33000 to 34000
+limes_1  | 04:26:18.713 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 34000 to 35000
+limes_1  | 04:26:19.708 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 35000 to 36000
+limes_1  | 04:26:20.696 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 36000 to 37000
+limes_1  | 04:26:21.797 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 37000 to 38000
+limes_1  | 04:26:22.903 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 38000 to 39000
+limes_1  | 04:26:24.019 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 39000 to 40000
+limes_1  | 04:26:25.151 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 40000 to 41000
+limes_1  | 04:26:26.304 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 41000 to 42000
+limes_1  | 04:26:27.410 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 42000 to 43000
+limes_1  | 04:26:28.516 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 43000 to 44000
+limes_1  | 04:26:29.620 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 44000 to 45000
+limes_1  | 04:26:30.724 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 45000 to 46000
+limes_1  | 04:26:31.845 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 46000 to 47000
+limes_1  | 04:26:32.961 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 47000 to 48000
+limes_1  | 04:26:34.113 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 48000 to 49000
+limes_1  | 04:26:35.271 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 49000 to 50000
+limes_1  | 04:26:36.439 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 50000 to 51000
+limes_1  | 04:26:37.612 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 51000 to 52000
+limes_1  | 04:26:38.771 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 52000 to 53000
+limes_1  | 04:26:39.963 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 53000 to 54000
+limes_1  | 04:26:41.152 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 54000 to 55000
+limes_1  | 04:26:42.323 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 55000 to 56000
+limes_1  | 04:26:43.503 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 56000 to 57000
+limes_1  | 04:26:44.928 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 57000 to 58000
+limes_1  | 04:26:46.356 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 58000 to 59000
+limes_1  | 04:26:47.768 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 59000 to 60000
+limes_1  | 04:26:49.183 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 60000 to 61000
+limes_1  | 04:26:50.604 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 61000 to 62000
+limes_1  | 04:26:52.508 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 62000 to 63000
+limes_1  | 04:26:54.945 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 63000 to 64000
+limes_1  | 04:26:56.547 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 64000 to 65000
+limes_1  | 04:26:58.009 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 65000 to 66000
+limes_1  | 04:26:59.604 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 66000 to 67000
+limes_1  | 04:27:01.204 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 67000 to 68000
+limes_1  | 04:27:02.809 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 68000 to 69000
+limes_1  | 04:27:04.410 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 69000 to 70000
+limes_1  | 04:27:06.011 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 70000 to 71000
+limes_1  | 04:27:07.633 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 71000 to 72000
+limes_1  | 04:27:09.259 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 72000 to 73000
+limes_1  | 04:27:10.898 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 73000 to 74000
+limes_1  | 04:27:12.696 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 74000 to 75000
+limes_1  | 04:27:14.483 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 75000 to 76000
+limes_1  | 04:27:16.346 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 76000 to 77000
+limes_1  | 04:27:18.177 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 77000 to 78000
+limes_1  | 04:27:20.293 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 78000 to 79000
+limes_1  | 04:27:22.387 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 79000 to 80000
+limes_1  | 04:27:24.486 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 80000 to 81000
+limes_1  | 04:27:26.567 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 81000 to 82000
+limes_1  | 04:27:28.646 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 82000 to 83000
+limes_1  | 04:27:30.722 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 83000 to 84000
+limes_1  | 04:27:32.790 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 84000 to 85000
+limes_1  | 04:27:34.849 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 85000 to 86000
+limes_1  | 04:27:36.989 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 86000 to 87000
+limes_1  | 04:27:39.116 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 87000 to 88000
+limes_1  | 04:27:41.303 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 88000 to 89000
+limes_1  | 04:27:43.483 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 89000 to 90000
+limes_1  | 04:27:45.665 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 90000 to 91000
+limes_1  | 04:27:47.866 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 91000 to 92000
+limes_1  | 04:27:50.083 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 92000 to 93000
+limes_1  | 04:27:52.301 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 93000 to 94000
+limes_1  | 04:27:54.507 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 94000 to 95000
+limes_1  | 04:27:56.722 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 95000 to 96000
+limes_1  | 04:27:58.924 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 96000 to 97000
+limes_1  | 04:28:01.152 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 97000 to 98000
+limes_1  | 04:28:03.414 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 98000 to 99000
+limes_1  | 04:28:05.674 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 99000 to 100000
+limes_1  | 04:28:07.918 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 100000 to 101000
+limes_1  | 04:28:10.237 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 101000 to 102000
+limes_1  | 04:28:12.614 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 102000 to 103000
+limes_1  | 04:28:14.870 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 103000 to 104000
+limes_1  | 04:28:17.081 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 104000 to 105000
+limes_1  | 04:28:19.341 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 105000 to 106000
+limes_1  | 04:28:21.574 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 106000 to 107000
+limes_1  | 04:28:23.811 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 107000 to 108000
+limes_1  | 04:28:26.075 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 108000 to 109000
+limes_1  | 04:28:28.476 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 109000 to 110000
+limes_1  | 04:28:30.874 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 110000 to 111000
+limes_1  | 04:28:33.243 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 111000 to 112000
+limes_1  | 04:28:35.546 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 112000 to 113000
+limes_1  | 04:28:37.868 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 113000 to 114000
+limes_1  | 04:28:40.234 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 114000 to 115000
+limes_1  | 04:28:42.634 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 115000 to 116000
+limes_1  | 04:28:44.994 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 116000 to 117000
+limes_1  | 04:28:47.368 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 117000 to 118000
+limes_1  | 04:28:49.750 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 118000 to 119000
+limes_1  | 04:28:52.118 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 119000 to 120000
+limes_1  | 04:28:54.490 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 120000 to 121000
+limes_1  | 04:28:56.881 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 121000 to 122000
+limes_1  | 04:28:59.274 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 122000 to 123000
+limes_1  | 04:29:01.660 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 123000 to 124000
+limes_1  | 04:29:04.051 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 124000 to 125000
+limes_1  | 04:29:06.430 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 125000 to 126000
+limes_1  | 04:29:08.817 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 126000 to 127000
+limes_1  | 04:29:11.144 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 127000 to 128000
+limes_1  | 04:29:13.622 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 128000 to 129000
+limes_1  | 04:29:16.151 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 129000 to 130000
+limes_1  | 04:29:18.689 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 130000 to 131000
+limes_1  | 04:29:21.304 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 131000 to 132000
+limes_1  | 04:29:23.893 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 132000 to 133000
+limes_1  | 04:29:26.487 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 133000 to 134000
+limes_1  | 04:29:29.091 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 134000 to 135000
+limes_1  | 04:29:31.872 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 135000 to 136000
+limes_1  | 04:29:34.665 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 136000 to 137000
+limes_1  | 04:29:37.450 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 137000 to 138000
+limes_1  | 04:29:40.274 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 138000 to 139000
+limes_1  | 04:29:43.081 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 139000 to 140000
+limes_1  | 04:29:45.917 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 140000 to 141000
+limes_1  | 04:29:48.848 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 141000 to 142000
+limes_1  | 04:29:51.758 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 142000 to 143000
+limes_1  | 04:29:54.617 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 143000 to 144000
+limes_1  | 04:29:57.583 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 144000 to 145000
+limes_1  | 04:30:00.484 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 145000 to 146000
+limes_1  | 04:30:03.337 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 146000 to 147000
+limes_1  | 04:30:06.191 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 147000 to 148000
+limes_1  | 04:30:09.059 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 148000 to 149000
+limes_1  | 04:30:11.933 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 149000 to 150000
+limes_1  | 04:30:14.754 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 150000 to 151000
+limes_1  | 04:30:17.563 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 151000 to 152000
+limes_1  | 04:30:20.410 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 152000 to 153000
+limes_1  | 04:30:23.269 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 153000 to 154000
+limes_1  | 04:30:26.121 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 154000 to 155000
+limes_1  | 04:30:29.037 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 155000 to 156000
+limes_1  | 04:30:31.922 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 156000 to 157000
+limes_1  | 04:30:34.825 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 157000 to 158000
+limes_1  | 04:30:37.661 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 158000 to 159000
+limes_1  | 04:30:40.531 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 159000 to 160000
+limes_1  | 04:30:43.642 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 160000 to 161000
+limes_1  | 04:30:46.783 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 161000 to 162000
+limes_1  | 04:30:49.972 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 162000 to 163000
+limes_1  | 04:30:53.102 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 163000 to 164000
+limes_1  | 04:30:56.202 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 164000 to 165000
+limes_1  | 04:30:59.298 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 165000 to 166000
+limes_1  | 04:31:02.402 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 166000 to 167000
+limes_1  | 04:31:05.532 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 167000 to 168000
+limes_1  | 04:31:08.644 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 168000 to 169000
+limes_1  | 04:31:12.032 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 169000 to 170000
+limes_1  | 04:31:15.425 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 170000 to 171000
+limes_1  | 04:31:18.810 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 171000 to 172000
+limes_1  | 04:31:22.220 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 172000 to 173000
+limes_1  | 04:31:25.599 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 173000 to 174000
+limes_1  | 04:31:28.955 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 174000 to 175000
+limes_1  | 04:31:32.312 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 175000 to 176000
+limes_1  | 04:31:35.661 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 176000 to 177000
+limes_1  | 04:31:39.028 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 177000 to 178000
+limes_1  | 04:31:42.422 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 178000 to 179000
+limes_1  | 04:31:45.905 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 179000 to 180000
+limes_1  | 04:31:49.381 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 180000 to 181000
+limes_1  | 04:31:52.892 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 181000 to 182000
+limes_1  | 04:31:56.438 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 182000 to 183000
+limes_1  | 04:32:00.023 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 183000 to 184000
+limes_1  | 04:32:03.621 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 184000 to 185000
+limes_1  | 04:32:07.217 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 185000 to 186000
+limes_1  | 04:32:10.830 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 186000 to 187000
+limes_1  | 04:32:14.435 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 187000 to 188000
+limes_1  | 04:32:18.124 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 188000 to 189000
+limes_1  | 04:32:21.858 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 189000 to 190000
+limes_1  | 04:32:25.573 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 190000 to 191000
+limes_1  | 04:32:29.290 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 191000 to 192000
+limes_1  | 04:32:33.045 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 192000 to 193000
+limes_1  | 04:32:36.896 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 193000 to 194000
+limes_1  | 04:32:40.817 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 194000 to 195000
+limes_1  | 04:32:44.784 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 195000 to 196000
+limes_1  | 04:32:48.610 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 196000 to 197000
+limes_1  | 04:32:52.456 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 197000 to 198000
+limes_1  | 04:32:56.289 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 198000 to 199000
+limes_1  | 04:33:00.124 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 199000 to 200000
+limes_1  | 04:33:03.967 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 200000 to 201000
+limes_1  | 04:33:07.793 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 201000 to 202000
+limes_1  | 04:33:11.624 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 202000 to 203000
+limes_1  | 04:33:15.487 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 203000 to 204000
+limes_1  | 04:33:19.344 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 204000 to 205000
+limes_1  | 04:33:23.219 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 205000 to 206000
+limes_1  | 04:33:27.079 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 206000 to 207000
+limes_1  | 04:33:30.947 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 207000 to 208000
+limes_1  | 04:33:34.867 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 208000 to 209000
+limes_1  | 04:33:38.727 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 209000 to 210000
+limes_1  | 04:33:42.595 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 210000 to 211000
+limes_1  | 04:33:46.402 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 211000 to 212000
+limes_1  | 04:33:50.199 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 212000 to 213000
+limes_1  | 04:33:54.068 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 213000 to 214000
+limes_1  | 04:33:57.915 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 214000 to 215000
+limes_1  | 04:34:01.747 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 215000 to 216000
+limes_1  | 04:34:05.574 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 216000 to 217000
+limes_1  | 04:34:09.388 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 217000 to 218000
+limes_1  | 04:34:13.241 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 218000 to 219000
+limes_1  | 04:34:17.063 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 219000 to 220000
+limes_1  | 04:34:20.877 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 220000 to 221000
+limes_1  | 04:34:24.718 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 221000 to 222000
+limes_1  | 04:34:28.591 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 222000 to 223000
+limes_1  | 04:34:32.582 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 223000 to 224000
+limes_1  | 04:34:36.626 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 224000 to 225000
+limes_1  | 04:34:40.700 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 225000 to 226000
+limes_1  | 04:34:44.697 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 226000 to 227000
+limes_1  | 04:34:48.692 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 227000 to 228000
+limes_1  | 04:34:52.718 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 228000 to 229000
+limes_1  | 04:34:56.752 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 229000 to 230000
+limes_1  | 04:35:00.807 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 230000 to 231000
+limes_1  | 04:35:04.859 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 231000 to 232000
+limes_1  | 04:35:08.938 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 232000 to 233000
+limes_1  | 04:35:13.007 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 233000 to 234000
+limes_1  | 04:35:17.086 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 234000 to 235000
+limes_1  | 04:35:21.179 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 235000 to 236000
+limes_1  | 04:35:25.260 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 236000 to 237000
+limes_1  | 04:35:29.251 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 237000 to 238000
+limes_1  | 04:35:33.228 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 238000 to 239000
+limes_1  | 04:35:37.230 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 239000 to 240000
+limes_1  | 04:35:41.298 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 240000 to 241000
+limes_1  | 04:35:45.423 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 241000 to 242000
+limes_1  | 04:35:49.543 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 242000 to 243000
+limes_1  | 04:35:53.605 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 243000 to 244000
+limes_1  | 04:35:57.655 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 244000 to 245000
+limes_1  | 04:36:01.787 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 245000 to 246000
+limes_1  | 04:36:05.927 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 246000 to 247000
+limes_1  | 04:36:09.947 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 247000 to 248000
+limes_1  | 04:36:13.968 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 248000 to 249000
+limes_1  | 04:36:18.002 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 249000 to 250000
+limes_1  | 04:36:22.040 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 250000 to 251000
+limes_1  | 04:36:26.090 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 251000 to 252000
+limes_1  | 04:36:30.179 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 252000 to 253000
+limes_1  | 04:36:34.244 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 253000 to 254000
+limes_1  | 04:36:38.297 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 254000 to 255000
+limes_1  | 04:36:42.340 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 255000 to 256000
+limes_1  | 04:36:46.393 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 256000 to 257000
+limes_1  | 04:36:50.437 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 257000 to 258000
+limes_1  | 04:36:54.491 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 258000 to 259000
+limes_1  | 04:36:58.543 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 259000 to 260000
+limes_1  | 04:37:02.583 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 260000 to 261000
+limes_1  | 04:37:06.778 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 261000 to 262000
+limes_1  | 04:37:10.988 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 262000 to 263000
+limes_1  | 04:37:15.180 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 263000 to 264000
+limes_1  | 04:37:19.394 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 264000 to 265000
+limes_1  | 04:37:23.574 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 265000 to 266000
+limes_1  | 04:37:27.768 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 266000 to 267000
+limes_1  | 04:37:31.958 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 267000 to 268000
+limes_1  | 04:37:36.148 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 268000 to 269000
+limes_1  | 04:37:40.337 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 269000 to 270000
+limes_1  | 04:37:44.528 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 270000 to 271000
+limes_1  | 04:37:48.819 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 271000 to 272000
+limes_1  | 04:37:53.100 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 272000 to 273000
+limes_1  | 04:37:57.415 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 273000 to 274000
+limes_1  | 04:38:01.730 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 274000 to 275000
+limes_1  | 04:38:06.043 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 275000 to 276000
+limes_1  | 04:38:10.427 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 276000 to 277000
+limes_1  | 04:38:14.802 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 277000 to 278000
+limes_1  | 04:38:19.192 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 278000 to 279000
+limes_1  | 04:38:23.597 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 279000 to 280000
+limes_1  | 04:38:28.026 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 280000 to 281000
+limes_1  | 04:38:32.430 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 281000 to 282000
+limes_1  | 04:38:36.823 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 282000 to 283000
+limes_1  | 04:38:41.416 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 283000 to 284000
+limes_1  | 04:38:46.009 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 284000 to 285000
+limes_1  | 04:38:50.614 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 285000 to 286000
+limes_1  | 04:38:55.199 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 286000 to 287000
+limes_1  | 04:38:59.812 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 287000 to 288000
+limes_1  | 04:39:04.402 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 288000 to 289000
+limes_1  | 04:39:09.027 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 289000 to 290000
+limes_1  | 04:39:13.813 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 290000 to 291000
+limes_1  | 04:39:18.568 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 291000 to 292000
+limes_1  | 04:39:23.309 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 292000 to 293000
+limes_1  | 04:39:28.070 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 293000 to 294000
+limes_1  | 04:39:32.827 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 294000 to 295000
+limes_1  | 04:39:37.581 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 295000 to 296000
+limes_1  | 04:39:42.358 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 296000 to 297000
+limes_1  | 04:39:47.099 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 297000 to 298000
+limes_1  | 04:39:51.860 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 298000 to 299000
+limes_1  | 04:39:56.607 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 299000 to 300000
+limes_1  | 04:40:01.357 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 300000 to 301000
+limes_1  | 04:40:06.116 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 301000 to 302000
+limes_1  | 04:40:10.886 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 302000 to 303000
+limes_1  | 04:40:15.651 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 303000 to 304000
+limes_1  | 04:40:20.401 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 304000 to 305000
+limes_1  | 04:40:25.179 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 305000 to 306000
+limes_1  | 04:40:29.939 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 306000 to 307000
+limes_1  | 04:40:34.708 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 307000 to 308000
+limes_1  | 04:40:39.477 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 308000 to 309000
+limes_1  | 04:40:44.299 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 309000 to 310000
+limes_1  | 04:40:49.111 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 310000 to 311000
+limes_1  | 04:40:53.934 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 311000 to 312000
+limes_1  | 04:40:58.842 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 312000 to 313000
+limes_1  | 04:41:03.753 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 313000 to 314000
+limes_1  | 04:41:08.582 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 314000 to 315000
+limes_1  | 04:41:13.411 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 315000 to 316000
+limes_1  | 04:41:18.224 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 316000 to 317000
+limes_1  | 04:41:23.048 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 317000 to 318000
+limes_1  | 04:41:27.857 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 318000 to 319000
+limes_1  | 04:41:32.849 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 319000 to 320000
+limes_1  | 04:41:37.829 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 320000 to 321000
+limes_1  | 04:41:42.826 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 321000 to 322000
+limes_1  | 04:41:47.816 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 322000 to 323000
+limes_1  | 04:41:52.851 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 323000 to 324000
+limes_1  | 04:41:57.854 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 324000 to 325000
+limes_1  | 04:42:02.869 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 325000 to 326000
+limes_1  | 04:42:07.956 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 326000 to 327000
+limes_1  | 04:42:12.987 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 327000 to 328000
+limes_1  | 04:42:18.158 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 328000 to 329000
+limes_1  | 04:42:23.344 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 329000 to 330000
+limes_1  | 04:42:28.521 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 330000 to 331000
+limes_1  | 04:42:33.692 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 331000 to 332000
+limes_1  | 04:42:38.939 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 332000 to 333000
+limes_1  | 04:42:44.198 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 333000 to 334000
+limes_1  | 04:42:49.388 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 334000 to 335000
+limes_1  | 04:42:54.570 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 335000 to 336000
+limes_1  | 04:42:59.739 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 336000 to 337000
+limes_1  | 04:43:04.923 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 337000 to 338000
+limes_1  | 04:43:10.218 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 338000 to 339000
+limes_1  | 04:43:15.598 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 339000 to 340000
+limes_1  | 04:43:20.965 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 340000 to 341000
+limes_1  | 04:43:26.341 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 341000 to 342000
+limes_1  | 04:43:31.688 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 342000 to 343000
+limes_1  | 04:43:37.043 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 343000 to 344000
+limes_1  | 04:43:42.417 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 344000 to 345000
+limes_1  | 04:43:47.746 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 345000 to 346000
+limes_1  | 04:43:53.114 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 346000 to 347000
+limes_1  | 04:43:58.479 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 347000 to 348000
+limes_1  | 04:44:03.824 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 348000 to 349000
+limes_1  | 04:44:09.159 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 349000 to 350000
+limes_1  | 04:44:14.503 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 350000 to 351000
+limes_1  | 04:44:19.846 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 351000 to 352000
+limes_1  | 04:44:25.211 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 352000 to 353000
+limes_1  | 04:44:30.560 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 353000 to 354000
+limes_1  | 04:44:35.934 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 354000 to 355000
+limes_1  | 04:44:41.340 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 355000 to 356000
+limes_1  | 04:44:46.753 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 356000 to 357000
+limes_1  | 04:44:52.177 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 357000 to 358000
+limes_1  | 04:44:57.593 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 358000 to 359000
+limes_1  | 04:45:02.997 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 359000 to 360000
+limes_1  | 04:45:08.410 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 360000 to 361000
+limes_1  | 04:45:13.786 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 361000 to 362000
+limes_1  | 04:45:19.171 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 362000 to 363000
+limes_1  | 04:45:24.568 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 363000 to 364000
+limes_1  | 04:45:29.996 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 364000 to 365000
+limes_1  | 04:45:35.457 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 365000 to 366000
+limes_1  | 04:45:40.978 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 366000 to 367000
+limes_1  | 04:45:46.520 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 367000 to 368000
+limes_1  | 04:45:52.258 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 368000 to 369000
+limes_1  | 04:45:57.860 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 369000 to 370000
+limes_1  | 04:46:03.439 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 370000 to 371000
+limes_1  | 04:46:09.033 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 371000 to 372000
+limes_1  | 04:46:14.639 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 372000 to 373000
+limes_1  | 04:46:20.263 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 373000 to 374000
+limes_1  | 04:46:26.123 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 374000 to 375000
+limes_1  | 04:46:32.049 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 375000 to 376000
+limes_1  | 04:46:37.913 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 376000 to 377000
+limes_1  | 04:46:43.756 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 377000 to 378000
+limes_1  | 04:46:49.617 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 378000 to 379000
+limes_1  | 04:46:55.460 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 379000 to 380000
+limes_1  | 04:47:01.365 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 380000 to 381000
+limes_1  | 04:47:07.198 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 381000 to 382000
+limes_1  | 04:47:13.036 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 382000 to 383000
+limes_1  | 04:47:18.969 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 383000 to 384000
+limes_1  | 04:47:25.078 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 384000 to 385000
+limes_1  | 04:47:31.235 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 385000 to 386000
+limes_1  | 04:47:37.234 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 386000 to 387000
+limes_1  | 04:47:43.167 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 387000 to 388000
+limes_1  | 04:47:49.110 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 388000 to 389000
+limes_1  | 04:47:55.060 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 389000 to 390000
+limes_1  | 04:48:01.028 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 390000 to 391000
+limes_1  | 04:48:06.989 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 391000 to 392000
+limes_1  | 04:48:12.931 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 392000 to 393000
+limes_1  | 04:48:18.876 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 393000 to 394000
+limes_1  | 04:48:24.975 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 394000 to 395000
+limes_1  | 04:48:31.100 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 395000 to 396000
+limes_1  | 04:48:37.211 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 396000 to 397000
+limes_1  | 04:48:43.333 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 397000 to 398000
+limes_1  | 04:48:49.443 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 398000 to 399000
+limes_1  | 04:48:55.551 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 399000 to 400000
+limes_1  | 04:49:01.676 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 400000 to 401000
+limes_1  | 04:49:07.808 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 401000 to 402000
+limes_1  | 04:49:13.999 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 402000 to 403000
+limes_1  | 04:49:20.252 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 403000 to 404000
+limes_1  | 04:49:26.569 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 404000 to 405000
+limes_1  | 04:49:32.873 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 405000 to 406000
+limes_1  | 04:49:39.206 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 406000 to 407000
+limes_1  | 04:49:45.660 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 407000 to 408000
+limes_1  | 04:49:52.134 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 408000 to 409000
+limes_1  | 04:49:58.621 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 409000 to 410000
+limes_1  | 04:50:05.081 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 410000 to 411000
+limes_1  | 04:50:11.525 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 411000 to 412000
+limes_1  | 04:50:18.128 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 412000 to 413000
+limes_1  | 04:50:24.776 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 413000 to 414000
+limes_1  | 04:50:31.428 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 414000 to 415000
+limes_1  | 04:50:38.055 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 415000 to 416000
+limes_1  | 04:50:44.722 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 416000 to 417000
+limes_1  | 04:50:51.378 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 417000 to 418000
+limes_1  | 04:50:58.021 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 418000 to 419000
+limes_1  | 04:51:04.666 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 419000 to 420000
+limes_1  | 04:51:11.271 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 420000 to 421000
+limes_1  | 04:51:17.895 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 421000 to 422000
+limes_1  | 04:51:24.546 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 422000 to 423000
+limes_1  | 04:51:31.174 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 423000 to 424000
+limes_1  | 04:51:37.784 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 424000 to 425000
+limes_1  | 04:51:44.399 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 425000 to 426000
+limes_1  | 04:51:51.020 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 426000 to 427000
+limes_1  | 04:51:57.879 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 427000 to 428000
+limes_1  | 04:52:04.765 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 428000 to 429000
+limes_1  | 04:52:11.628 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 429000 to 430000
+limes_1  | 04:52:18.498 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 430000 to 431000
+limes_1  | 04:52:25.287 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 431000 to 432000
+limes_1  | 04:52:32.076 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 432000 to 433000
+limes_1  | 04:52:38.835 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 433000 to 434000
+limes_1  | 04:52:45.617 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 434000 to 435000
+limes_1  | 04:52:52.366 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 435000 to 436000
+limes_1  | 04:52:59.117 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 436000 to 437000
+limes_1  | 04:53:05.909 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 437000 to 438000
+limes_1  | 04:53:12.671 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 438000 to 439000
+limes_1  | 04:53:19.430 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 439000 to 440000
+limes_1  | 04:53:26.213 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 440000 to 441000
+limes_1  | 04:53:32.983 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 441000 to 442000
+limes_1  | 04:53:39.819 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 442000 to 443000
+limes_1  | 04:53:46.697 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 443000 to 444000
+limes_1  | 04:53:53.571 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 444000 to 445000
+limes_1  | 04:54:00.524 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 445000 to 446000
+limes_1  | 04:54:07.685 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 446000 to 447000
+limes_1  | 04:54:14.843 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 447000 to 448000
+limes_1  | 04:54:22.039 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 448000 to 449000
+limes_1  | 04:54:29.209 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 449000 to 450000
+limes_1  | 04:54:36.403 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 450000 to 451000
+limes_1  | 04:54:43.587 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 451000 to 452000
+limes_1  | 04:54:50.892 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 452000 to 453000
+limes_1  | 04:54:58.232 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 453000 to 454000
+limes_1  | 04:55:05.580 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 454000 to 455000
+limes_1  | 04:55:13.005 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 455000 to 456000
+limes_1  | 04:55:20.427 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 456000 to 457000
+limes_1  | 04:55:27.829 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 457000 to 458000
+limes_1  | 04:55:35.246 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 458000 to 459000
+limes_1  | 04:55:42.647 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 459000 to 460000
+limes_1  | 04:55:50.049 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 460000 to 461000
+limes_1  | 04:55:57.467 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 461000 to 462000
+limes_1  | 04:56:05.004 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 462000 to 463000
+limes_1  | 04:56:12.394 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 463000 to 464000
+limes_1  | 04:56:19.797 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 464000 to 465000
+limes_1  | 04:56:27.224 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 465000 to 466000
+limes_1  | 04:56:34.647 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 466000 to 467000
+limes_1  | 04:56:42.066 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 467000 to 468000
+limes_1  | 04:56:49.499 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 468000 to 469000
+limes_1  | 04:56:56.963 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 469000 to 470000
+limes_1  | 04:57:04.395 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 470000 to 471000
+limes_1  | 04:57:11.827 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 471000 to 472000
+limes_1  | 04:57:19.404 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 472000 to 473000
+limes_1  | 04:57:26.958 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 473000 to 474000
+limes_1  | 04:57:34.547 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 474000 to 475000
+limes_1  | 04:57:42.233 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 475000 to 476000
+limes_1  | 04:57:49.907 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 476000 to 477000
+limes_1  | 04:57:57.498 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 477000 to 478000
+limes_1  | 04:58:05.107 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 478000 to 479000
+limes_1  | 04:58:12.713 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 479000 to 480000
+limes_1  | 04:58:20.303 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 480000 to 481000
+limes_1  | 04:58:27.889 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 481000 to 482000
+limes_1  | 04:58:35.458 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 482000 to 483000
+limes_1  | 04:58:43.021 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 483000 to 484000
+limes_1  | 04:58:50.600 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 484000 to 485000
+limes_1  | 04:58:58.165 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 485000 to 486000
+limes_1  | 04:59:05.739 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 486000 to 487000
+limes_1  | 04:59:13.314 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 487000 to 488000
+limes_1  | 04:59:20.915 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 488000 to 489000
+limes_1  | 04:59:28.491 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 489000 to 490000
+limes_1  | 04:59:36.030 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 490000 to 491000
+limes_1  | 04:59:43.605 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 491000 to 492000
+limes_1  | 04:59:51.171 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 492000 to 493000
+limes_1  | 04:59:58.728 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 493000 to 494000
+limes_1  | 05:00:06.297 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 494000 to 495000
+limes_1  | 05:00:13.866 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 495000 to 496000
+limes_1  | 05:00:21.438 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 496000 to 497000
+limes_1  | 05:00:29.026 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 497000 to 498000
+limes_1  | 05:00:36.598 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 498000 to 499000
+limes_1  | 05:00:44.312 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 499000 to 500000
+limes_1  | 05:00:51.959 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 500000 to 501000
+limes_1  | 05:00:59.620 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 501000 to 502000
+limes_1  | 05:01:07.221 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 502000 to 503000
+limes_1  | 05:01:14.882 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 503000 to 504000
+limes_1  | 05:01:22.665 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 504000 to 505000
+limes_1  | 05:01:30.433 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 505000 to 506000
+limes_1  | 05:01:38.131 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 506000 to 507000
+limes_1  | 05:01:45.884 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 507000 to 508000
+limes_1  | 05:01:53.605 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 508000 to 509000
+limes_1  | 05:02:01.320 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 509000 to 510000
+limes_1  | 05:02:09.013 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 510000 to 511000
+limes_1  | 05:02:16.722 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 511000 to 512000
+limes_1  | 05:02:24.444 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 512000 to 513000
+limes_1  | 05:02:32.179 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 513000 to 514000
+limes_1  | 05:02:39.900 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 514000 to 515000
+limes_1  | 05:02:47.617 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 515000 to 516000
+limes_1  | 05:02:55.343 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 516000 to 517000
+limes_1  | 05:03:03.101 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 517000 to 518000
+limes_1  | 05:03:10.833 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 518000 to 519000
+limes_1  | 05:03:18.571 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 519000 to 520000
+limes_1  | 05:03:26.316 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 520000 to 521000
+limes_1  | 05:03:34.095 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 521000 to 522000
+limes_1  | 05:03:41.841 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 522000 to 523000
+limes_1  | 05:03:49.665 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 523000 to 524000
+limes_1  | 05:03:57.725 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 524000 to 525000
+limes_1  | 05:04:06.074 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 525000 to 526000
+limes_1  | 05:04:14.410 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 526000 to 527000
+limes_1  | 05:04:22.631 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 527000 to 528000
+limes_1  | 05:04:30.800 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 528000 to 529000
+limes_1  | 05:04:38.974 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 529000 to 530000
+limes_1  | 05:04:47.126 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 530000 to 531000
+limes_1  | 05:04:55.279 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 531000 to 532000
+limes_1  | 05:05:03.470 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 532000 to 533000
+limes_1  | 05:05:11.617 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 533000 to 534000
+limes_1  | 05:05:19.812 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 534000 to 535000
+limes_1  | 05:05:28.063 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 535000 to 536000
+limes_1  | 05:05:36.325 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 536000 to 537000
+limes_1  | 05:05:44.621 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 537000 to 538000
+limes_1  | 05:05:52.930 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 538000 to 539000
+limes_1  | 05:06:01.265 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 539000 to 540000
+limes_1  | 05:06:09.881 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 540000 to 541000
+limes_1  | 05:06:18.565 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 541000 to 542000
+limes_1  | 05:06:27.102 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 542000 to 543000
+limes_1  | 05:06:35.620 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 543000 to 544000
+limes_1  | 05:06:44.115 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 544000 to 545000
+limes_1  | 05:06:52.618 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 545000 to 546000
+limes_1  | 05:07:01.216 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 546000 to 547000
+limes_1  | 05:07:09.756 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 547000 to 548000
+limes_1  | 05:07:18.283 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 548000 to 549000
+limes_1  | 05:07:26.804 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 549000 to 550000
+limes_1  | 05:07:35.326 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 550000 to 551000
+db_1     | 05:07:37 Checkpoint started
+db_1     | 05:07:37 Checkpoint finished, log reused
+limes_1  | 05:07:43.968 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 551000 to 552000
+limes_1  | 05:07:52.510 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 552000 to 553000
+limes_1  | 05:08:01.037 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 553000 to 554000
+limes_1  | 05:08:09.561 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 554000 to 555000
+limes_1  | 05:08:18.232 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 555000 to 556000
+limes_1  | 05:08:26.897 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 556000 to 557000
+limes_1  | 05:08:35.572 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 557000 to 558000
+limes_1  | 05:08:44.251 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 558000 to 559000
+limes_1  | 05:08:52.907 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 559000 to 560000
+limes_1  | 05:09:01.586 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 560000 to 561000
+limes_1  | 05:09:10.253 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 561000 to 562000
+limes_1  | 05:09:18.954 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 562000 to 563000
+limes_1  | 05:09:27.659 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 563000 to 564000
+limes_1  | 05:09:36.346 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 564000 to 565000
+limes_1  | 05:09:45.047 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 565000 to 566000
+limes_1  | 05:09:53.743 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 566000 to 567000
+limes_1  | 05:10:02.422 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 567000 to 568000
+limes_1  | 05:10:11.105 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 568000 to 569000
+limes_1  | 05:10:19.773 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 569000 to 570000
+limes_1  | 05:10:28.463 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 570000 to 571000
+limes_1  | 05:10:37.135 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 571000 to 572000
+limes_1  | 05:10:45.846 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 572000 to 573000
+limes_1  | 05:10:54.538 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 573000 to 574000
+limes_1  | 05:11:03.231 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 574000 to 575000
+limes_1  | 05:11:11.988 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 575000 to 576000
+limes_1  | 05:11:20.716 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 576000 to 577000
+limes_1  | 05:11:29.446 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 577000 to 578000
+limes_1  | 05:11:38.184 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 578000 to 579000
+limes_1  | 05:11:46.966 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 579000 to 580000
+limes_1  | 05:11:55.713 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 580000 to 581000
+limes_1  | 05:12:04.495 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 581000 to 582000
+limes_1  | 05:12:13.252 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 582000 to 583000
+limes_1  | 05:12:22.001 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 583000 to 584000
+limes_1  | 05:12:30.961 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 584000 to 585000
+limes_1  | 05:12:39.993 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 585000 to 586000
+limes_1  | 05:12:49.274 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 586000 to 587000
+limes_1  | 05:12:58.609 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:158 - Retrieved 585519 triples and 585272 entities.
+limes_1  | 05:12:58.609 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:159 - Retrieving statements took 2816.53 seconds.
+limes_1  | 05:12:58.609 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.cache.HybridCache:316 - Serializing 585272 objects to /limes/cache/244320884.ser
+limes_1  | 05:13:10.277 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.cache.HybridCache:115 - Checking for file /limes/cache/-502201716.ser
+limes_1  | 05:13:10.277 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.cache.HybridCache:118 - Found cached data. Loading data from file /limes/cache/-502201716.ser
+limes_1  | 05:13:10.527 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.cache.HybridCache:124 - Cached data loaded successfully from file /limes/cache/-502201716.ser
+limes_1  | 05:13:10.528 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.cache.HybridCache:125 - Size = 9965
+limes_1  | 05:13:19.974 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.controller.Controller:222 - Mapping task finished in 8461 ms
+limes_1  | 05:13:20.074 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.controller.Controller:226 - Mapping size: 46893 (accepted) + 4576 (need verification) = 51469 (total)
+limes_1  | 05:13:20.074 [ForkJoinPool.commonPool-worker-19] [8704142639058093607] INFO  org.aksw.limes.core.io.serializer.SerializerFactory:15 - Getting serializer with name NT
+db_1     | 06:07:39 Checkpoint started
+db_1     | 06:07:39 Checkpoint finished, log reused
+db_1     | 07:07:41 Checkpoint started
+db_1     | 07:07:41 Checkpoint finished, log reused
+db_1     | 08:07:43 Checkpoint started
+db_1     | 08:07:43 Checkpoint finished, log reused
+db_1     | 09:07:45 Checkpoint started
+db_1     | 09:07:45 Checkpoint finished, log reused
+db_1     | 10:07:47 Checkpoint started
+db_1     | 10:07:47 Checkpoint finished, log reused
+limes_1  | 11:02:40.618 [qtp358533990-41] [] WARN  eu.medsea.mimeutil.MimeDetectorRegistry:962 - MimeDetector [eu.medsea.mimeutil.detector.MagicMimeMimeDetector] will not be registered as a MimeDetector with this name is already registered.
+limes_1  | 11:02:40.631 [qtp358533990-447] [] WARN  eu.medsea.mimeutil.MimeDetectorRegistry:962 - MimeDetector [eu.medsea.mimeutil.detector.MagicMimeMimeDetector] will not be registered as a MimeDetector with this name is already registered.
+db_1     | 11:07:49 Checkpoint started
+db_1     | 11:07:49 Checkpoint finished, log reused
+db_1     | 12:07:51 Checkpoint started
+db_1     | 12:07:51 Checkpoint finished, log reused
+limes_1  | 12:26:48.996 [qtp358533990-529] [] INFO  org.aksw.limes.core.controller.Server:280 - Uploaded file 'virtuoso-geo-dbpedia.xml' saved as '/limes/.server-storage/limes_cfg_14772224201089262724.xml'
+limes_1  | 12:26:49.000 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.cache.HybridCache:115 - Checking for file /limes/cache/652586748.ser
+limes_1  | 12:26:49.002 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.cache.HybridCache:132 - No cached data found for ecb-ref-area
+limes_1  | 12:26:49.002 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.QueryModuleFactory:18 - Generating <sparql> reader
+limes_1  | 12:26:49.002 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:251 - Query issued is 
+limes_1  | PREFIX dbo: <http://dbpedia.org/ontology/>
+limes_1  | PREFIX qb: <http://purl.org/linked-data/cube#>
+limes_1  | PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+limes_1  | PREFIX owl: <http://www.w3.org/2002/07/owl#>
+limes_1  | PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+limes_1  | PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+limes_1  | PREFIX dbpedia: <http://dbpedia.org/ontology/>
+limes_1  | PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+limes_1  | PREFIX dc: <http://purl.org/dc/terms/>
+limes_1  | SELECT DISTINCT ?x ?v1
+limes_1  | WHERE {
+limes_1  | ?codeList skos:hasTopConcept ?x .
+limes_1  | FILTER(regex(str(?codeList), 'geo')) .
+limes_1  | ?x skos:prefLabel ?v1 .
+limes_1  | }
+limes_1  | 12:26:49.002 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:57 - Querying the endpoint.
+limes_1  | 12:26:49.002 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 0 to 10000
+limes_1  | 12:26:49.267 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 10000 to 20000
+limes_1  | 12:26:49.540 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 20000 to 30000
+limes_1  | 12:26:49.877 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 30000 to 40000
+limes_1  | 12:26:50.219 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 40000 to 50000
+limes_1  | 12:26:51.298 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 50000 to 60000
+limes_1  | 12:26:52.419 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 60000 to 70000
+limes_1  | 12:26:53.602 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 70000 to 80000
+limes_1  | 12:26:54.774 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 80000 to 90000
+limes_1  | 12:26:56.791 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 90000 to 100000
+limes_1  | 12:26:58.838 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 100000 to 110000
+limes_1  | 12:27:00.890 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 110000 to 120000
+limes_1  | 12:27:02.976 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 120000 to 130000
+limes_1  | 12:27:05.941 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 130000 to 140000
+limes_1  | 12:27:09.028 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 140000 to 150000
+limes_1  | 12:27:12.098 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 150000 to 160000
+limes_1  | 12:27:15.182 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 160000 to 170000
+limes_1  | 12:27:18.329 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 170000 to 180000
+limes_1  | 12:27:22.407 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 180000 to 190000
+limes_1  | 12:27:26.525 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 190000 to 200000
+limes_1  | 12:27:30.669 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 200000 to 210000
+db_1     | 12:27:34 missed delete of name id cache ILO/HOW_TEMP_SEX_OCU_MTS_NB/code/source 0 (0x255b8 )
+limes_1  | 12:27:34.885 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 210000 to 220000
+limes_1  | 12:27:39.879 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 220000 to 230000
+limes_1  | 12:27:44.952 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 230000 to 240000
+limes_1  | 12:27:50.132 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 240000 to 250000
+limes_1  | 12:27:55.270 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 250000 to 260000
+db_1     | 12:27:56 missed delete of name id cache Eurostat/road_go_na7rl3g/code/unit 0 (0x7c22f4 )
+limes_1  | 12:28:01.189 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 260000 to 270000
+limes_1  | 12:28:07.377 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 270000 to 280000
+limes_1  | 12:28:13.645 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 280000 to 290000
+limes_1  | 12:28:19.936 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 290000 to 300000
+limes_1  | 12:28:26.925 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 300000 to 310000
+limes_1  | 12:28:34.039 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 310000 to 320000
+limes_1  | 12:28:41.249 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 320000 to 330000
+limes_1  | 12:28:48.387 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 330000 to 340000
+limes_1  | 12:28:55.569 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 340000 to 350000
+limes_1  | 12:29:03.530 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 350000 to 360000
+limes_1  | 12:29:11.672 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 360000 to 370000
+limes_1  | 12:29:19.836 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 370000 to 380000
+limes_1  | 12:29:28.076 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 380000 to 390000
+limes_1  | 12:29:36.833 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 390000 to 400000
+limes_1  | 12:29:45.749 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 400000 to 410000
+limes_1  | 12:29:54.761 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 410000 to 420000
+limes_1  | 12:30:04.081 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 420000 to 430000
+limes_1  | 12:30:13.466 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 430000 to 440000
+limes_1  | 12:30:22.776 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 440000 to 450000
+limes_1  | 12:30:32.118 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 450000 to 460000
+limes_1  | 12:30:42.126 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 460000 to 470000
+limes_1  | 12:30:52.381 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 470000 to 480000
+limes_1  | 12:31:02.677 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:72 - Getting statements 480000 to 490000
+limes_1  | 12:31:12.784 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:158 - Retrieved 478195 triples and 478195 entities.
+limes_1  | 12:31:12.784 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:159 - Retrieving statements took 263.782 seconds.
+limes_1  | 12:31:12.785 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.cache.HybridCache:316 - Serializing 478195 objects to /limes/cache/652586748.ser
+limes_1  | 12:31:22.160 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.cache.HybridCache:115 - Checking for file /limes/cache/-502201716.ser
+limes_1  | 12:31:22.160 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.cache.HybridCache:118 - Found cached data. Loading data from file /limes/cache/-502201716.ser
+limes_1  | 12:31:22.385 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.cache.HybridCache:124 - Cached data loaded successfully from file /limes/cache/-502201716.ser
+limes_1  | 12:31:22.385 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.cache.HybridCache:125 - Size = 9965
+limes_1  | 12:31:27.466 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.controller.Controller:222 - Mapping task finished in 4326 ms
+limes_1  | 12:31:27.922 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.controller.Controller:226 - Mapping size: 277291 (accepted) + 22169 (need verification) = 299460 (total)
+limes_1  | 12:31:27.923 [ForkJoinPool.commonPool-worker-19] [14772224201089262724] INFO  org.aksw.limes.core.io.serializer.SerializerFactory:15 - Getting serializer with name NT
+db_1     | 13:07:53 Checkpoint started
+db_1     | 13:07:53 Checkpoint finished, log reused
+limes_1  | 13:15:37.596 [qtp358533990-40] [] WARN  eu.medsea.mimeutil.MimeDetectorRegistry:962 - MimeDetector [eu.medsea.mimeutil.detector.MagicMimeMimeDetector] will not be registered as a MimeDetector with this name is already registered.
+limes_1  | 13:15:37.602 [qtp358533990-44] [] WARN  eu.medsea.mimeutil.MimeDetectorRegistry:962 - MimeDetector [eu.medsea.mimeutil.detector.MagicMimeMimeDetector] will not be registered as a MimeDetector with this name is already registered.
+db_1     | 14:02:16 missed delete of name id cache Eurostat/avia_gor_hr/code/unit 0 (0x7b1257 )

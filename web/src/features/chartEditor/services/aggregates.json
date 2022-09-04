@@ -1,0 +1,94 @@
+[
+    {
+        "op": "count",
+        "description": "The total count of data objects in the group. Note: ‘count’ operates directly on the input objects and return the same value regardless of the provided field."
+    },
+    {
+        "op": "valid",
+        "description": "The count of field values that are not null, undefined or NaN."
+    },
+    {
+        "op": "values",
+        "description": "A list of data objects in the group."
+    },
+    {
+        "op": "missing",
+        "description": "The count of null or undefined field values."
+    },
+    {
+        "op": "distinct",
+        "description": "The count of distinct field values."
+    },
+    {
+        "op": "sum",
+        "description": "The sum of field values."
+    },
+    {
+        "op": "product",
+        "description": "The product of field values."
+    },
+    {
+        "op": "mean",
+        "description": "The mean (average) field value."
+    },
+    {
+        "op": "average",
+        "description": "The mean (average) field value. Identical to mean."
+    },
+    {
+        "op": "variance",
+        "description": "The sample variance of field values."
+    },
+    {
+        "op": "variancep",
+        "description": "The population variance of field values."
+    },
+    {
+        "op": "stdev",
+        "description": "The sample standard deviation of field values."
+    },
+    {
+        "op": "stdevp",
+        "description": "The population standard deviation of field values."
+    },
+    {
+        "op": "stderr",
+        "description": "The standard error of field values."
+    },
+    {
+        "op": "median",
+        "description": "The median field value."
+    },
+    {
+        "op": "q1",
+        "description": "The lower quartile boundary of field values."
+    },
+    {
+        "op": "q3",
+        "description": "The upper quartile boundary of field values."
+    },
+    {
+        "op": "ci0",
+        "description": "The lower boundary of the bootstrapped 95% confidence interval of the mean field value."
+    },
+    {
+        "op": "ci1",
+        "description": "The upper boundary of the bootstrapped 95% confidence interval of the mean field value."
+    },
+    {
+        "op": "min",
+        "description": "The minimum field value."
+    },
+    {
+        "op": "max",
+        "description": "The maximum field value."
+    },
+    {
+        "op": "argmin",
+        "description": "An input data object containing the minimum field value."
+    },
+    {
+        "op": "argmax",
+        "description": "An input data object containing the maximum field value."
+    }
+]

@@ -1,0 +1,7 @@
+
+ASK {
+    ?dataset qb:slice       ?slice .
+    ?slice   qb:observation ?obs .
+    FILTER NOT EXISTS { ?obs qb:dataSet ?dataset . }
+}
+    

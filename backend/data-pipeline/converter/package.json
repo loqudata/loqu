@@ -1,0 +1,12 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "Convert DBNomics JSON to JSON-LD/RDF",
+  "main": "run.mjs",
+  "author": "Alex Kreidler",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "json-transforms": "^1.1.2"
+  }
+}

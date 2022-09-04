@@ -1,0 +1,466 @@
+[
+    {
+        "cid": 0,
+        "name": "X",
+        "type": "DOUBLE",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 1,
+        "name": "Y",
+        "type": "DOUBLE",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 2,
+        "name": "OBJECTID",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 3,
+        "name": "CRIMEID",
+        "type": "BIGINT",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 4,
+        "name": "CCN",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 5,
+        "name": "REPORTDATE",
+        "type": "TIMESTAMP",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 6,
+        "name": "ROUTEID",
+        "type": "VARCHAR",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 7,
+        "name": "MEASURE",
+        "type": "DOUBLE",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 8,
+        "name": "OFFSET",
+        "type": "DOUBLE",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 9,
+        "name": "STREETSEGID",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 10,
+        "name": "ROADWAYSEGID",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 11,
+        "name": "FROMDATE",
+        "type": "TIMESTAMP",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 12,
+        "name": "TODATE",
+        "type": "VARCHAR",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 13,
+        "name": "ADDRESS",
+        "type": "VARCHAR",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 14,
+        "name": "LATITUDE",
+        "type": "DOUBLE",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 15,
+        "name": "LONGITUDE",
+        "type": "DOUBLE",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 16,
+        "name": "XCOORD",
+        "type": "DOUBLE",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 17,
+        "name": "YCOORD",
+        "type": "DOUBLE",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 18,
+        "name": "WARD",
+        "type": "VARCHAR",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 19,
+        "name": "EVENTID",
+        "type": "VARCHAR",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 20,
+        "name": "MAR_ADDRESS",
+        "type": "VARCHAR",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 21,
+        "name": "MAR_SCORE",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 22,
+        "name": "MAJORINJURIES_BICYCLIST",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 23,
+        "name": "MINORINJURIES_BICYCLIST",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 24,
+        "name": "UNKNOWNINJURIES_BICYCLIST",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 25,
+        "name": "FATAL_BICYCLIST",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 26,
+        "name": "MAJORINJURIES_DRIVER",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 27,
+        "name": "MINORINJURIES_DRIVER",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 28,
+        "name": "UNKNOWNINJURIES_DRIVER",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 29,
+        "name": "FATAL_DRIVER",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 30,
+        "name": "MAJORINJURIES_PEDESTRIAN",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 31,
+        "name": "MINORINJURIES_PEDESTRIAN",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 32,
+        "name": "UNKNOWNINJURIES_PEDESTRIAN",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 33,
+        "name": "FATAL_PEDESTRIAN",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 34,
+        "name": "TOTAL_VEHICLES",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 35,
+        "name": "TOTAL_BICYCLES",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 36,
+        "name": "TOTAL_PEDESTRIANS",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 37,
+        "name": "PEDESTRIANSIMPAIRED",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 38,
+        "name": "BICYCLISTSIMPAIRED",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 39,
+        "name": "DRIVERSIMPAIRED",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 40,
+        "name": "TOTAL_TAXIS",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 41,
+        "name": "TOTAL_GOVERNMENT",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 42,
+        "name": "SPEEDING_INVOLVED",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 43,
+        "name": "NEARESTINTROUTEID",
+        "type": "VARCHAR",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 44,
+        "name": "NEARESTINTSTREETNAME",
+        "type": "VARCHAR",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 45,
+        "name": "OFFINTERSECTION",
+        "type": "DOUBLE",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 46,
+        "name": "INTAPPROACHDIRECTION",
+        "type": "VARCHAR",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 47,
+        "name": "LOCATIONERROR",
+        "type": "VARCHAR",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 48,
+        "name": "LASTUPDATEDATE",
+        "type": "TIMESTAMP",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 49,
+        "name": "MPDLATITUDE",
+        "type": "DOUBLE",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 50,
+        "name": "MPDLONGITUDE",
+        "type": "DOUBLE",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 51,
+        "name": "MPDGEOX",
+        "type": "DOUBLE",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 52,
+        "name": "MPDGEOY",
+        "type": "DOUBLE",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 53,
+        "name": "FATALPASSENGER",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 54,
+        "name": "MAJORINJURIESPASSENGER",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 55,
+        "name": "MINORINJURIESPASSENGER",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 56,
+        "name": "UNKNOWNINJURIESPASSENGER",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    },
+    {
+        "cid": 57,
+        "name": "MAR_ID",
+        "type": "INTEGER",
+        "notnull": false,
+        "dflt_value": null,
+        "pk": false
+    }
+]

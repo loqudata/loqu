@@ -1,0 +1,43 @@
+version: "3.7"
+services:
+  db:
+    image: tenforce/virtuoso:virtuoso7.2.5
+    environment:
+      #   SPARQL_UPDATE: "true"
+      DEFAULT_GRAPH: "https://loqudata.org/default"
+      DBA_PASSWORD: dba
+      VIRT_Parameters_DirsAllowed: "., /staging, /usr/local/virtuoso-opensource/share/virtuoso/vad"
+    # See https://github.com/tenforce/docker-virtuoso/blob/master/virtuoso.ini
+    volumes:
+      - ${VIRTUOSO_DIR}:/data
+      - ${DBNOMICS_DATA_DIR}:/staging/source_data
+      - ${LINK_DIR}:/staging/links
+      - ./:/scripts
+    ports:
+      - "8890:8890"
+
+  # limes:
+  #   image: dicegroup/limes
+  #   init: true
+  #   ports:
+  #     - 8080:8080
+
+  search:
+    image: typesense/typesense:0.19.0
+    command: "--data-dir /data --api-key=${TYPESENSE_API_KEY} --enable-cors"
+    ports:
+      - 8108:8108
+    volumes:
+      - ${TYPESENSE_DIR}:/data
+
+  api:
+    image: ghcr.io/loqudata/api:main
+    init: true
+    environment:
+      LOQU_SPARQL_ENDPOINT: "http://db:8890/sparql"
+
+  proxy:
+    image: loqu-proxy
+    build: ./proxy
+    ports:
+      - 80:80

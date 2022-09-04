@@ -1,0 +1,775 @@
+{
+  "@context": {
+    "qb": "http://purl.org/linked-data/cube#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dv": "https://ontology.loqudata.org/",
+    "name": "rdfs:label",
+    "converted_at": "dv:converted_at",
+    "created_at": "dv:created_at",
+    "indexed_at": "dv:indexed_at",
+    "json_data_commit_ref": "dv:json_data_commit_ref",
+    "nb_series": "dv:nb_series",
+    "dimensions_codes_order": {
+      "@id": "qb:component"
+    },
+    "codeListInstanceClass": {
+      "@reverse": "rdfs:seeAlso"
+    },
+    "entries": {
+      "@id": "skos:hasTopConcept"
+    },
+    "qb:codeList": {
+      "@type": "@id"
+    },
+    "qb:dimension": {
+      "@type": "@id"
+    },
+    "rdfs:subClassOf": {
+      "@type": "@id"
+    },
+    "rdfs:domain": {
+      "@type": "@id"
+    },
+    "rdfs:range": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "code": "GDPbyIndustry-1",
+      "converted_at": "2021-03-26T11:00:56Z",
+      "created_at": "2018-03-15T17:17:38Z",
+      "dimensions_codes_order": [
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/component/dimension/industry",
+          "@type": "qb:ComponentSpecification",
+          "qb:order": 0,
+          "qb:dimension": "https://loqudata.org/BEA/GDPbyIndustry-1/dimension/industry"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/component/dimension/FREQ",
+          "@type": "qb:ComponentSpecification",
+          "qb:order": 1,
+          "qb:dimension": "https://loqudata.org/BEA/GDPbyIndustry-1/dimension/FREQ"
+        }
+      ],
+      "indexed_at": "2021-03-26T11:01:46.467Z",
+      "json_data_commit_ref": "3ced78a0d1d8ec63f7631cf05c12d8e6d3288e19",
+      "name": "Value Added by Industry",
+      "nb_series": 199,
+      "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/structure",
+      "@type": "qb:DataStructureDefinition",
+      "dv:provider": {
+        "@id": "https://loqudata.org/BEA",
+        "skos:notation": "BEA",
+        "rdfs:label": "U.S. Bureau of Economic Analysis"
+      }
+    },
+    {
+      "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/dimension/FREQ",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ",
+      "rdfs:range": "https://loqudata.org/BEA/GDPbyIndustry-1/class/FREQ",
+      "rdfs:label": "Frequency"
+    },
+    {
+      "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/dimension/concept",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BEA/GDPbyIndustry-1/code/concept",
+      "rdfs:range": "https://loqudata.org/BEA/GDPbyIndustry-1/class/concept",
+      "rdfs:label": "Concept"
+    },
+    {
+      "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/dimension/industry",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry",
+      "rdfs:range": "https://loqudata.org/BEA/GDPbyIndustry-1/class/industry",
+      "rdfs:label": "Industry"
+    },
+    {
+      "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/dimension/metric",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BEA/GDPbyIndustry-1/code/metric",
+      "rdfs:range": "https://loqudata.org/BEA/GDPbyIndustry-1/class/metric",
+      "rdfs:label": "Metric"
+    },
+    {
+      "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/dimension/sub-industry",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BEA/GDPbyIndustry-1/code/sub-industry",
+      "rdfs:range": "https://loqudata.org/BEA/GDPbyIndustry-1/class/sub-industry",
+      "rdfs:label": "Industry precision"
+    },
+    {
+      "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/dimension/unit",
+      "@type": [
+        "qb:DimensionProperty",
+        "rdf:Property"
+      ],
+      "qb:codeList": "https://loqudata.org/BEA/GDPbyIndustry-1/code/unit",
+      "rdfs:range": "https://loqudata.org/BEA/GDPbyIndustry-1/class/unit",
+      "rdfs:label": "Unit"
+    },
+    {
+      "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ",
+      "@type": "skos:ConceptScheme",
+      "skos:notation": "FREQ",
+      "entries": [
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ/A",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Annually",
+          "skos:notation": "A"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ/Q",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Quarterly",
+          "skos:notation": "Q"
+        }
+      ],
+      "codeListInstanceClass": {
+        "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/class/FREQ",
+        "@type": [
+          "rdfs:Class",
+          "owl:Class"
+        ],
+        "rdfs:subClassOf": "skos:Concept",
+        "rdfs:label": "Code list class for FREQ"
+      }
+    },
+    {
+      "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry",
+      "@type": "skos:ConceptScheme",
+      "skos:notation": "industry",
+      "entries": [
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/6",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Educational services, health care, and social assistance",
+          "skos:notation": "6"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/7",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Arts, entertainment, recreation, accommodation, and food services",
+          "skos:notation": "7"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/11",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Agriculture, forestry, fishing, and hunting",
+          "skos:notation": "11"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/21",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Mining",
+          "skos:notation": "21"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/22",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Utilities",
+          "skos:notation": "22"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/23",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Construction",
+          "skos:notation": "23"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/42",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Wholesale trade",
+          "skos:notation": "42"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/51",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Information",
+          "skos:notation": "51"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/52",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Finance and insurance",
+          "skos:notation": "52"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/53",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Real estate and rental and leasing",
+          "skos:notation": "53"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/54",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Professional, scientific, and technical services",
+          "skos:notation": "54"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/55",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Management of companies and enterprises",
+          "skos:notation": "55"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/56",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Administrative and waste management services",
+          "skos:notation": "56"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/61",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Educational services",
+          "skos:notation": "61"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/62",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Health care and social assistance",
+          "skos:notation": "62"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/71",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Arts, entertainment, and recreation",
+          "skos:notation": "71"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/72",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Accommodation and food services",
+          "skos:notation": "72"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/81",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Other services, except government",
+          "skos:notation": "81"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/211",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Oil and gas extraction",
+          "skos:notation": "211"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/212",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Mining, except oil and gas",
+          "skos:notation": "212"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/213",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Support activities for mining",
+          "skos:notation": "213"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/321",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Wood products",
+          "skos:notation": "321"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/322",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Paper products",
+          "skos:notation": "322"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/323",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Printing and related support activities",
+          "skos:notation": "323"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/324",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Petroleum and coal products",
+          "skos:notation": "324"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/325",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Chemical products",
+          "skos:notation": "325"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/326",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Plastics and rubber products",
+          "skos:notation": "326"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/327",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Nonmetallic mineral products",
+          "skos:notation": "327"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/331",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Primary metals",
+          "skos:notation": "331"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/332",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Fabricated metal products",
+          "skos:notation": "332"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/333",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Machinery",
+          "skos:notation": "333"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/334",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Computer and electronic products",
+          "skos:notation": "334"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/335",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Electrical equipment, appliances, and components",
+          "skos:notation": "335"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/337",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Furniture and related products",
+          "skos:notation": "337"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/339",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Miscellaneous manufacturing",
+          "skos:notation": "339"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/441",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Motor vehicle and parts dealers",
+          "skos:notation": "441"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/445",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Food and beverage stores",
+          "skos:notation": "445"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/452",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "General merchandise stores",
+          "skos:notation": "452"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/481",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Air transportation",
+          "skos:notation": "481"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/482",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Rail transportation",
+          "skos:notation": "482"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/483",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Water transportation",
+          "skos:notation": "483"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/484",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Truck transportation",
+          "skos:notation": "484"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/485",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Transit and ground passenger transportation",
+          "skos:notation": "485"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/486",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Pipeline transportation",
+          "skos:notation": "486"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/493",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Warehousing and storage",
+          "skos:notation": "493"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/511",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Publishing industries, except internet (includes software)",
+          "skos:notation": "511"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/512",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Motion picture and sound recording industries",
+          "skos:notation": "512"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/513",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Broadcasting and telecommunications",
+          "skos:notation": "513"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/514",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Data processing, internet publishing, and other information services",
+          "skos:notation": "514"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/523",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Securities, commodity contracts, and investments",
+          "skos:notation": "523"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/524",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Insurance carriers and related activities",
+          "skos:notation": "524"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/525",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Funds, trusts, and other financial vehicles",
+          "skos:notation": "525"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/531",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Real estate",
+          "skos:notation": "531"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/561",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Administrative and support services",
+          "skos:notation": "561"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/562",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Waste management and remediation services",
+          "skos:notation": "562"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/621",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Ambulatory health care services",
+          "skos:notation": "621"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/622",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Hospitals",
+          "skos:notation": "622"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/623",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Nursing and residential care facilities",
+          "skos:notation": "623"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/624",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Social assistance",
+          "skos:notation": "624"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/713",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Amusements, gambling, and recreation industries",
+          "skos:notation": "713"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/721",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Accommodation",
+          "skos:notation": "721"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/722",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Food services and drinking places",
+          "skos:notation": "722"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5411",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Legal services",
+          "skos:notation": "5411"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5415",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Computer systems design and related services",
+          "skos:notation": "5415"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/111CA",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Farms",
+          "skos:notation": "111CA"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/113FF",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Forestry, fishing, and related activities",
+          "skos:notation": "113FF"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/311FT",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Food and beverage and tobacco products",
+          "skos:notation": "311FT"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/313TT",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Textile mills and textile product mills",
+          "skos:notation": "313TT"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/315AL",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Apparel and leather and allied products",
+          "skos:notation": "315AL"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/31G",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Manufacturing",
+          "skos:notation": "31G"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/31ND",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Nondurable goods",
+          "skos:notation": "31ND"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/3361MV",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Motor vehicles, bodies and trailers, and parts",
+          "skos:notation": "3361MV"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/3364OT",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Other transportation equipment",
+          "skos:notation": "3364OT"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/33DG",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Durable goods",
+          "skos:notation": "33DG"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/44RT",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Retail trade",
+          "skos:notation": "44RT"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/487OS",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Other transportation and support activities",
+          "skos:notation": "487OS"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/48TW",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Transportation and warehousing",
+          "skos:notation": "48TW"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/4A0",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Other retail",
+          "skos:notation": "4A0"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/521CI",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Federal Reserve banks, credit intermediation, and related activities",
+          "skos:notation": "521CI"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/532RL",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Rental and leasing services and lessors of intangible assets",
+          "skos:notation": "532RL"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5412OP",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Miscellaneous professional, scientific, and technical services",
+          "skos:notation": "5412OP"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/711AS",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Performing arts, spectator sports, museums, and related activities",
+          "skos:notation": "711AS"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/FIRE",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Finance, insurance, real estate, rental, and leasing",
+          "skos:notation": "FIRE"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/G",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Government",
+          "skos:notation": "G"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GDP",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Gross domestic product",
+          "skos:notation": "GDP"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GF",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Federal",
+          "skos:notation": "GF"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFE",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Government enterprises",
+          "skos:notation": "GFE"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFG",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "General government",
+          "skos:notation": "GFG"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFGD",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "National defense",
+          "skos:notation": "GFGD"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFGN",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Nondefense",
+          "skos:notation": "GFGN"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSL",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "State and local",
+          "skos:notation": "GSL"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSLE",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Government enterprises",
+          "skos:notation": "GSLE"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSLG",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "General government",
+          "skos:notation": "GSLG"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/HS",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Housing",
+          "skos:notation": "HS"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/ICT",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Information-communications-technology-producing industries<sup>3</sup>",
+          "skos:notation": "ICT"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/ORE",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Other real estate",
+          "skos:notation": "ORE"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PGOOD",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Private goods-producing industries<sup>1</sup>",
+          "skos:notation": "PGOOD"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PROF",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Professional and business services",
+          "skos:notation": "PROF"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PSERV",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Private services-producing industries<sup>2</sup>",
+          "skos:notation": "PSERV"
+        },
+        {
+          "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PVT",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Private industries",
+          "skos:notation": "PVT"
+        }
+      ],
+      "codeListInstanceClass": {
+        "@id": "https://loqudata.org/BEA/GDPbyIndustry-1/class/industry",
+        "@type": [
+          "rdfs:Class",
+          "owl:Class"
+        ],
+        "rdfs:subClassOf": "skos:Concept",
+        "rdfs:label": "Code list class for industry"
+      }
+    }
+  ]
+}

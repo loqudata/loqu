@@ -1,0 +1,32 @@
+{
+    "name": "providers",
+    "fields": [
+        {
+            "name": "idx",
+            "type": "int32"
+        },
+        {
+            "name": "code",
+            "type": "string",
+            "facet": true
+        },
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "region",
+            "type": "string"
+        },
+        {
+            "name": "terms_of_use",
+            "type": "string",
+            "optional": true
+        },
+        {
+            "name": "website",
+            "type": "string"
+        }
+    ],
+    "default_sorting_field": "idx"
+}

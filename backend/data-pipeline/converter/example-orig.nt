@@ -1,0 +1,470 @@
+<https://loqudata.org/BEA/GDPbyIndustry-1/component/dimension/industry> <http://purl.org/linked-data/cube#order> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/component/dimension/industry> <http://purl.org/linked-data/cube#dimension> <https://loqudata.org/BEA/GDPbyIndustry-1/dimension/industry> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/component/dimension/industry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/component/dimension/FREQ> <http://purl.org/linked-data/cube#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/component/dimension/FREQ> <http://purl.org/linked-data/cube#dimension> <https://loqudata.org/BEA/GDPbyIndustry-1/dimension/FREQ> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/component/dimension/FREQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#ComponentSpecification> .
+<https://loqudata.org/BEA> <http://www.w3.org/2004/02/skos/core#notation> "BEA" .
+<https://loqudata.org/BEA> <http://www.w3.org/2000/01/rdf-schema#label> "U.S. Bureau of Economic Analysis" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/structure> <https://ontology.loqudata.org/provider> <https://loqudata.org/BEA> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DataStructureDefinition> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/structure> <https://ontology.loqudata.org/converted_at> "2021-03-26T11:00:56Z" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/structure> <https://ontology.loqudata.org/created_at> "2018-03-15T17:17:38Z" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/structure> <http://purl.org/linked-data/cube#component> <https://loqudata.org/BEA/GDPbyIndustry-1/component/dimension/industry> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/structure> <http://purl.org/linked-data/cube#component> <https://loqudata.org/BEA/GDPbyIndustry-1/component/dimension/FREQ> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/structure> <https://ontology.loqudata.org/indexed_at> "2021-03-26T11:01:46.467Z" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/structure> <https://ontology.loqudata.org/json_data_commit_ref> "3ced78a0d1d8ec63f7631cf05c12d8e6d3288e19" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/structure> <http://www.w3.org/2000/01/rdf-schema#label> "Value Added by Industry" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/structure> <https://ontology.loqudata.org/nb_series> "199"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/FREQ> <http://purl.org/linked-data/cube#codeList> <https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/FREQ> <http://www.w3.org/2000/01/rdf-schema#range> <https://loqudata.org/BEA/GDPbyIndustry-1/class/FREQ> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/FREQ> <http://www.w3.org/2000/01/rdf-schema#label> "Frequency" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/FREQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DimensionProperty> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/FREQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <rdf:Property> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/concept> <http://purl.org/linked-data/cube#codeList> <https://loqudata.org/BEA/GDPbyIndustry-1/code/concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/concept> <http://www.w3.org/2000/01/rdf-schema#range> <https://loqudata.org/BEA/GDPbyIndustry-1/class/concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/concept> <http://www.w3.org/2000/01/rdf-schema#label> "Concept" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DimensionProperty> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <rdf:Property> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/industry> <http://purl.org/linked-data/cube#codeList> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/industry> <http://www.w3.org/2000/01/rdf-schema#range> <https://loqudata.org/BEA/GDPbyIndustry-1/class/industry> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/industry> <http://www.w3.org/2000/01/rdf-schema#label> "Industry" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/industry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DimensionProperty> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/industry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <rdf:Property> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/metric> <http://purl.org/linked-data/cube#codeList> <https://loqudata.org/BEA/GDPbyIndustry-1/code/metric> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/metric> <http://www.w3.org/2000/01/rdf-schema#range> <https://loqudata.org/BEA/GDPbyIndustry-1/class/metric> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/metric> <http://www.w3.org/2000/01/rdf-schema#label> "Metric" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/metric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DimensionProperty> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/metric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <rdf:Property> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/sub-industry> <http://purl.org/linked-data/cube#codeList> <https://loqudata.org/BEA/GDPbyIndustry-1/code/sub-industry> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/sub-industry> <http://www.w3.org/2000/01/rdf-schema#range> <https://loqudata.org/BEA/GDPbyIndustry-1/class/sub-industry> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/sub-industry> <http://www.w3.org/2000/01/rdf-schema#label> "Industry precision" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/sub-industry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DimensionProperty> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/sub-industry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <rdf:Property> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/unit> <http://purl.org/linked-data/cube#codeList> <https://loqudata.org/BEA/GDPbyIndustry-1/code/unit> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/unit> <http://www.w3.org/2000/01/rdf-schema#range> <https://loqudata.org/BEA/GDPbyIndustry-1/class/unit> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/unit> <http://www.w3.org/2000/01/rdf-schema#label> "Unit" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/cube#DimensionProperty> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/dimension/unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <rdf:Property> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ> <http://www.w3.org/2004/02/skos/core#notation> "FREQ" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ/A> <http://www.w3.org/2004/02/skos/core#prefLabel> "Annually" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ/A> <http://www.w3.org/2004/02/skos/core#notation> "A" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ/A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ/A> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ/Q> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quarterly" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ/Q> <http://www.w3.org/2004/02/skos/core#notation> "Q" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ/Q> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ/Q> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/class/FREQ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/class/FREQ> <http://www.w3.org/2000/01/rdf-schema#label> "Code list class for FREQ" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/class/FREQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/class/FREQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <owl:Class> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/class/FREQ> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/FREQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#notation> "industry" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Educational services, health care, and social assistance" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/6> <http://www.w3.org/2004/02/skos/core#notation> "6" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/6> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/7> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arts, entertainment, recreation, accommodation, and food services" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/7> <http://www.w3.org/2004/02/skos/core#notation> "7" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/7> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/11> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agriculture, forestry, fishing, and hunting" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/11> <http://www.w3.org/2004/02/skos/core#notation> "11" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/11> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/21> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mining" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/21> <http://www.w3.org/2004/02/skos/core#notation> "21" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/21> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/22> <http://www.w3.org/2004/02/skos/core#prefLabel> "Utilities" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/22> <http://www.w3.org/2004/02/skos/core#notation> "22" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/22> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/23> <http://www.w3.org/2004/02/skos/core#prefLabel> "Construction" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/23> <http://www.w3.org/2004/02/skos/core#notation> "23" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/23> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/42> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wholesale trade" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/42> <http://www.w3.org/2004/02/skos/core#notation> "42" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/42> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/51> <http://www.w3.org/2004/02/skos/core#prefLabel> "Information" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/51> <http://www.w3.org/2004/02/skos/core#notation> "51" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/51> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/52> <http://www.w3.org/2004/02/skos/core#prefLabel> "Finance and insurance" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/52> <http://www.w3.org/2004/02/skos/core#notation> "52" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/52> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/53> <http://www.w3.org/2004/02/skos/core#prefLabel> "Real estate and rental and leasing" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/53> <http://www.w3.org/2004/02/skos/core#notation> "53" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/53> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/54> <http://www.w3.org/2004/02/skos/core#prefLabel> "Professional, scientific, and technical services" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/54> <http://www.w3.org/2004/02/skos/core#notation> "54" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/54> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/55> <http://www.w3.org/2004/02/skos/core#prefLabel> "Management of companies and enterprises" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/55> <http://www.w3.org/2004/02/skos/core#notation> "55" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/55> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/56> <http://www.w3.org/2004/02/skos/core#prefLabel> "Administrative and waste management services" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/56> <http://www.w3.org/2004/02/skos/core#notation> "56" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/56> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/61> <http://www.w3.org/2004/02/skos/core#prefLabel> "Educational services" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/61> <http://www.w3.org/2004/02/skos/core#notation> "61" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/61> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/62> <http://www.w3.org/2004/02/skos/core#prefLabel> "Health care and social assistance" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/62> <http://www.w3.org/2004/02/skos/core#notation> "62" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/62> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/71> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arts, entertainment, and recreation" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/71> <http://www.w3.org/2004/02/skos/core#notation> "71" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/71> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/72> <http://www.w3.org/2004/02/skos/core#prefLabel> "Accommodation and food services" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/72> <http://www.w3.org/2004/02/skos/core#notation> "72" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/72> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/81> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other services, except government" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/81> <http://www.w3.org/2004/02/skos/core#notation> "81" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/81> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/211> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oil and gas extraction" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/211> <http://www.w3.org/2004/02/skos/core#notation> "211" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/211> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/212> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mining, except oil and gas" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/212> <http://www.w3.org/2004/02/skos/core#notation> "212" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/212> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/212> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/213> <http://www.w3.org/2004/02/skos/core#prefLabel> "Support activities for mining" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/213> <http://www.w3.org/2004/02/skos/core#notation> "213" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/213> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/321> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wood products" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/321> <http://www.w3.org/2004/02/skos/core#notation> "321" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/321> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/322> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paper products" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/322> <http://www.w3.org/2004/02/skos/core#notation> "322" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/322> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/322> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/323> <http://www.w3.org/2004/02/skos/core#prefLabel> "Printing and related support activities" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/323> <http://www.w3.org/2004/02/skos/core#notation> "323" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/323> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/324> <http://www.w3.org/2004/02/skos/core#prefLabel> "Petroleum and coal products" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/324> <http://www.w3.org/2004/02/skos/core#notation> "324" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/324> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/324> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/325> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chemical products" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/325> <http://www.w3.org/2004/02/skos/core#notation> "325" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/325> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/325> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/326> <http://www.w3.org/2004/02/skos/core#prefLabel> "Plastics and rubber products" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/326> <http://www.w3.org/2004/02/skos/core#notation> "326" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/326> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/326> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/327> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nonmetallic mineral products" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/327> <http://www.w3.org/2004/02/skos/core#notation> "327" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/327> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/331> <http://www.w3.org/2004/02/skos/core#prefLabel> "Primary metals" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/331> <http://www.w3.org/2004/02/skos/core#notation> "331" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/331> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/332> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fabricated metal products" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/332> <http://www.w3.org/2004/02/skos/core#notation> "332" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/332> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/333> <http://www.w3.org/2004/02/skos/core#prefLabel> "Machinery" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/333> <http://www.w3.org/2004/02/skos/core#notation> "333" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/333> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/333> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/334> <http://www.w3.org/2004/02/skos/core#prefLabel> "Computer and electronic products" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/334> <http://www.w3.org/2004/02/skos/core#notation> "334" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/334> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/334> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/335> <http://www.w3.org/2004/02/skos/core#prefLabel> "Electrical equipment, appliances, and components" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/335> <http://www.w3.org/2004/02/skos/core#notation> "335" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/335> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/335> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/337> <http://www.w3.org/2004/02/skos/core#prefLabel> "Furniture and related products" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/337> <http://www.w3.org/2004/02/skos/core#notation> "337" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/337> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/337> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/339> <http://www.w3.org/2004/02/skos/core#prefLabel> "Miscellaneous manufacturing" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/339> <http://www.w3.org/2004/02/skos/core#notation> "339" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/339> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/441> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motor vehicle and parts dealers" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/441> <http://www.w3.org/2004/02/skos/core#notation> "441" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/441> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/441> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/445> <http://www.w3.org/2004/02/skos/core#prefLabel> "Food and beverage stores" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/445> <http://www.w3.org/2004/02/skos/core#notation> "445" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/445> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/452> <http://www.w3.org/2004/02/skos/core#prefLabel> "General merchandise stores" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/452> <http://www.w3.org/2004/02/skos/core#notation> "452" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/452> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/452> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/481> <http://www.w3.org/2004/02/skos/core#prefLabel> "Air transportation" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/481> <http://www.w3.org/2004/02/skos/core#notation> "481" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/481> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/481> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/482> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rail transportation" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/482> <http://www.w3.org/2004/02/skos/core#notation> "482" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/482> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/483> <http://www.w3.org/2004/02/skos/core#prefLabel> "Water transportation" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/483> <http://www.w3.org/2004/02/skos/core#notation> "483" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/483> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/483> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/484> <http://www.w3.org/2004/02/skos/core#prefLabel> "Truck transportation" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/484> <http://www.w3.org/2004/02/skos/core#notation> "484" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/484> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/484> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/485> <http://www.w3.org/2004/02/skos/core#prefLabel> "Transit and ground passenger transportation" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/485> <http://www.w3.org/2004/02/skos/core#notation> "485" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/485> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/485> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/486> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pipeline transportation" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/486> <http://www.w3.org/2004/02/skos/core#notation> "486" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/486> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/486> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/493> <http://www.w3.org/2004/02/skos/core#prefLabel> "Warehousing and storage" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/493> <http://www.w3.org/2004/02/skos/core#notation> "493" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/493> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/511> <http://www.w3.org/2004/02/skos/core#prefLabel> "Publishing industries, except internet (includes software)" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/511> <http://www.w3.org/2004/02/skos/core#notation> "511" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/511> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/511> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/512> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motion picture and sound recording industries" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/512> <http://www.w3.org/2004/02/skos/core#notation> "512" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/512> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/512> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/513> <http://www.w3.org/2004/02/skos/core#prefLabel> "Broadcasting and telecommunications" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/513> <http://www.w3.org/2004/02/skos/core#notation> "513" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/513> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/513> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/514> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data processing, internet publishing, and other information services" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/514> <http://www.w3.org/2004/02/skos/core#notation> "514" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/514> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/523> <http://www.w3.org/2004/02/skos/core#prefLabel> "Securities, commodity contracts, and investments" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/523> <http://www.w3.org/2004/02/skos/core#notation> "523" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/523> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/523> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/524> <http://www.w3.org/2004/02/skos/core#prefLabel> "Insurance carriers and related activities" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/524> <http://www.w3.org/2004/02/skos/core#notation> "524" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/524> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/524> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/525> <http://www.w3.org/2004/02/skos/core#prefLabel> "Funds, trusts, and other financial vehicles" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/525> <http://www.w3.org/2004/02/skos/core#notation> "525" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/525> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/525> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/531> <http://www.w3.org/2004/02/skos/core#prefLabel> "Real estate" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/531> <http://www.w3.org/2004/02/skos/core#notation> "531" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/531> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/531> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/561> <http://www.w3.org/2004/02/skos/core#prefLabel> "Administrative and support services" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/561> <http://www.w3.org/2004/02/skos/core#notation> "561" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/561> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/562> <http://www.w3.org/2004/02/skos/core#prefLabel> "Waste management and remediation services" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/562> <http://www.w3.org/2004/02/skos/core#notation> "562" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/562> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/562> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/621> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ambulatory health care services" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/621> <http://www.w3.org/2004/02/skos/core#notation> "621" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/621> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/621> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/622> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hospitals" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/622> <http://www.w3.org/2004/02/skos/core#notation> "622" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/622> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/622> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/623> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nursing and residential care facilities" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/623> <http://www.w3.org/2004/02/skos/core#notation> "623" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/623> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/623> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/624> <http://www.w3.org/2004/02/skos/core#prefLabel> "Social assistance" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/624> <http://www.w3.org/2004/02/skos/core#notation> "624" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/624> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/713> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amusements, gambling, and recreation industries" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/713> <http://www.w3.org/2004/02/skos/core#notation> "713" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/713> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/713> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/721> <http://www.w3.org/2004/02/skos/core#prefLabel> "Accommodation" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/721> <http://www.w3.org/2004/02/skos/core#notation> "721" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/721> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/721> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/722> <http://www.w3.org/2004/02/skos/core#prefLabel> "Food services and drinking places" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/722> <http://www.w3.org/2004/02/skos/core#notation> "722" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/722> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/722> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5411> <http://www.w3.org/2004/02/skos/core#prefLabel> "Legal services" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5411> <http://www.w3.org/2004/02/skos/core#notation> "5411" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5411> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5415> <http://www.w3.org/2004/02/skos/core#prefLabel> "Computer systems design and related services" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5415> <http://www.w3.org/2004/02/skos/core#notation> "5415" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5415> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5415> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/111CA> <http://www.w3.org/2004/02/skos/core#prefLabel> "Farms" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/111CA> <http://www.w3.org/2004/02/skos/core#notation> "111CA" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/111CA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/111CA> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/113FF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Forestry, fishing, and related activities" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/113FF> <http://www.w3.org/2004/02/skos/core#notation> "113FF" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/113FF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/113FF> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/311FT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Food and beverage and tobacco products" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/311FT> <http://www.w3.org/2004/02/skos/core#notation> "311FT" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/311FT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/311FT> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/313TT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Textile mills and textile product mills" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/313TT> <http://www.w3.org/2004/02/skos/core#notation> "313TT" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/313TT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/313TT> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/315AL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apparel and leather and allied products" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/315AL> <http://www.w3.org/2004/02/skos/core#notation> "315AL" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/315AL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/315AL> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/31G> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manufacturing" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/31G> <http://www.w3.org/2004/02/skos/core#notation> "31G" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/31G> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/31G> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/31ND> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nondurable goods" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/31ND> <http://www.w3.org/2004/02/skos/core#notation> "31ND" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/31ND> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/31ND> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/3361MV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motor vehicles, bodies and trailers, and parts" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/3361MV> <http://www.w3.org/2004/02/skos/core#notation> "3361MV" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/3361MV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/3361MV> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/3364OT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other transportation equipment" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/3364OT> <http://www.w3.org/2004/02/skos/core#notation> "3364OT" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/3364OT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/3364OT> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/33DG> <http://www.w3.org/2004/02/skos/core#prefLabel> "Durable goods" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/33DG> <http://www.w3.org/2004/02/skos/core#notation> "33DG" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/33DG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/33DG> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/44RT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Retail trade" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/44RT> <http://www.w3.org/2004/02/skos/core#notation> "44RT" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/44RT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/44RT> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/487OS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other transportation and support activities" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/487OS> <http://www.w3.org/2004/02/skos/core#notation> "487OS" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/487OS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/487OS> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/48TW> <http://www.w3.org/2004/02/skos/core#prefLabel> "Transportation and warehousing" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/48TW> <http://www.w3.org/2004/02/skos/core#notation> "48TW" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/48TW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/48TW> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/4A0> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other retail" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/4A0> <http://www.w3.org/2004/02/skos/core#notation> "4A0" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/4A0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/4A0> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/521CI> <http://www.w3.org/2004/02/skos/core#prefLabel> "Federal Reserve banks, credit intermediation, and related activities" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/521CI> <http://www.w3.org/2004/02/skos/core#notation> "521CI" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/521CI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/521CI> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/532RL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rental and leasing services and lessors of intangible assets" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/532RL> <http://www.w3.org/2004/02/skos/core#notation> "532RL" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/532RL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/532RL> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5412OP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Miscellaneous professional, scientific, and technical services" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5412OP> <http://www.w3.org/2004/02/skos/core#notation> "5412OP" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5412OP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/5412OP> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/711AS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Performing arts, spectator sports, museums, and related activities" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/711AS> <http://www.w3.org/2004/02/skos/core#notation> "711AS" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/711AS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/711AS> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/FIRE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Finance, insurance, real estate, rental, and leasing" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/FIRE> <http://www.w3.org/2004/02/skos/core#notation> "FIRE" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/FIRE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/FIRE> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/G> <http://www.w3.org/2004/02/skos/core#prefLabel> "Government" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/G> <http://www.w3.org/2004/02/skos/core#notation> "G" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/G> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/G> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GDP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gross domestic product" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GDP> <http://www.w3.org/2004/02/skos/core#notation> "GDP" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GDP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GDP> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Federal" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GF> <http://www.w3.org/2004/02/skos/core#notation> "GF" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GF> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Government enterprises" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFE> <http://www.w3.org/2004/02/skos/core#notation> "GFE" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFE> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFG> <http://www.w3.org/2004/02/skos/core#prefLabel> "General government" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFG> <http://www.w3.org/2004/02/skos/core#notation> "GFG" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFG> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFGD> <http://www.w3.org/2004/02/skos/core#prefLabel> "National defense" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFGD> <http://www.w3.org/2004/02/skos/core#notation> "GFGD" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFGD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFGD> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFGN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nondefense" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFGN> <http://www.w3.org/2004/02/skos/core#notation> "GFGN" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFGN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GFGN> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSL> <http://www.w3.org/2004/02/skos/core#prefLabel> "State and local" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSL> <http://www.w3.org/2004/02/skos/core#notation> "GSL" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSL> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSLE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Government enterprises" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSLE> <http://www.w3.org/2004/02/skos/core#notation> "GSLE" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSLE> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSLG> <http://www.w3.org/2004/02/skos/core#prefLabel> "General government" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSLG> <http://www.w3.org/2004/02/skos/core#notation> "GSLG" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSLG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/GSLG> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/HS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Housing" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/HS> <http://www.w3.org/2004/02/skos/core#notation> "HS" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/HS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/HS> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/ICT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Information-communications-technology-producing industries<sup>3</sup>" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/ICT> <http://www.w3.org/2004/02/skos/core#notation> "ICT" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/ICT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/ICT> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/ORE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other real estate" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/ORE> <http://www.w3.org/2004/02/skos/core#notation> "ORE" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/ORE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/ORE> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PGOOD> <http://www.w3.org/2004/02/skos/core#prefLabel> "Private goods-producing industries<sup>1</sup>" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PGOOD> <http://www.w3.org/2004/02/skos/core#notation> "PGOOD" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PGOOD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PGOOD> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PROF> <http://www.w3.org/2004/02/skos/core#prefLabel> "Professional and business services" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PROF> <http://www.w3.org/2004/02/skos/core#notation> "PROF" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PROF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PROF> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PSERV> <http://www.w3.org/2004/02/skos/core#prefLabel> "Private services-producing industries<sup>2</sup>" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PSERV> <http://www.w3.org/2004/02/skos/core#notation> "PSERV" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PSERV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PSERV> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PVT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Private industries" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PVT> <http://www.w3.org/2004/02/skos/core#notation> "PVT" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PVT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry/PVT> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/class/industry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/class/industry> <http://www.w3.org/2000/01/rdf-schema#label> "Code list class for industry" .
+<https://loqudata.org/BEA/GDPbyIndustry-1/class/industry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/class/industry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <owl:Class> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/class/industry> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> .
+<https://loqudata.org/BEA/GDPbyIndustry-1/code/industry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .

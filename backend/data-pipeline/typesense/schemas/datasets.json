@@ -1,0 +1,53 @@
+{
+    "name": "datasets",
+    "fields": [
+        {
+            "name": "idx",
+            "type": "int32"
+        },
+        {
+            "name": "provider_code",
+            "type": "string",
+            "facet": true
+        },
+        {
+            "name": "code",
+            "type": "string"
+        },
+        {
+            "name": "provider_name",
+            "type": "string"
+        },
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "description",
+            "type": "string",
+            "optional": true
+        },
+        {
+            "name": "dimensions",
+            "type": "string[]",
+            "facet": true
+        },
+        {
+            "name": "dimension_labels",
+            "type": "string[]"
+        },
+        {
+            "name": "dimension_values",
+            "type": "string[]"
+        },
+        {
+            "name": "attribute_labels",
+            "type": "string[]"
+        },
+        {
+            "name": "attribute_values",
+            "type": "string[]"
+        }
+    ],
+    "default_sorting_field": "idx"
+}

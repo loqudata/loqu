@@ -1,0 +1,1012 @@
+[
+    {
+        "domain": "data.qld.gov.au",
+        "type": "CKANDCAT",
+        "datasets": "0"
+    },
+    {
+        "domain": "bythenumbers.sco.ca.gov",
+        "type": "Socrata",
+        "datasets": "87"
+    },
+    {
+        "domain": "dados.gov.br",
+        "type": "CKAN",
+        "datasets": "7570"
+    },
+    {
+        "domain": "data.eindhoven.nl",
+        "type": "OpenDataSoft",
+        "datasets": "86"
+    },
+    {
+        "domain": "data.gv.at",
+        "type": "CKAN",
+        "datasets": "26780"
+    },
+    {
+        "domain": "data.ok.gov",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "data.salzburgerland.com",
+        "type": "CKAN",
+        "datasets": "5"
+    },
+    {
+        "domain": "gisdata.mn.gov",
+        "type": "CKAN",
+        "datasets": "847"
+    },
+    {
+        "domain": "iatiregistry.org",
+        "type": "CKAN",
+        "datasets": "7819"
+    },
+    {
+        "domain": "opendata.lisra.jp",
+        "type": "CKAN",
+        "datasets": "14"
+    },
+    {
+        "domain": "portal.openbelgium.be",
+        "type": "CKANDCAT",
+        "datasets": ""
+    },
+    {
+        "domain": "www.civicdata.io",
+        "type": "CKAN",
+        "datasets": "336"
+    },
+    {
+        "domain": "govdata.de",
+        "type": "CKAN",
+        "datasets": "18989"
+    },
+    {
+        "domain": "data.wu.ac.at",
+        "type": "CKAN",
+        "datasets": "136"
+    },
+    {
+        "domain": "LWBIN Data HUB",
+        "type": "CKAN",
+        "datasets": "55"
+    },
+    {
+        "domain": "abertos.xunta.gal",
+        "type": "XMLDCAT",
+        "datasets": "0"
+    },
+    {
+        "domain": "africaopendata.org",
+        "type": "CKAN",
+        "datasets": "5085"
+    },
+    {
+        "domain": "annuario.comune.fi.it",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "bermuda.io",
+        "type": "CKAN",
+        "datasets": "22"
+    },
+    {
+        "domain": "Avoindata.fi",
+        "type": "CKANDCAT",
+        "datasets": ""
+    },
+    {
+        "domain": "catalogo.datosabiertos.gob.ec",
+        "type": "CKAN",
+        "datasets": "128"
+    },
+    {
+        "domain": "ckan.gsi.go.jp",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "dados.al.gov.br",
+        "type": "CKAN",
+        "datasets": "301"
+    },
+    {
+        "domain": "dados.recife.pe.gov.br",
+        "type": "CKAN",
+        "datasets": "95"
+    },
+    {
+        "domain": "dadosabertos.senado.gov.br",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "dartportal.leeds.ac.uk",
+        "type": "CKAN",
+        "datasets": "23"
+    },
+    {
+        "domain": "data.glasgow.gov.uk",
+        "type": "CKAN",
+        "datasets": "96"
+    },
+    {
+        "domain": "data.gov.au",
+        "type": "CKAN",
+        "datasets": "4511"
+    },
+    {
+        "domain": "data.gov.bf",
+        "type": "CKAN",
+        "datasets": "1172"
+    },
+    {
+        "domain": "data.gov.gr",
+        "type": "CKAN",
+        "datasets": "10159"
+    },
+    {
+        "domain": "data.gov.hr",
+        "type": "CKAN",
+        "datasets": "588"
+    },
+    {
+        "domain": "data.gov.ie",
+        "type": "CKAN",
+        "datasets": "9599"
+    },
+    {
+        "domain": "data.gov",
+        "type": "CKAN",
+        "datasets": "228339"
+    },
+    {
+        "domain": "data.opencolorado.org",
+        "type": "CKAN",
+        "datasets": "1350"
+    },
+    {
+        "domain": "data.ug",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "data.upf.edu",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "daten.rlp.de",
+        "type": "CKAN",
+        "datasets": "4476"
+    },
+    {
+        "domain": "datos.gob.mx",
+        "type": "unknown",
+        "datasets": "0"
+    },
+    {
+        "domain": "geothermaldata.org",
+        "type": "CKAN",
+        "datasets": "61296"
+    },
+    {
+        "domain": "gobiernoabierto.valencia.es",
+        "type": "CKAN",
+        "datasets": "117"
+    },
+    {
+        "domain": "offenedaten.de",
+        "type": "CKAN",
+        "datasets": "28560"
+    },
+    {
+        "domain": "EU Open Data Portal",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "rotterdamopendata.nl",
+        "type": "CKAN",
+        "datasets": "101"
+    },
+    {
+        "domain": "www.data.go.jp",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "www.daten.rlp.de",
+        "type": "CKAN",
+        "datasets": "4476"
+    },
+    {
+        "domain": "www.europeandataportal.eu",
+        "type": "SPARQL",
+        "datasets": "8252"
+    },
+    {
+        "domain": "www.yorkopendata.org",
+        "type": "CKAN",
+        "datasets": "1083"
+    },
+    {
+        "domain": "data.gov.sk",
+        "type": "CKANDCAT",
+        "datasets": "872"
+    },
+    {
+        "domain": "data.overheid.nl",
+        "type": "CKAN",
+        "datasets": "14824"
+    },
+    {
+        "domain": "data.sa.gov.au",
+        "type": "CKAN",
+        "datasets": "1627"
+    },
+    {
+        "domain": "dati.lazio.it",
+        "type": "CKAN",
+        "datasets": "382"
+    },
+    {
+        "domain": "edinburghopendata.info",
+        "type": "CKAN",
+        "datasets": "235"
+    },
+    {
+        "domain": "open.canada.ca",
+        "type": "CKAN",
+        "datasets": "83285"
+    },
+    {
+        "domain": "www.opendataportal.at",
+        "type": "CKAN",
+        "datasets": "436"
+    },
+    {
+        "domain": "data.gov.md",
+        "type": "CKAN",
+        "datasets": "1105"
+    },
+    {
+        "domain": "data.nsw.gov.au",
+        "type": "CKAN",
+        "datasets": "9802"
+    },
+    {
+        "domain": "opendata.aragon.es",
+        "type": "CKAN",
+        "datasets": "2826"
+    },
+    {
+        "domain": "data.gov.hk",
+        "type": "CKAN",
+        "datasets": "1407"
+    },
+    {
+        "domain": "data.noaa.gov",
+        "type": "CKAN",
+        "datasets": "63749"
+    },
+    {
+        "domain": "open.nrw",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "data.houstontx.gov",
+        "type": "CKAN",
+        "datasets": "247"
+    },
+    {
+        "domain": "data.london.gov.uk",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "data.nhm.ac.uk",
+        "type": "CKAN",
+        "datasets": "146"
+    },
+    {
+        "domain": "data.openpolice.ru",
+        "type": "CKAN",
+        "datasets": "303"
+    },
+    {
+        "domain": "data.openva.com",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "data.ottawa.ca",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "data.surrey.ca",
+        "type": "CKAN",
+        "datasets": "366"
+    },
+    {
+        "domain": "data.tainan.gov.tw",
+        "type": "CKAN",
+        "datasets": "814"
+    },
+    {
+        "domain": "data.zagreb.hr",
+        "type": "CKAN",
+        "datasets": "66"
+    },
+    {
+        "domain": "datahub.io",
+        "type": "CKAN",
+        "datasets": ""
+    },
+    {
+        "domain": "datamx.io",
+        "type": "CKAN",
+        "datasets": "9641"
+    },
+    {
+        "domain": "daten.buergernetz.bz.it",
+        "type": "CKAN",
+        "datasets": "451"
+    },
+    {
+        "domain": "dati.toscana.it",
+        "type": "CKAN",
+        "datasets": "4221"
+    },
+    {
+        "domain": "dati.trentino.it",
+        "type": "CKAN",
+        "datasets": "6596"
+    },
+    {
+        "domain": "dati.veneto.it",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "datosabiertos.malaga.eu",
+        "type": "CKAN",
+        "datasets": "877"
+    },
+    {
+        "domain": "datospublicos.org",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "donnees.ville.montreal.qc.ca",
+        "type": "CKAN",
+        "datasets": "340"
+    },
+    {
+        "domain": "donnees.ville.sherbrooke.qc.ca",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "drdsi.jrc.ec.europa.eu",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "linkeddatacatalog.dws.informatik.uni-mannheim.de",
+        "type": "CKAN",
+        "datasets": ""
+    },
+    {
+        "domain": "opendata.admin.ch",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "opendata.awt.be",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "opendata.comune.bari.it",
+        "type": "CKAN",
+        "datasets": "98"
+    },
+    {
+        "domain": "opendata.go.tz",
+        "type": "CKAN",
+        "datasets": "185"
+    },
+    {
+        "domain": "opendata.hu",
+        "type": "CKAN",
+        "datasets": "57"
+    },
+    {
+        "domain": "opendata.opennorth.se",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "opendatadc.org",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "opendatagortynia.gr",
+        "type": "CKAN",
+        "datasets": "37"
+    },
+    {
+        "domain": "opendatareno.org",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "opingogn.is",
+        "type": "CKAN",
+        "datasets": "110"
+    },
+    {
+        "domain": "www.datos.misiones.gov.ar",
+        "type": "CKAN",
+        "datasets": "13"
+    },
+    {
+        "domain": "www.hri.fi",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "www.nosdonnees.fr",
+        "type": "CKAN",
+        "datasets": "270"
+    },
+    {
+        "domain": "www.odaa.dk",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "www.opendata-hro.de",
+        "type": "CKAN",
+        "datasets": "217"
+    },
+    {
+        "domain": "www.opendata.go.ke",
+        "type": "Socrata",
+        "datasets": ""
+    },
+    {
+        "domain": "www.opendata.provincia.roma.it",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "catalogodatos.gub.uy",
+        "type": "CKAN",
+        "datasets": "2178"
+    },
+    {
+        "domain": "dados.rs.gov.br",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "danepubliczne.gov.pl",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "data.bris.ac.uk",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "data.gov.lv",
+        "type": "CKAN",
+        "datasets": "336"
+    },
+    {
+        "domain": "data.kk.dk",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "data.lexingtonky.gov",
+        "type": "CKAN",
+        "datasets": "98"
+    },
+    {
+        "domain": "data.opendatasoft.com",
+        "type": "OpenDataSoft",
+        "datasets": "17484"
+    },
+    {
+        "domain": "data.yorkopendata.org",
+        "type": "CKAN",
+        "datasets": "1083"
+    },
+    {
+        "domain": "edx.netl.doe.gov",
+        "type": "CKAN",
+        "datasets": "16354"
+    },
+    {
+        "domain": "healthdata.nj.gov",
+        "type": "Socrata",
+        "datasets": "277"
+    },
+    {
+        "domain": "opendata.bayern.de",
+        "type": "CKAN",
+        "datasets": "996"
+    },
+    {
+        "domain": "opendata.bristol.gov.uk",
+        "type": "OpenDataSoft",
+        "datasets": "169"
+    },
+    {
+        "domain": "opendata.brussels.be",
+        "type": "OpenDataSoft",
+        "datasets": "526"
+    },
+    {
+        "domain": "opendata.paris.fr",
+        "type": "OpenDataSoft",
+        "datasets": "252"
+    },
+    {
+        "domain": "transparenz.karlsruhe.de",
+        "type": "CKAN",
+        "datasets": "77"
+    },
+    {
+        "domain": "www.data.gouv.fr",
+        "type": "DataGouvFr",
+        "datasets": "39655"
+    },
+    {
+        "domain": "www.data.vic.gov.au",
+        "type": "CKAN",
+        "datasets": "0"
+    },
+    {
+        "domain": "www.opendataphilly.org",
+        "type": "CKAN",
+        "datasets": "371"
+    },
+    {
+        "domain": "www.opengov-muenchen.de",
+        "type": "CKAN",
+        "datasets": "150"
+    },
+    {
+        "domain": "data.iledefrance.fr",
+        "type": "OpenDataSoft",
+        "datasets": "740"
+    },
+    {
+        "domain": "opendata.paris.fr.opendatasoft.com",
+        "type": "OpenDataSoft",
+        "datasets": "252"
+    },
+    {
+        "domain": "pod.opendatasoft.com",
+        "type": "OpenDataSoft",
+        "datasets": "8"
+    },
+    {
+        "domain": "public.opendatasoft.com",
+        "type": "OpenDataSoft",
+        "datasets": "1715"
+    },
+    {
+        "domain": "tourisme62.opendatasoft.com",
+        "type": "OpenDataSoft",
+        "datasets": "44"
+    },
+    {
+        "domain": "bronx.lehman.cuny.edu",
+        "type": "Socrata",
+        "datasets": "3567"
+    },
+    {
+        "domain": "data.gov.uk",
+        "type": "CKANDCAT",
+        "datasets": "47743"
+    },
+    {
+        "domain": "controllerdata.lacity.org",
+        "type": "Socrata",
+        "datasets": "499"
+    },
+    {
+        "domain": "data.acgov.org",
+        "type": "Socrata",
+        "datasets": "323"
+    },
+    {
+        "domain": "data.act.gov.au",
+        "type": "Socrata",
+        "datasets": "914"
+    },
+    {
+        "domain": "data.albanyny.gov",
+        "type": "Socrata",
+        "datasets": "51"
+    },
+    {
+        "domain": "data.austintexas.gov",
+        "type": "Socrata",
+        "datasets": "3779"
+    },
+    {
+        "domain": "data.baltimorecity.gov",
+        "type": "Socrata",
+        "datasets": "2621"
+    },
+    {
+        "domain": "data.burlingtonvt.gov",
+        "type": "Socrata",
+        "datasets": ""
+    },
+    {
+        "domain": "data.cdc.gov",
+        "type": "Socrata",
+        "datasets": "824"
+    },
+    {
+        "domain": "data.cityofmadison.com",
+        "type": "Socrata",
+        "datasets": ""
+    },
+    {
+        "domain": "data.cityofnewyork.us",
+        "type": "Socrata",
+        "datasets": "2803"
+    },
+    {
+        "domain": "data.colorado.gov",
+        "type": "Socrata",
+        "datasets": "1941"
+    },
+    {
+        "domain": "data.consumerfinance.gov",
+        "type": "Socrata",
+        "datasets": "33"
+    },
+    {
+        "domain": "data.ct.gov",
+        "type": "Socrata",
+        "datasets": "1168"
+    },
+    {
+        "domain": "data.culvercity.org",
+        "type": "Socrata",
+        "datasets": "46"
+    },
+    {
+        "domain": "data.energystar.gov",
+        "type": "Socrata",
+        "datasets": "116"
+    },
+    {
+        "domain": "data.hartford.gov",
+        "type": "Socrata",
+        "datasets": "1168"
+    },
+    {
+        "domain": "data.honolulu.gov",
+        "type": "Socrata",
+        "datasets": "247"
+    },
+    {
+        "domain": "data.kingcounty.gov",
+        "type": "Socrata",
+        "datasets": "483"
+    },
+    {
+        "domain": "data.maryland.gov",
+        "type": "Socrata",
+        "datasets": "0"
+    },
+    {
+        "domain": "data.mo.gov",
+        "type": "Socrata",
+        "datasets": "3909"
+    },
+    {
+        "domain": "data.montgomerycountymd.gov",
+        "type": "Socrata",
+        "datasets": "819"
+    },
+    {
+        "domain": "data.ny.gov",
+        "type": "Socrata",
+        "datasets": "4686"
+    },
+    {
+        "domain": "data.oaklandnet.com",
+        "type": "Socrata",
+        "datasets": "662"
+    },
+    {
+        "domain": "data.providenceri.gov",
+        "type": "Socrata",
+        "datasets": "328"
+    },
+    {
+        "domain": "data.raleighnc.gov",
+        "type": "Socrata",
+        "datasets": ""
+    },
+    {
+        "domain": "data.redmond.gov",
+        "type": "Socrata",
+        "datasets": "48"
+    },
+    {
+        "domain": "data.vermont.gov",
+        "type": "Socrata",
+        "datasets": "222"
+    },
+    {
+        "domain": "data.weatherfordtx.gov",
+        "type": "Socrata",
+        "datasets": ""
+    },
+    {
+        "domain": "datapilot.american.edu",
+        "type": "Socrata",
+        "datasets": ""
+    },
+    {
+        "domain": "dataratp.opendatasoft.com",
+        "type": "OpenDataSoft",
+        "datasets": "23"
+    },
+    {
+        "domain": "dati.lombardia.it",
+        "type": "Socrata",
+        "datasets": "5891"
+    },
+    {
+        "domain": "finances.worldbank.org",
+        "type": "Socrata",
+        "datasets": "2178"
+    },
+    {
+        "domain": "gavaobert.gavaciutat.cat",
+        "type": "Socrata",
+        "datasets": "226"
+    },
+    {
+        "domain": "hampton.demo.socrata.com",
+        "type": "Socrata",
+        "datasets": "42"
+    },
+    {
+        "domain": "health.data.ny.gov",
+        "type": "Socrata",
+        "datasets": "540"
+    },
+    {
+        "domain": "open.whitehouse.gov",
+        "type": "Socrata",
+        "datasets": ""
+    },
+    {
+        "domain": "opendata.lasvegasnevada.gov",
+        "type": "Socrata",
+        "datasets": "500"
+    },
+    {
+        "domain": "opendata.socrata.com",
+        "type": "Socrata",
+        "datasets": "168"
+    },
+    {
+        "domain": "opendata.terrassa.cat",
+        "type": "Socrata",
+        "datasets": "174"
+    },
+    {
+        "domain": "performance.smcgov.org",
+        "type": "Socrata",
+        "datasets": "3705"
+    },
+    {
+        "domain": "stat.cityofgainesville.org",
+        "type": "Socrata",
+        "datasets": "1120"
+    },
+    {
+        "domain": "www.dallasopendata.com",
+        "type": "Socrata",
+        "datasets": "1031"
+    },
+    {
+        "domain": "www.dati.friuliveneziagiulia.it",
+        "type": "Socrata",
+        "datasets": "402"
+    },
+    {
+        "domain": "data.sfgov.org",
+        "type": "Socrata",
+        "datasets": "997"
+    },
+    {
+        "domain": "hubofdata.ru",
+        "type": "CKAN",
+        "datasets": "8151"
+    },
+    {
+        "domain": "datos.gob.es",
+        "type": "XMLDCAT",
+        "datasets": ""
+    },
+    {
+        "domain": "data.illinois.gov",
+        "type": "CKAN",
+        "datasets": "588"
+    },
+    {
+        "domain": "data.cityofchicago.org",
+        "type": "Socrata",
+        "datasets": "1370"
+    },
+    {
+        "domain": "data.cityoftacoma.org",
+        "type": "Socrata",
+        "datasets": "374"
+    },
+    {
+        "domain": "data.hawaii.gov",
+        "type": "Socrata",
+        "datasets": "1470"
+    },
+    {
+        "domain": "data.medicare.gov",
+        "type": "Socrata",
+        "datasets": "157"
+    },
+    {
+        "domain": "data.michigan.gov",
+        "type": "Socrata",
+        "datasets": "231"
+    },
+    {
+        "domain": "data.nj.gov",
+        "type": "Socrata",
+        "datasets": "468"
+    },
+    {
+        "domain": "data.edmonton.ca",
+        "type": "Socrata",
+        "datasets": "2477"
+    },
+    {
+        "domain": "data.nola.gov",
+        "type": "Socrata",
+        "datasets": "262"
+    },
+    {
+        "domain": "data.oregon.gov",
+        "type": "Socrata",
+        "datasets": "2187"
+    },
+    {
+        "domain": "data.seattle.gov",
+        "type": "Socrata",
+        "datasets": "727"
+    },
+    {
+        "domain": "data.somervillema.gov",
+        "type": "Socrata",
+        "datasets": "74"
+    },
+    {
+        "domain": "data.wa.gov",
+        "type": "Socrata",
+        "datasets": "2713"
+    },
+    {
+        "domain": "data.winnipeg.ca",
+        "type": "Socrata",
+        "datasets": "805"
+    },
+    {
+        "domain": "datacatalog.cookcountyil.gov",
+        "type": "Socrata",
+        "datasets": "893"
+    },
+    {
+        "domain": "opendata.rubi.cat",
+        "type": "Socrata",
+        "datasets": "76"
+    },
+    {
+        "domain": "performance.westsussex.gov.uk",
+        "type": "Socrata",
+        "datasets": "128"
+    },
+    {
+        "domain": "rdw.azure-westeurope-prod.socrata.com",
+        "type": "Socrata",
+        "datasets": "1083"
+    },
+    {
+        "domain": "performance.chattanooga.gov",
+        "type": "Socrata",
+        "datasets": "504"
+    },
+    {
+        "domain": "oppnadata.se",
+        "type": "XMLDCAT",
+        "datasets": "0"
+    },
+    {
+        "domain": "data.gov.ro",
+        "type": "CKANDCAT",
+        "datasets": ""
+    },
+    {
+        "domain": "data.humdata.org",
+        "type": "CKANDCAT",
+        "datasets": "17277"
+    },
+    {
+        "domain": "opendata.caceres.es",
+        "type": "CKANDCAT",
+        "datasets": "116"
+    },
+    {
+        "domain": "transparenz.hamburg.de",
+        "type": "CKANDCAT",
+        "datasets": "115721"
+    },
+    {
+        "domain": "data.aberdeencity.gov.uk",
+        "type": "CKANDCAT",
+        "datasets": "5"
+    },
+    {
+        "domain": "data.cityofboston.gov",
+        "type": "CKANDCAT",
+        "datasets": "159"
+    },
+    {
+        "domain": "data.stadt-zuerich.ch",
+        "type": "CKANDCAT",
+        "datasets": "522"
+    },
+    {
+        "domain": "datos.alcobendas.org",
+        "type": "CKANDCAT",
+        "datasets": "200"
+    },
+    {
+        "domain": "datosabiertos.ayto-arganda.es",
+        "type": "CKANDCAT",
+        "datasets": "641"
+    },
+    {
+        "domain": "datosabiertos.rivasciudad.es",
+        "type": "CKANDCAT",
+        "datasets": "57"
+    },
+    {
+        "domain": "opendata.swiss",
+        "type": "CKANDCAT",
+        "datasets": ""
+    }
+]
