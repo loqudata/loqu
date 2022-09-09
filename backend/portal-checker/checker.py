@@ -9,7 +9,7 @@ import csv
 
 from prefect import task, flow, get_run_logger
 
-from prefect_dask.task_runners import DaskTaskRunner
+from prefect_ray.task_runners import RayTaskRunner
 
 # from prefect.utilities.edges import unmapped
 
@@ -23,6 +23,8 @@ from prefect_dask.task_runners import DaskTaskRunner
 @task
 async def check_data_portal(url: str, check_software: bool = False) -> dict:
     logger = get_run_logger()
+    print("checking", url)
+    logger.info(f"checking {url}")
     out = None
     try:
         async with httpx.AsyncClient() as client:
@@ -49,12 +51,16 @@ async def check_data_portal(url: str, check_software: bool = False) -> dict:
 
 @task
 async def fetch_portals() -> str:
+    logger = get_run_logger()
     async with httpx.AsyncClient() as client:
-        r = await client.get(PORTAL_SOURCE_URL)
+        r = await client.get(PORTAL_SOURCE_URL, follow_redirects=True)
+        logger.info(f"Got {len(r.text.splitlines())} lines from HTTP {r.status_code} response code from url {PORTAL_SOURCE_URL}")
         return r.text
 
 @task
-def get_urls(inp: str) -> List[str]:
+async def get_urls(inp: str) -> List[str]:
+    logger = get_run_logger()
+    logger.info(f"Starting to get urls {inp[:20]}")
     reader = csv.reader(inp.splitlines())
     # https://stackoverflow.com/a/67363646
     headers = next(reader)
@@ -71,20 +77,30 @@ def get_urls(inp: str) -> List[str]:
 def output(data: List[dict]):
     return data
 
-@flow(task_runner=DaskTaskRunner())
-def check_data_portals():
+@flow(task_runner=RayTaskRunner())
+async def check_data_portals():
     logger = get_run_logger()
 
-    portals = fetch_portals()
-    urls = get_urls(portals)
-    print(urls)
+    logger.info("starting flow")
+    portals = await fetch_portals()
+
+    logger.info(f"got portals: {portals[:20]}")
+
+    # for some reason the non-async function doesn't get called
+    urls = await get_urls(portals)
+    logger.info(f"got urls: {urls[:10]}")
     logger.info(f"Processing {len(urls)} urls.")
 
-    out = check_data_portal.map(urls) 
-    output(out)
+    coros = [check_data_portal(x) for x in urls]
+    await asyncio.gather(*coros)
+    # for x in urls:
+    #     check_data_portal.submit(x)
+    # output(out)
 
 if __name__ == "__main__":
-    check_data_portals()
+
+    asyncio.run(check_data_portals())
+    # check_data_portals()
 
 # flow.run_config = LocalRun()
 # flow.executor = LocalDaskExecutor()
