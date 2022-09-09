@@ -1,5 +1,5 @@
 PREFECT_DATA_DIR = "/mnt/data/prefect/explicit/"
-PREFECT_SOCRATA = "/mnt/data/prefect/new/"
+PREFECT_SOCRATA = "/mnt/data/prefect/socrata/"
 PREFECT_SOCRATA_TYPESENSE = "/mnt/data/prefect/socrata_typesense/"
 # PREFECT_CKAN = "/mnt/data/prefect/ckan/"
 PREFECT_CKAN_NEW = "/mnt/data/prefect/ckan/"
