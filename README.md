@@ -20,7 +20,7 @@ The folder structure is as follows
 │   ├── data-catalogs - the scrapers and conversion/normalization for CKAN and Socrata in Python, and to load their datasets into Typesense
 │   ├── api - a limited API over the SPARQL database
 │   └── data-pipeline - pipeline to convert DBNomics into RDF triple data, load into Virtouso triple store, and link with concepts like countries. Will probably be rewritten.
-└── web
+└── web - the frontend, written with React, Typescript, and ChakraUI
 ```
 
 ## License

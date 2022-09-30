@@ -4,6 +4,8 @@
 
 You can learn more on the homepage, [About page](https://github.com/loqudata/docs) or by [reading the paper](https://alexkreidler.github.io/loqu-paper/).
 
+To get started as a developer, check out the [Setup guide](./CONTRIBUTING.md#setup-guide).
+
 ## Screenshots
 
 ![search](src/assets/loqu_search.png)

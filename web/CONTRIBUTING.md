@@ -1,5 +1,30 @@
 # Contributing
 
+## Setup guide
+
+
+### Install dependencies
+
+I use pnpm. The repo should work with other package managers like yarn or npm, but it hasn't been tested. I think npm didn't work once.
+
+In the project folder, run the following commands, which install pnpm, install the dependencies of this project, and then start the development server:
+
+```
+npm i -g pnpm
+
+pnpm install
+
+pnpm run dev
+```
+
+### Setup required API keys
+
+Currently, the Typesense key is the only one required, needed for the `/search` page.
+
+Copy the `.env` file to `.env.local` so it won't be tracked by Git and accidentally committed.
+
+Then put the Typesense API key after the `=`. Restart the dev server.
+
 ## Conventional Commits
 
 `<type>(<optional scope>): <subject>`
