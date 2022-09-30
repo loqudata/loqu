@@ -292,7 +292,7 @@ export const FieldPanelContainer = ({ ds, ...props }: { ds?: string }) => {
             }))
           } else if (res[0].count > COMPASSQL_VEGA_ROW_LIMIT) {
             alert(
-              `The dataset you selected has over ${COMPASSQL_VEGA_ROW_LIMIT} rows.
+              `The dataset you selected has ${res[0].count} rows, over ${COMPASSQL_VEGA_ROW_LIMIT}.
 To not overload your computer in this development phase, we will not load it;
 the previous dataset will stay loaded.`.replace("\n", " ")
             );
