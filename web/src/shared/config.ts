@@ -1,2 +1,3 @@
 
-export const COMPASSQL_VEGA_ROW_LIMIT = 5000
+export const COMPASSQL_VEGA_ROW_LIMIT = 200000
+// 5000

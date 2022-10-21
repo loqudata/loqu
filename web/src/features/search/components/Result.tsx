@@ -28,14 +28,14 @@ const HighlightDescription = ({ hit }: { hit: any }) => {
           whiteSpace="break-spaces"
           fontSize="sm"
         >
-          <Text
+          {/* <Text
             as="span"
             // fontWeight="bold"
             fontSize="sm"
             color="gray.500"
           >
             Description:{" "}
-          </Text>
+          </Text> */}
           {hit.description}
         </Text>
       </Box>
@@ -122,7 +122,7 @@ export const Result = ({ hit }: { hit: NormalDataset }) => {
               // fontWeight="bold"
               color="gray.500"
             >
-              Update Frequency:
+              Frequency:
             </Text>{" "}
             {hit.update_frequency}
           </Text>
